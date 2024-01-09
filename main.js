@@ -37,8 +37,25 @@ function generateProfile () {
 
         ]
       }
-    ]
-
+    ],
+    [
+      "name": "Geomancer",
+      "skills": {
+        "1": [
+          {
+            "name": "Blinding Radiance",
+            "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 1"
+          },
+        ],
+        "2": [
+          {
+          }
+        ],
+      },
+    ],
   }
 }
 
