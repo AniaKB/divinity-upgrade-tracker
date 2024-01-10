@@ -1,5 +1,17 @@
 function generateProfile () {
   return {
+    skills: [
+      {
+        "name": "Polymorph",
+        "skills": [
+          {
+            "name": "Bull Horns"
+            "effect": "Enables Bull Rush"
+            "negated": "Medusa Head"
+          }
+        ]
+      }
+    ]
 
   }
 }
