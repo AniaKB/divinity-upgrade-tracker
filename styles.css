@@ -3,7 +3,8 @@
 }
 
 body {
-  background-image: url("/photos/background-start.jpg");
+  background: url("/photos/background-start.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -24,6 +25,11 @@ h1 {
   border-color: #2c2521;
 }
 
+.abilities {
+  display: flex;
+  width: 100%;
+}
+
 ul, li
 {
   max-width: auto;
@@ -31,6 +37,11 @@ ul, li
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.items {
+  display: flex;
+  padding:3px;
 }
 
  /* Dropdown Button */
