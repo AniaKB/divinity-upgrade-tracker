@@ -134,6 +134,7 @@ let classes = [
 function generateProfile () {
   return {
     skills: [
+    {
       "name": "Aerothurge",
       "skills": {
         "1": [
@@ -171,18 +172,18 @@ function generateProfile () {
 
         ]
       },
-      {
+      sdfgh: {
         "name": "Polymorph",
         "skills": [
           {
-            "name": "Bull Horns"
-            "effect": "Enables Bull Rush"
+            "name": "Bull Horns",
+            "effect": "Enables Bull Rush",
             "negated": "Medusa Head"
           }
         ]
       }
-    ],
-    [
+    },
+    {
       "name": "Geomancer",
       "skills": {
         "1": [
@@ -199,7 +200,8 @@ function generateProfile () {
           }
         ],
       },
-    ],
+    },
+  ]
   }
 };
 
