@@ -112,6 +112,23 @@ let items = [
   "Zaikk's talon"
 ]
 
+let classes = [
+  "Cleric",
+  "Conjurer",
+  "Enchanter",
+  "Witch",
+  "Wizard",
+  "Metamorph",
+  "Ranger",
+  "Rogue",
+  "Shadowblade",
+  "Wayfarer",
+  "Battlemage",
+  "Fighter",
+  "Inquisitor",
+  "Knight",
+]
+
 
 
 function generateProfile () {
@@ -122,6 +139,7 @@ function generateProfile () {
         "1": [
           {
             "name": "Blinding Radiance",
+            "img": "photos/aerothurge/Blinding_Radiance.webp",
             "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
             "action points": 2,
             "source points": 0,
@@ -183,25 +201,5 @@ function generateProfile () {
       },
     ],
   }
-}
+};
 
-
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
