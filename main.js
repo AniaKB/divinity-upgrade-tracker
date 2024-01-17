@@ -134,111 +134,105 @@ let classes = [
 function generateProfile () {
   return {
     classes: [
-      {
-        "name": "Aerothurge",
-        "skills": {
-          "level 1": [
-            {
-              "name": "Blinding Radiance",
-              "img": "photos/aerothurge/Blinding_Radiance.webp",
-              "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
-              "action points": 2,
-              "source points": 0,
-              "required": "Aerotheurge 1"
-            },
-            {
-              "name": "Electric Discharge",
-              "img": "/photos/aerothurge/Electric_Discharge.webp",
-              "description": "Deal air damage and set Shocked for two turns on enemies without Magic Armour",
-              "action points": 2,
-              "source points": 0,
-              "required": "Aerotheurge 1"
-            },
-            {
-              "name": "Favorable Wind",
-              "img": "photos/aerothurge/Favorable_Wind.webp",
-              "description": "Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.",
-              "action points": 1,
-              "source points": 0,
-              "required": "Aerotheurge 1"
-            },
-            {
-              "name": "Shocking Touch",
-              "img": "photos/aerothurge/Shocking_Touch.webp",
-              "description": "Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.",
-              "action points": 1,
-              "source points": 0,
-              "required": "Aerotheurge 1"
-            },
-          ],
-          "level 4": [
-            {
-              "name": "Dazing Bolt",
-              "img": "photos/aerothurge/Dazing_Bolt.webp",
-              "description": "Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.",
-              "action points": 3,
-              "source points": 0,
-              "required": "Aerotheurge 2"
-            },
-            {
-              "name": "Teleportation",
-              "img": "photos/aerothurge/Teleportation.webp",
-              "description": "Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.",
-              "action points": 2,
-              "source points": 0,
-              "required": "Aerotheurge 2"
-            },
-            {
-              "name": "Uncanny Evasion",
-              "img": "photos/aerothurge/Uncanny_Evasion.webp",
-              "description": "Increases dodging by 90% and movement by 20%.",
-              "action points": 1,
-              "source points": 0,
-              "required": "Aerotheurge 2"
-            },
-          ],
-          "level 9": [
-            {
-              "name": "Chain Lightning",
-              "img": "photos/aerothurge/Chain_Lightning.webp",
-              "description": "Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.",
-              "action points": 3,
-              "source points": 1,
-              "required": "Aerotheurge 3"
-            },
-            {
-              "name": "Nether Swap",
-              "img": "photos/aerothurge/Nether_Swap.webp",
-              "description": "Nether swap allows the caster or an ally of their choosing to swap places with an enemy.",
-              "action points": 2,
-              "source points": 0,
-              "required": "Aerotheurge 2"
-            },
-            {
-              "name": "Pressure Spike",
-              "img": "photos/aerothurge/Pressure_Spike.webp",
-              "description": "Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.",
-              "action points": 1,
-              "source points": 0,
-              "required": "Aerotheurge 2"
-            },
-          ],
-        },
-      },
-      {
-        "name": "Polymorph",
-        "skills": [
+      "Aerothurge": [
+        "level 1": [
+          {
+            "name": "Blinding Radiance",
+            "img": "photos/aerothurge/Blinding_Radiance.webp",
+            "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 1"
+          },
+          {
+            "name": "Electric Discharge",
+            "img": "/photos/aerothurge/Electric_Discharge.webp",
+            "description": "Deal air damage and set Shocked for two turns on enemies without Magic Armour",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 1"
+          },
+          {
+            "name": "Favorable Wind",
+            "img": "photos/aerothurge/Favorable_Wind.webp",
+            "description": "Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1"
+          },
+          {
+            "name": "Shocking Touch",
+            "img": "photos/aerothurge/Shocking_Touch.webp",
+            "description": "Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1"
+          },
+        ],
+        "level 4": [
+          {
+            "name": "Dazing Bolt",
+            "img": "photos/aerothurge/Dazing_Bolt.webp",
+            "description": "Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.",
+            "action points": 3,
+            "source points": 0,
+            "required": "Aerotheurge 2"
+          },
+          {
+            "name": "Teleportation",
+            "img": "photos/aerothurge/Teleportation.webp",
+            "description": "Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 2"
+          },
+          {
+            "name": "Uncanny Evasion",
+            "img": "photos/aerothurge/Uncanny_Evasion.webp",
+            "description": "Increases dodging by 90% and movement by 20%.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 2"
+          },
+        ],
+        "level 9": [
+          {
+            "name": "Chain Lightning",
+            "img": "photos/aerothurge/Chain_Lightning.webp",
+            "description": "Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.",
+            "action points": 3,
+            "source points": 1,
+            "required": "Aerotheurge 3"
+          },
+          {
+            "name": "Nether Swap",
+            "img": "photos/aerothurge/Nether_Swap.webp",
+            "description": "Nether swap allows the caster or an ally of their choosing to swap places with an enemy.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 2"
+          },
+          {
+            "name": "Pressure Spike",
+            "img": "photos/aerothurge/Pressure_Spike.webp",
+            "description": "Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 2"
+          },
+        ],
+      ],
+      "Polymorph" [
+        "level 1": [
           {
             "name": "Bull Horns",
             "effect": "Enables Bull Rush",
             "negated": "Medusa Head"
           },
         ],
-      },
-      {
-      "name": "Geomancer",
-      "skills": [
-        "level 1":
+      ],
+      "Geomancer": [
+        "level 1": [
           {
             "name": "Blinding Radiance",
             "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
@@ -247,13 +241,12 @@ function generateProfile () {
             "required": "Aerotheurge 1"
           },
         ],
-        "2": [
+        "level 2": [
           {
           },
         ],
-      },
-    },
-  ],
-  }
+      ],
+    ],
+  },
 };
 

@@ -13,8 +13,7 @@ h1 {
 }
 
 .aside {
-  z-index: 1;
-  position: fixed;
+  float: left;
   background-color: #cfc6be;
   min-width: 220px;
   top: 0px;
@@ -41,7 +40,17 @@ ul, li
 
 .items {
   display: flex;
-  padding:3px;
+  flex-wrap: wrap;
+}
+
+.items > li {
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
 }
 
  /* Dropdown Button */
