@@ -225,17 +225,150 @@ function generateProfile () {
       "Geomancer": [
         "level 1": [
           {
-            "name": "Blinding Radiance",
-            "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
+            "name": "Contamination",
+            "img": "photos/geomancer/Contamination.webp",
+            "description": "Deals poison damage and sets Poisoned to enemies within a 12.0m radius around you for 1 turn. Turns water, blood surfaces, and clouds into poison.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1"
+          },
+          {
+            "name": "Fortify",
+            "img": "photos/geomancer/Fortify.webp",
+            "description": "Increases character's Physical Armour for 3 turns. Fortified Characters cannot be forcefully teleported.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1"
+          },
+          {
+            "name": "Fossil Strike",
+            "img": "photos/geomancer/Fossil_Strike.webp",
+            "description": "Throw a giant rock filled with sticky oil that deals earth damage and creates an oil surface within a 2 meter radius.",
             "action points": 2,
             "source points": 0,
-            "required": "Aerotheurge 1"
+            "required": "Geomancer 1"
           },
-        ],
-        "level 2": [
           {
+            "name": "Poison Dart",
+            "img": "photos/geomancer/Contamination.webp",
+            "description": "Shoot poison at an enemy which will deal poison damage and create poison surface beneath them.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Geomancer 1"
           },
         ],
+        "level 4": [
+          {
+            "name": "Impalement",
+            "img": "photos/geomancer/Impalement.webp",
+            "description": "Rock spikes strike all character within a 4.0m radius area crippling them and dealing earth damage. Creates an oil surface.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Geomancer 2"
+          },
+          {
+            "name": "Mend Metal",
+            "img": "photos/geomancer/Mend_Metal.webp",
+            "description": "Allies near to the caster slowly regenerate Physical Armour.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 2"
+          },
+          {
+            "name": "Worm Tremor",
+            "img": "photos/geomancer/Worm_Tremor.webp",
+            "description": "Deals earth damage to each character in the area. Affected characters cannot move or teleport, and they receive poison damage each turn if they dont have Magic armour.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Geomancer 2"
+          },
+        ],
+        "level 9": [
+          {
+            "name": "Earthquake",
+            "img": "photos/geomancer/Earthquake.webp",
+            "description": "Deals earth damage and knocks down enemy characters and items around the caster. Creates eight oil surfaces within the area.",
+            "action points": 3,
+            "source points": 0,
+            "required": "Geomancer 2"
+          },
+          {
+            "name": "Poison Wave",
+            "img": "photos/geomancer/Poison_Wave.webp",
+            "description": "Poison erupts from the caster in a circular wave, dealing poison damage and forming poison clouds. Gives immunity to poison and earth damage for one turn.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Geomancer 2"
+          },
+          {
+            "name": "Reactive Armour",
+            "img": "photos/geomancer/Reactive_Armour.webp",
+            "description": "Deals physical damage based on the casters current Physical Armour, in a wave of metal spikes to everyone in the area (including yourself).",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 2"
+          },
+          {
+            "name": "Summon Hungry Flower",
+            "img": "photos/geomancer/Summon_Hungry_Flower.webp",
+            "description": "Summons a mobile plant having Acid Spore, Poison Wave and All In skills.",
+            "action points": 3,
+            "source points": 1,
+            "required": "Geomancer 3"
+          },
+        ],
+        "level 16": [
+          {
+            "name": "Living Wall",
+            "img": "photos/geomancer/Living_Wall.webp",
+            "description": "Vines sprout from the ground to block the path in a target area, emitting poison clouds around them.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Geomancer 3"
+          },
+          {
+            "name": "Pyroclastic Eruption",
+            "img": "photos/geomancer/Pyroclastic_Eruption.webp",
+            "description": "Oil-filled rocks erupt from the caster at all enemies in the area. On impact, they create oil surfaces and deal earth damage.",
+            "action points": 3,
+            "source points": 1,
+            "required": "Geomancer 5"
+          },
+          {
+            "name": "Siphon Poison",
+            "img": "photos/geomancer/Siphon_Poison.webp",
+            "description": "Removes poison surfaces and clouds. Gain poison damage bonus to weapon attacks and weapon-based skills depending on size of the cleared area.",
+            "action points": 3,
+            "source points": 1,
+            "required": "Geomancer 3"
+          },
+        ],
+        "craftable": [
+          {
+            "name": "Acid Infusion",
+            "img": "photos/geomancer/Acid_Infusion.webp",
+            "description": "Changes Incarnate's element to acid, unlocking Poison Dart and Acid Spores.",
+            "action points": 1,
+            "source points": 2,
+            "required": "Geomancer 3" + "Summoning 3",
+          },
+          {
+            "name": "Corrosive Spray",
+            "img": "photos/geomancer/Corrosive_Spray.webp",
+            "description": "Corrosive spray deals physical armour damage and sets Acid and Atrophy on targets in a cone.",
+            "action points": 2,
+            "source points": 1,
+            "required": "Geomancer 2" + "Necromancer 2"
+          },
+          {
+            "name": "Dust Blast",
+            "img": "photos/geomancer/Dust_Blast.webp",
+            "description": "Dust blast throws dust at all enemies in range setting Blinded and dealing earth damage.",
+            "action points": 3,
+            "source points": 1,
+            "required": "Geomancer 2" + "Huntsman 2"
+          },
+        ],    
       ],
       "Huntsman": [
         "level 1": [
