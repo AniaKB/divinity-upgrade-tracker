@@ -42,6 +42,7 @@ ul, li
 .items {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .items > li {
@@ -52,6 +53,11 @@ ul, li
   width: 100px;
   text-align: center;
   font-size: 12px;
+}
+
+.card {
+  display: grid;
+  grid-column: 10;
 }
 
  /* Dropdown Button */
