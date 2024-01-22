@@ -58,6 +58,7 @@ ul, li
 .card {
   display: grid;
   grid-column: 10;
+  grid-template-columns: 10;
 }
 
  /* Dropdown Button */
