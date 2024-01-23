@@ -56,6 +56,27 @@ ul, li
   color: white;
 }
 
+/* Add this CSS to style your list */
+ul.items {
+  list-style: none;
+  padding: 0;
+}
+
+ul.items li {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Two columns: auto for image, 1fr for the rest */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px;
+}
+
+img {
+  margin-right: 10px; /* Add space between image and item text */
+}
+
+button {
+  margin-top: 5px; /* Add space between buttons and inventory count */
+}
+
 .card {
   display: grid;
   grid-column: 10;
