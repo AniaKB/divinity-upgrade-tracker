@@ -107,6 +107,142 @@ function generateProfile () {
             "required": "Aerotheurge 2"
           },
         ],
+        "level 13": [
+          {
+            "name": "Closed Circuit",
+            "img": "photos/aerothurge/Closed_Circuit.webp",
+            "description": "Deal air damage around you and created cursed static clouds at the edge of the area of effect.",
+            "action points": 2,
+            "source points": 2,
+            "required": "Aerotheurge 3"
+          }
+        ],
+        "level 16": [
+          {
+            "name": "Super Conductor",
+            "img": "photos/aerothurge/Super_Conductor.webp",
+            "description": "Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.",
+            "action points": 2,
+            "source points": 2,
+            "required": "Aerotheurge 3"
+          },
+          {
+            "name": "Thunderstorm",
+            "img": "photos/aerothurge/Thunderstorm.webp",
+            "description": "Deal air damage and set Shocked for two turns on enemies without Magic Armour.",
+            "action points": 4,
+            "source points": 3,
+            "required": "Aerotheurge 5"
+          },
+          {
+            "name": "Pressure Spike",
+            "img": "photos/aerothurge/Pressure_Spike.webp",
+            "description": "Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.",
+            "action points": 2,
+            "source points": 2,
+            "required": "Aerotheurge 3"
+          },
+        ],
+        "craftable": [
+          {
+            "name": "Breathing Bubble",
+            "img": "photos/aerothurge/Breathing_Bubble.webp",
+            "description": "Create a bubble of clean air around the caster's head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Warfare 3"
+          },
+          {
+            "name": "Electric Infusion",
+            "img": "photos/aerothurge/Electric_Infusion.webp",
+            "description": "Infuse your Incarnate with air element. Gives Incarnate Electric Discharge skill.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Summoning 1"
+          },
+          {
+            "name": "Erratic Wisp",
+            "img": "photos/aerothurge/Erratic_Wisp.webp",
+            "description": "Cause target character to teleport in a random direction each time they are damaged with physical attack.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Huntsman 1"
+          },
+          {
+            "name": "Smoke Cover",
+            "img": "photos/aerothurge/Smoke_Cover.webp",
+            "description": "Create a smoke cloud blocking vision of all characters in it.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Scoundrel 1"
+          },
+          {
+            "name": "Vaccuum Touch",
+            "img": "photos/aerothurge/Vaccuum_Touch.webp",
+            "description": "Deal air damage and sets Suffocating (Original Sin 2) Suffocating and Silence status effects.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Necromancer 1"
+          },
+          {
+            "name": "Vaporize",
+            "img": "photos/aerothurge/Vaporize.webp",
+            "description": "Turn liquid surfaces into clouds. Removes Petrified and Frozen from target. ",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Polymorph 1"
+          },
+        ],
+        "source": [
+          {
+            "name": "Breathing Bubble",
+            "img": "photos/aerothurge/Breathing_Bubble.webp",
+            "description": "Create a bubble of clean air around the caster's head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Warfare 3"
+          },
+          {
+            "name": "Electric Infusion",
+            "img": "photos/aerothurge/Electric_Infusion.webp",
+            "description": "Infuse your Incarnate with air element. Gives Incarnate Electric Discharge skill.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Summoning 1"
+          },
+          {
+            "name": "Erratic Wisp",
+            "img": "photos/aerothurge/Erratic_Wisp.webp",
+            "description": "Cause target character to teleport in a random direction each time they are damaged with physical attack.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Huntsman 1"
+          },
+          {
+            "name": "Smoke Cover",
+            "img": "photos/aerothurge/Smoke_Cover.webp",
+            "description": "Create a smoke cloud blocking vision of all characters in it.",
+            "action points": 2,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Scoundrel 1"
+          },
+          {
+            "name": "Vaccuum Touch",
+            "img": "photos/aerothurge/Vaccuum_Touch.webp",
+            "description": "Deal air damage and sets Suffocating (Original Sin 2) Suffocating and Silence status effects.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Necromancer 1"
+          },
+          {
+            "name": "Vaporize",
+            "img": "photos/aerothurge/Vaporize.webp",
+            "description": "Turn liquid surfaces into clouds. Removes Petrified and Frozen from target. ",
+            "action points": 1,
+            "source points": 0,
+            "required": "Aerotheurge 1" + "Polymorph 1"
+          },
+        ],
       ],
       "Geomancer": [
         "level 1": [
