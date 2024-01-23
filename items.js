@@ -1,5 +1,5 @@
 let itemArray = [
-  { item:'A jar of mind maggots', img: "photos/items/A_Jar_of_Mind_Maggots.webp", inventory: 0},
+  { item:'Jar of mind maggots', img: "photos/items/A_Jar_of_Mind_Maggots.webp", inventory: 0},
   { item:'Ancient human skull', img: "/photos/items/Skull.webp", inventory: 0},
   { item:'Animal hide', img: "photos/items/Animal_Hide.webp", inventory: 0},
   { item:'Air essence', img: "photos/items/Air_Essence.webp", inventory: 0},
