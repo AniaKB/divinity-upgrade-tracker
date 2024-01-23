@@ -231,6 +231,56 @@ function generateProfile () {
         ],
         "craftable": [
           {
+            "name": "Corrosive Touch",
+            "img": "photos/geomancer/Corrosive_Touch.webp",
+            "description": "Corrosive Touch deals physical armour damage and sets Acid on target.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1" + "Necromancer 1",
+          },
+          {
+            "name": "Oily Carapace",
+            "img": "photos/geomancer/Oily_Carapace.webp",
+            "description": "This skill absorbs any oil surfaces around the caster and converts it to Physical Armour.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1" + "Warfare 1",
+          },
+          {
+            "name": "Poison Infusion",
+            "img": "photos/geomancer/Poison_Infusion.webp",
+            "description": "Infuse your Incarnate with poison.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1" + "Summoning 1",
+          },
+          {
+            "name": "Throw Dust",
+            "img": "photos/geomancer/Throw_Dust.webp",
+            "description": "Throw dust at a character, blinding them and dealing earth damage. Clears surfaces and clouds in the area. ",
+            "action points": 2,
+            "source points": 0,
+            "required": "Geomancer 1" + "Huntsman 1",
+          },
+          {
+            "name": "Turn to Oil",
+            "img": "photos/geomancer/Turn_to_Oil.webp",
+            "description": "Turns water and blood surfaces into oil. Removes Stun and Shocked from characters.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1" + "Polymorph 1",
+          },
+          {
+            "name": "Venom Coating",
+            "img": "photos/geomancer/Venom_Coating.webp",
+            "description": "Applies poison damage on equipped weapons and skills.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1" + "Scoundrel 1",
+          },
+        ],
+        "source": [
+          {
             "name": "Acid Infusion",
             "img": "photos/geomancer/Acid_Infusion.webp",
             "description": "Changes Incarnate's element to acid, unlocking Poison Dart and Acid Spores.",
@@ -253,6 +303,30 @@ function generateProfile () {
             "action points": 3,
             "source points": 1,
             "required": "Geomancer 2" + "Huntsman 2"
+          },
+          {
+            "name": "Mass Oily Carapace",
+            "img": "photos/geomancer/Mass_Oily_Carapace.webp",
+            "description": "Convert all oil surfaces around caster and their allies into Physical Armour.",
+            "action points": 1,
+            "source points": 2,
+            "required": "Geomancer 2" + "Warfare 2",
+          },
+          {
+            "name": "Poisonous Skin",
+            "img": "photos/geomancer/Poisonous_Skin.webp",
+            "description": "You get immunity to poison and earth, but lowered resistance to air. You bleed poison.",
+            "action points": 2,
+            "source points": 1,
+            "required": "Geomancer 2" + "Polymorph 2"
+          },
+          {
+            "name": "Venomous Aura",
+            "img": "photos/geomancer/Venomous_Aura.webp",
+            "description": "Caster's and their allies damage will be changed to poison element.",
+            "action points": 2,
+            "source points": 1,
+            "required": "Geomancer 2" + "Scoundrel 2"
           },
         ],    
       ],
