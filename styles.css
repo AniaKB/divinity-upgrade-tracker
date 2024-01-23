@@ -39,7 +39,7 @@ ul, li
   margin-right: auto;
 }
 
-.items {
+#items {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -53,6 +53,7 @@ ul, li
   width: 100px;
   text-align: center;
   font-size: 12px;
+  color: white;
 }
 
 .card {
