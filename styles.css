@@ -45,7 +45,7 @@ ul, li
   flex-grow: 1;
 }
 
-.items > li {
+#items > li {
   background-color: rgb(0, 0, 0, 0.5);
   border-radius: 25px;
   padding: 5px 10px 5px 10px;

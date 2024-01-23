@@ -112,25 +112,39 @@ let itemArray = [
   { item:'Zaikk\'s talo', inventory: 0},
 ];
 
-const items = document.getElementById('items');
+const myItems = document.getElementById('items');
 
 function addItems(index) {
   itemArray[index].inventory++;
   renderList();
 }
 
+function removeItems(index) {
+  if (itemArray[index].inventory > 0) {
+    itemArray[index].inventory--;
+    renderList();
+  }
+}
+
 function renderList() {
   myItems.innerHTML = '';
 
-  itemsArray.forEach((item, index) => {
+  itemArray.forEach((item, index) => {
     const listItem = document.createElement('li');
-    listItem.textContent = `${item.name}, ${item.inventory}`;
+    listItem.textContent = `${item.item}, ${item.inventory}`;
+
+    const decreaseButton = document.createElement('button');
+    decreaseButton.textContent = '-';
+    decreaseButton.addEventListener('click', () => removeItems(index));
+    listItem.appendChild(decreaseButton);
 
     const increaseButton = document.createElement('button');
     increaseButton.textContent = '+';
-    increaseButton.addEventListener('click'), () => increaseButton(index));
+    increaseButton.addEventListener('click', () => addItems(index));
     listItem.appendChild(increaseButton);
+
     myItems.appendChild(listItem);
   });
+}
 
 renderList();
