@@ -195,52 +195,52 @@ function generateProfile () {
         ],
         "source": [
           {
-            "name": "Breathing Bubble",
-            "img": "photos/aerothurge/Breathing_Bubble.webp",
-            "description": "Create a bubble of clean air around the caster's head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.",
+            "name": "Blessed Smoke Cloud",
+            "img": "photos/aerothurge/Blessed_Smoke_Cloud.webp",
+            "description": "Conjures a cloud of thick blessed smoke that makes characters Invisible. Removes Silenced status.",
             "action points": 1,
-            "source points": 0,
-            "required": "Aerotheurge 1" + "Warfare 3"
+            "source points": 2,
+            "required": "Aerotheurge 2" + "Scoundrel 2"
           },
           {
-            "name": "Electric Infusion",
-            "img": "photos/aerothurge/Electric_Infusion.webp",
-            "description": "Infuse your Incarnate with air element. Gives Incarnate Electric Discharge skill.",
+            "name": "Cursed Electric Infusion",
+            "img": "photos/aerothurge/Cursed_Electric_Infusion.webp",
+            "description": "Infuse your Incarnate with cursed electricity. Gives Incarnate Electric Discharge and Closed Circuit spells.",
             "action points": 1,
-            "source points": 0,
-            "required": "Aerotheurge 1" + "Summoning 1"
+            "source points": 2,
+            "required": "Aerotheurge 2" + "Summoning 2"
           },
           {
-            "name": "Erratic Wisp",
-            "img": "photos/aerothurge/Erratic_Wisp.webp",
-            "description": "Cause target character to teleport in a random direction each time they are damaged with physical attack.",
-            "action points": 1,
-            "source points": 0,
-            "required": "Aerotheurge 1" + "Huntsman 1"
-          },
-          {
-            "name": "Smoke Cover",
-            "img": "photos/aerothurge/Smoke_Cover.webp",
-            "description": "Create a smoke cloud blocking vision of all characters in it.",
+            "name": "Evasive Aura",
+            "img": "photos/aerothurge/Evasive_Aura.webp",
+            "description": "Increase dodging ability of yourself and all allies by 90%. Increases movement by 1",
             "action points": 2,
-            "source points": 0,
-            "required": "Aerotheurge 1" + "Scoundrel 1"
+            "source points": 1,
+            "required": "Aerotheurge 2" + "Huntsman 2"
           },
           {
-            "name": "Vaccuum Touch",
-            "img": "photos/aerothurge/Vaccuum_Touch.webp",
-            "description": "Deal air damage and sets Suffocating (Original Sin 2) Suffocating and Silence status effects.",
+            "name": "Jellyfish Skin",
+            "img": "photos/aerothurge/Jellyfish_Skin.webp",
+            "description": "You gain immunity to electricity, but lowered resistance to poison and earth damage. Bleed electrified water.",
             "action points": 1,
-            "source points": 0,
-            "required": "Aerotheurge 1" + "Necromancer 1"
+            "source points": 1,
+            "required": "Aerotheurge 2" + "Polymorph 2"
           },
           {
-            "name": "Vaporize",
-            "img": "photos/aerothurge/Vaporize.webp",
-            "description": "Turn liquid surfaces into clouds. Removes Petrified and Frozen from target. ",
+            "name": "Mass Breathing Bubble",
+            "img": "photos/aerothurge/Mass_Breathing_Bubble.webp",
+            "description": "Create a bubble of clear air around your and your allies heads, making you ignore cloud effects. Gives Immunity to Suffocating.",
             "action points": 1,
-            "source points": 0,
-            "required": "Aerotheurge 1" + "Polymorph 1"
+            "source points": 1,
+            "required": "Aerotheurge 2" + "Warfare 2"
+          },
+          {
+            "name": "Vacuum Aura",
+            "img": "photos/aerothurge/Vacuum_Aura.webp",
+            "description": "Vacuum aura deals air damage to enemies in the area around caster. Enemies will get Silenced and Suffocating if they dont have Magic Armour.",
+            "action points": 2,
+            "source points": 1,
+            "required": "Aerotheurge 2" + "Necromancer 2"
           },
         ],
       ],
