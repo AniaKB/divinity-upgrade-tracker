@@ -47,7 +47,7 @@ ul, li
 
 #items > li {
   background-color: rgb(0, 0, 0, 0.5);
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 5px 10px 5px 10px;
   margin: 5px;
   width: 100px;
@@ -56,25 +56,29 @@ ul, li
   color: white;
 }
 
-/* Add this CSS to style your list */
 ul.items {
   list-style: none;
   padding: 0;
+  display: grid;
+   /* Two columns for the first row */
+  gap: 0px;
 }
 
 ul.items li {
-  display: grid;
-  grid-template-columns: auto 1fr; /* Two columns: auto for image, 1fr for the rest */
+  display: flex;
   align-items: center; /* Center items vertically */
   margin-bottom: 10px;
 }
 
 img {
-  margin-right: 10px; /* Add space between image and item text */
+  grid-column: 1;
+  margin-right: 5px; /* Add space between image and item text */
 }
 
 button {
-  margin-top: 5px; /* Add space between buttons and inventory count */
+  margin-top: 2px; /* Add space between buttons and inventory count */
+  width: 20px;
+  text-align: center;
 }
 
 .card {

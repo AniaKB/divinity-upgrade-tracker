@@ -138,12 +138,14 @@ function renderList() {
     imgElement.style.width = '30px';
     listItem.appendChild(imgElement);
 
-    listItem.innerHTML += `${item.item}, ${item.inventory}`;
+    listItem.innerHTML += `${item.item}`;
 
     const decreaseButton = document.createElement('button');
     decreaseButton.textContent = '-';
     decreaseButton.addEventListener('click', () => removeItems(index));
     listItem.appendChild(decreaseButton);
+
+    listItem.innerHTML += `${item.inventory}`;
 
     const increaseButton = document.createElement('button');
     increaseButton.textContent = '+';
