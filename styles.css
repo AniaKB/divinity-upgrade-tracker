@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url("/photos/background-start.jpg") no-repeat center center fixed;
+  background: url("photos/background-start.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -49,7 +49,7 @@ ul, li
   background-color: rgb(0, 0, 0, 0.5);
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
-  width: 120px;
+  width: 130px;
   text-align: center;
   font-size: 12px;
   color: white;
@@ -74,7 +74,7 @@ img {
 }
 
 button {
-  margin-top: 2px; /* Add space between buttons and inventory count */
+  margin: 2px 2px 2px 2px; /* Add space between buttons and inventory count */
   width: 20px;
   text-align: center;
 }
