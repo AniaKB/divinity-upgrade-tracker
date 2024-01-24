@@ -210,3 +210,5 @@ let levels = [
     talent: 1,
   },
 ];
+
+let attribute
