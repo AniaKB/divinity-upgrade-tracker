@@ -211,4 +211,41 @@ let levels = [
   },
 ];
 
-let attribute
+let attribute = [
+  {
+    Strength: 0,
+    Finesse: 0,
+    intelligence: 0,
+    Constitution: 0,
+    Memory: 0,
+    Wits: 0,
+    Damage: 0,
+    Critical Chance: 0,
+    Accuracy: 0,
+    Dodging: 0,
+    Physical Armor: 0,
+    Magic Armor: 0,
+    Fire: 0,
+    Water: 0,
+    Earth: 0,
+    Air: 0,
+    Poison: 0,
+  }
+]
+
+let classes = [
+  'Cleric',
+  'Conjurer',
+  'Enchanter',
+  'Witch',
+  'Wizard',
+  'Metamorph',
+  'Ranger',
+  'Rogue',
+  'Shadowblade',
+  'Wayfarer',
+  'Battlemage',
+  'Fighter',
+  'Inquisitor',
+  'Knight',
+]

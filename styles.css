@@ -73,7 +73,7 @@ img {
   margin-right: 5px; /* Add space between image and item text */
 }
 
-button {
+.items > button {
   margin: 2px 2px 2px 2px; /* Add space between buttons and inventory count */
   width: 20px;
   text-align: center;
