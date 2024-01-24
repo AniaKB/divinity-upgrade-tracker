@@ -49,8 +49,7 @@ ul, li
   background-color: rgb(0, 0, 0, 0.5);
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
-  margin: 5px;
-  width: 100px;
+  width: 120px;
   text-align: center;
   font-size: 12px;
   color: white;
@@ -60,14 +59,13 @@ ul.items {
   list-style: none;
   padding: 0;
   display: grid;
-   /* Two columns for the first row */
   gap: 0px;
 }
 
 ul.items li {
   display: flex;
   align-items: center; /* Center items vertically */
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 img {

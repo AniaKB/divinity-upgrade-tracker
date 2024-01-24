@@ -138,14 +138,18 @@ function renderList() {
     imgElement.style.width = '30px';
     listItem.appendChild(imgElement);
 
-    listItem.innerHTML += `${item.item}`;
+    const itemText = document.createElement('span');
+    itemText.textContent = item.item;
+    listItem.appendChild(itemText);
 
     const decreaseButton = document.createElement('button');
     decreaseButton.textContent = '-';
     decreaseButton.addEventListener('click', () => removeItems(index));
     listItem.appendChild(decreaseButton);
 
-    listItem.innerHTML += `${item.inventory}`;
+    const inventoryText = document.createElement('span');
+    inventoryText.textContent = item.inventory;
+    listItem.appendChild(inventoryText);
 
     const increaseButton = document.createElement('button');
     increaseButton.textContent = '+';
@@ -153,8 +157,6 @@ function renderList() {
     listItem.appendChild(increaseButton);
 
     myItems.appendChild(listItem);
-
-    console.log(`Image Source for ${item.item}: ${item.img}`);
   });
 }
 
