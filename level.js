@@ -234,18 +234,20 @@ let attribute = [
 ]
 
 let classes = [
-  'Cleric',
-  'Conjurer',
-  'Enchanter',
-  'Witch',
-  'Wizard',
-  'Metamorph',
-  'Ranger',
-  'Rogue',
-  'Shadowblade',
-  'Wayfarer',
-  'Battlemage',
-  'Fighter',
-  'Inquisitor',
-  'Knight',
+  {
+    'Cleric',
+    'Conjurer',
+    'Enchanter',
+    'Witch',
+    'Wizard',
+    'Metamorph',
+    'Ranger',
+    'Rogue',
+    'Shadowblade',
+    'Wayfarer',
+    'Battlemage',
+    'Fighter',
+    'Inquisitor',
+    'Knight',
+  }
 ]
