@@ -1,27 +1,7 @@
+
 let classes = [
-  'Cleric',
-  'Conjurer',
-  'Enchanter',
-  'Witch',
-  'Wizard',
-  'Metamorph',
-  'Ranger',
-  'Rogue',
-  'Shadowblade',
-  'Wayfarer',
-  'Battlemage',
-  'Fighter',
-  'Inquisitor',
-  'Knight',
-]
-
-
-
-function generateProfile () {
-  return {
-    classes: [
-      "Aerothurge": [
-        "level 1": [
+      "Aerothurge"= [
+        1 = [
           {
             "name": "Blinding Radiance",
             "img": "photos/aerothurge/Blinding_Radiance.webp",
@@ -55,7 +35,7 @@ function generateProfile () {
             "required": "Aerotheurge 1"
           },
         ],
-        "level 4": [
+        4 = [
           {
             "name": "Dazing Bolt",
             "img": "photos/aerothurge/Dazing_Bolt.webp",
@@ -81,7 +61,7 @@ function generateProfile () {
             "required": "Aerotheurge 2"
           },
         ],
-        "level 9": [
+        9 = [
           {
             "name": "Chain Lightning",
             "img": "photos/aerothurge/Chain_Lightning.webp",
@@ -107,7 +87,7 @@ function generateProfile () {
             "required": "Aerotheurge 2"
           },
         ],
-        "level 13": [
+        13 = [
           {
             "name": "Closed Circuit",
             "img": "photos/aerothurge/Closed_Circuit.webp",
@@ -150,7 +130,7 @@ function generateProfile () {
             "description": "Create a bubble of clean air around the caster's head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.",
             "action points": 1,
             "source points": 0,
-            "required": "Aerotheurge 1" + "Warfare 3"
+            "required": ["Aerotheurge 1", "Warfare 3"],
           },
           {
             "name": "Electric Infusion",
@@ -158,7 +138,7 @@ function generateProfile () {
             "description": "Infuse your Incarnate with air element. Gives Incarnate Electric Discharge skill.",
             "action points": 1,
             "source points": 0,
-            "required": "Aerotheurge 1" + "Summoning 1"
+            "required": ["Aerotheurge 1", "Summoning 1"],
           },
           {
             "name": "Erratic Wisp",
@@ -166,7 +146,7 @@ function generateProfile () {
             "description": "Cause target character to teleport in a random direction each time they are damaged with physical attack.",
             "action points": 1,
             "source points": 0,
-            "required": "Aerotheurge 1" + "Huntsman 1"
+            "required": ["Aerotheurge 1", "Huntsman 1"],
           },
           {
             "name": "Smoke Cover",
@@ -174,7 +154,7 @@ function generateProfile () {
             "description": "Create a smoke cloud blocking vision of all characters in it.",
             "action points": 2,
             "source points": 0,
-            "required": "Aerotheurge 1" + "Scoundrel 1"
+            "required": ["Aerotheurge 1", "Scoundrel 1"],
           },
           {
             "name": "Vaccuum Touch",
@@ -182,7 +162,7 @@ function generateProfile () {
             "description": "Deal air damage and sets Suffocating (Original Sin 2) Suffocating and Silence status effects.",
             "action points": 1,
             "source points": 0,
-            "required": "Aerotheurge 1" + "Necromancer 1"
+            "required": ["Aerotheurge 1", "Necromancer 1"],
           },
           {
             "name": "Vaporize",
@@ -190,7 +170,7 @@ function generateProfile () {
             "description": "Turn liquid surfaces into clouds. Removes Petrified and Frozen from target. ",
             "action points": 1,
             "source points": 0,
-            "required": "Aerotheurge 1" + "Polymorph 1"
+            "required": ["Aerotheurge 1", "Polymorph 1"],
           },
         ],
         "source": [
@@ -200,7 +180,7 @@ function generateProfile () {
             "description": "Conjures a cloud of thick blessed smoke that makes characters Invisible. Removes Silenced status.",
             "action points": 1,
             "source points": 2,
-            "required": "Aerotheurge 2" + "Scoundrel 2"
+            "required": ["Aerotheurge 2", "Scoundrel 2"],
           },
           {
             "name": "Cursed Electric Infusion",
@@ -208,7 +188,7 @@ function generateProfile () {
             "description": "Infuse your Incarnate with cursed electricity. Gives Incarnate Electric Discharge and Closed Circuit spells.",
             "action points": 1,
             "source points": 2,
-            "required": "Aerotheurge 2" + "Summoning 2"
+            "required": ["Aerotheurge 2", "Summoning 2"],
           },
           {
             "name": "Evasive Aura",
@@ -216,7 +196,7 @@ function generateProfile () {
             "description": "Increase dodging ability of yourself and all allies by 90%. Increases movement by 1",
             "action points": 2,
             "source points": 1,
-            "required": "Aerotheurge 2" + "Huntsman 2"
+            "required": ["Aerotheurge 2", "Huntsman 2"],
           },
           {
             "name": "Jellyfish Skin",
@@ -224,7 +204,7 @@ function generateProfile () {
             "description": "You gain immunity to electricity, but lowered resistance to poison and earth damage. Bleed electrified water.",
             "action points": 1,
             "source points": 1,
-            "required": "Aerotheurge 2" + "Polymorph 2"
+            "required": ["Aerotheurge 2", "Polymorph 2"],
           },
           {
             "name": "Mass Breathing Bubble",
@@ -232,7 +212,7 @@ function generateProfile () {
             "description": "Create a bubble of clear air around your and your allies heads, making you ignore cloud effects. Gives Immunity to Suffocating.",
             "action points": 1,
             "source points": 1,
-            "required": "Aerotheurge 2" + "Warfare 2"
+            "required": ["Aerotheurge 2", "Warfare 2"],
           },
           {
             "name": "Vacuum Aura",
@@ -240,7 +220,7 @@ function generateProfile () {
             "description": "Vacuum aura deals air damage to enemies in the area around caster. Enemies will get Silenced and Suffocating if they dont have Magic Armour.",
             "action points": 2,
             "source points": 1,
-            "required": "Aerotheurge 2" + "Necromancer 2"
+            "required": ["Aerotheurge 2", "Necromancer 2"],
           },
         ],
       ],
@@ -372,7 +352,7 @@ function generateProfile () {
             "description": "Corrosive Touch deals physical armour damage and sets Acid on target.",
             "action points": 1,
             "source points": 0,
-            "required": "Geomancer 1" + "Necromancer 1",
+            "required": ["Geomancer 1", "Necromancer 1"],
           },
           {
             "name": "Oily Carapace",
@@ -380,7 +360,7 @@ function generateProfile () {
             "description": "This skill absorbs any oil surfaces around the caster and converts it to Physical Armour.",
             "action points": 1,
             "source points": 0,
-            "required": "Geomancer 1" + "Warfare 1",
+            "required": ["Geomancer 1", "Warfare 1"],
           },
           {
             "name": "Poison Infusion",
@@ -388,7 +368,7 @@ function generateProfile () {
             "description": "Infuse your Incarnate with poison.",
             "action points": 1,
             "source points": 0,
-            "required": "Geomancer 1" + "Summoning 1",
+            "required": ["Geomancer 1", "Summoning 1"],
           },
           {
             "name": "Throw Dust",
@@ -396,7 +376,7 @@ function generateProfile () {
             "description": "Throw dust at a character, blinding them and dealing earth damage. Clears surfaces and clouds in the area. ",
             "action points": 2,
             "source points": 0,
-            "required": "Geomancer 1" + "Huntsman 1",
+            "required": ["Geomancer 1", "Huntsman 1"],
           },
           {
             "name": "Turn to Oil",
@@ -404,7 +384,7 @@ function generateProfile () {
             "description": "Turns water and blood surfaces into oil. Removes Stun and Shocked from characters.",
             "action points": 1,
             "source points": 0,
-            "required": "Geomancer 1" + "Polymorph 1",
+            "required": ["Geomancer 1", "Polymorph 1"],
           },
           {
             "name": "Venom Coating",
@@ -412,7 +392,7 @@ function generateProfile () {
             "description": "Applies poison damage on equipped weapons and skills.",
             "action points": 1,
             "source points": 0,
-            "required": "Geomancer 1" + "Scoundrel 1",
+            "required": ["Geomancer 1", "Scoundrel 1"],
           },
         ],
         "source": [
@@ -422,7 +402,7 @@ function generateProfile () {
             "description": "Changes Incarnate's element to acid, unlocking Poison Dart and Acid Spores.",
             "action points": 1,
             "source points": 2,
-            "required": "Geomancer 3" + "Summoning 3",
+            "required": ["Geomancer 3", "Summoning 3"],
           },
           {
             "name": "Corrosive Spray",
@@ -430,7 +410,7 @@ function generateProfile () {
             "description": "Corrosive spray deals physical armour damage and sets Acid and Atrophy on targets in a cone.",
             "action points": 2,
             "source points": 1,
-            "required": "Geomancer 2" + "Necromancer 2"
+            "required": ["Geomancer 2", "Necromancer 2"],
           },
           {
             "name": "Dust Blast",
@@ -438,7 +418,7 @@ function generateProfile () {
             "description": "Dust blast throws dust at all enemies in range setting Blinded and dealing earth damage.",
             "action points": 3,
             "source points": 1,
-            "required": "Geomancer 2" + "Huntsman 2"
+            "required": ["Geomancer 2", "Huntsman 2"],
           },
           {
             "name": "Mass Oily Carapace",
@@ -446,7 +426,7 @@ function generateProfile () {
             "description": "Convert all oil surfaces around caster and their allies into Physical Armour.",
             "action points": 1,
             "source points": 2,
-            "required": "Geomancer 2" + "Warfare 2",
+            "required": ["Geomancer 2", "Warfare 2"],
           },
           {
             "name": "Poisonous Skin",
@@ -454,7 +434,7 @@ function generateProfile () {
             "description": "You get immunity to poison and earth, but lowered resistance to air. You bleed poison.",
             "action points": 2,
             "source points": 1,
-            "required": "Geomancer 2" + "Polymorph 2"
+            "required": ["Geomancer 2", "Polymorph 2"],
           },
           {
             "name": "Venomous Aura",
@@ -462,9 +442,9 @@ function generateProfile () {
             "description": "Caster's and their allies damage will be changed to poison element.",
             "action points": 2,
             "source points": 1,
-            "required": "Geomancer 2" + "Scoundrel 2"
+            "required": ["Geomancer 2", "Scoundrel 2"],
           },
-        ],    
+        ],
       ],
       "Huntsman": [
         "level 1": [
@@ -731,11 +711,22 @@ function generateProfile () {
         ],
       ],
       "Polymorph" [
-        "level 1": [
+        1 = [
           {
             "name": "Bull Horns",
-            "effect": "Enables Bull Rush",
-            "negated": "Medusa Head"
+            "img": "photos/geomancer/Fortify.webp",
+            "description": "Increases character's Physical Armour for 3 turns. Fortified Characters cannot be forcefully teleported.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1",
+          },
+          {
+            "name": "Fortify",
+            "img": "photos/geomancer/Fortify.webp",
+            "description": "Increases character's Physical Armour for 3 turns. Fortified Characters cannot be forcefully teleported.",
+            "action points": 1,
+            "source points": 0,
+            "required": "Geomancer 1",
           },
         ],
       ],
@@ -1095,3 +1086,52 @@ function generateProfile () {
   },
 };
 
+const myClass = document.getElementById('class');
+
+function addItems(index) {
+  itemArray[index].inventory++;
+  renderList();
+}
+
+function removeItems(index) {
+  if (itemArray[index].inventory > 0) {
+    itemArray[index].inventory--;
+    renderList();
+  }
+}
+
+function renderList() {
+  myItems.innerHTML = '';
+
+  itemArray.forEach((item, index) => {
+    const listItem = document.createElement('li');
+
+    const imgElement = document.createElement('img');
+    imgElement.src = item.img;
+    imgElement.alt = item.item;
+    imgElement.style.width = '30px';
+    listItem.appendChild(imgElement);
+
+    const itemText = document.createElement('span');
+    itemText.textContent = item.item;
+    listItem.appendChild(itemText);
+
+    const decreaseButton = document.createElement('button');
+    decreaseButton.textContent = '-';
+    decreaseButton.addEventListener('click', () => removeItems(index));
+    listItem.appendChild(decreaseButton);
+
+    const inventoryText = document.createElement('span');
+    inventoryText.textContent = item.inventory;
+    listItem.appendChild(inventoryText);
+
+    const increaseButton = document.createElement('button');
+    increaseButton.textContent = '+';
+    increaseButton.addEventListener('click', () => addItems(index));
+    listItem.appendChild(increaseButton);
+
+    myItems.appendChild(listItem);
+  });
+}
+
+renderList();
