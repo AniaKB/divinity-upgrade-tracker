@@ -252,39 +252,6 @@ let civil = [
   }
 ]
 
-let classes = [
-  {
-    'Cleric',
-    build: ['Restoration', 'Blood Sucker', 'Decaying Touch']
-    'Conjurer',
-    build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem']
-    'Enchanter',
-    build: ['Rain', 'Hail Strike', 'Electric Discharge']
-    'Witch',
-    build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm']
-    'Wizard',
-    build: ['Ignition', 'Searing Daggers', 'Fossil Strike']
-    'Metamorph',
-    build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash']
-    'Ranger',
-    build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind']
-    'Rogue',
-    build: ['Adrenaline', 'Backlash', 'Throwing Knife']
-    'Shadowblade',
-    build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw']
-    'Wayfarer',
-    build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike']
-    'Battlemage',
-    build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch']
-    'Fighter',
-    build: ['Battle Stomp', 'Bouncing Shield', 'Fortify']
-    'Inquisitor',
-    build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm']
-    'Knight',
-    build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow']
-  }
-]
-
 Let origin = [
   {
     origin: 'Red Prince',
@@ -374,18 +341,39 @@ let attributesArray = [
 ]
 
 const myAttributes = document.getElementById('attributes');
+const totalPointsDisplay = document.getElementById('totalAttPointsDisplay');
+const levelDropdown = document.getElementById('levelDropdown');
+let totalAttPoints = 0;
 
-function addItems(index) {
-  attributesArray[index].points++;
-  renderAttributes();
+for (let i = 1; i<= 30; i++) {
+  const option = document.createElement('option');
+  option.value = i;
+  option.textContent = `Level ${i}`;
+  levelDropdown.appendChild(option);
 }
 
-function removeItems(index) {
-  if (attributesArray[index].points > 0) {
-    attributesArray[index].points--;
+function updateTotalAttPoints() {
+  totalAttPoints = levelDropdown.value * 2;
+  totalAttPointsDisplay.textContent = `Attribute Points: ${totalAttPoints}`
+}
+
+function addPoints(index) {
+  if (totalAttPoints > 0) {
+    attributesArray[index].points++;
+    totalPoints--;
     renderAttributes();
+    updateTotalAttPoints();
   }
 }
+
+function removePoints(index) {
+  if (attributesArray[index].points > 0) {
+      attributesArray[index].points--;
+      totalAttPoints++;
+      renderAttributes();
+      updateTotalAttPoints();
+  }
+ }
 
 function renderAttributes() {
   myAttributes.innerHTML = '';
@@ -413,6 +401,11 @@ function renderAttributes() {
 
     myAttributes.appendChild(listAttribute);
   });
+}
+
+levelDropdown.addEventListener('change'), () => {
+  updateTotalAttPoints();
+  renderAttributes();
 }
 
 renderAttributes();

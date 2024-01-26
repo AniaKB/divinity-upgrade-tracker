@@ -1086,6 +1086,40 @@ let classes = [
   },
 };
 
+/*
+let classes = [
+  {
+    'Cleric',
+    build: ['Restoration', 'Blood Sucker', 'Decaying Touch']
+    'Conjurer',
+    build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem']
+    'Enchanter',
+    build: ['Rain', 'Hail Strike', 'Electric Discharge']
+    'Witch',
+    build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm']
+    'Wizard',
+    build: ['Ignition', 'Searing Daggers', 'Fossil Strike']
+    'Metamorph',
+    build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash']
+    'Ranger',
+    build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind']
+    'Rogue',
+    build: ['Adrenaline', 'Backlash', 'Throwing Knife']
+    'Shadowblade',
+    build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw']
+    'Wayfarer',
+    build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike']
+    'Battlemage',
+    build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch']
+    'Fighter',
+    build: ['Battle Stomp', 'Bouncing Shield', 'Fortify']
+    'Inquisitor',
+    build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm']
+    'Knight',
+    build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow']
+  }
+]*/
+
 const myClass = document.getElementById('class');
 
 function addItems(index) {
