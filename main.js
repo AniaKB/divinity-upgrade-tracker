@@ -1,6 +1,6 @@
 
 let classes = [
-      "Aerothurge"= [
+      "Aerothurge" = [
         1 = [
           {
             "name": "Blinding Radiance",
@@ -710,7 +710,7 @@ let classes = [
           },
         ],
       ],
-      "Polymorph" [
+      "Polymorph": [
         1 = [
           {
             "name": "Bull Horns",

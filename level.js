@@ -1,7 +1,7 @@
-let levels = [
+/* let levels = [
   {
     level: 1,
-    attribute: 3, /* depends on build,*/
+    attribute: 3, /* depends on build,*
     combat: 3,
     civil: 1,
     talent: null,
@@ -211,28 +211,6 @@ let levels = [
   },
 ];
 
-let attribute = [
-  {
-    Strength: 0,
-    Finesse: 0,
-    intelligence: 0,
-    Constitution: 0,
-    Memory: 0,
-    Wits: 0,
-    Damage: 0,
-    Critical Chance: 0,
-    Accuracy: 0,
-    Dodging: 0,
-    Physical Armor: 0,
-    Magic Armor: 0,
-    Fire: 0,
-    Water: 0,
-    Earth: 0,
-    Air: 0,
-    Poison: 0,
-  }
-]
-
 let combat = [
   Weapons:
   {
@@ -373,4 +351,68 @@ Let origin = [
     talents: ['Play Dead', 'Dome of Protection']
     civic: ['Undead', 'Sophisticated']
   }
+]*/
+
+let attributesArray = [
+  {attribute: "Strength", points: 0},
+  {attribute: "Finesse", points: 0},
+  {attribute: "Intelligence", points: 0},
+  {attribute: "Constitution", points: 0},
+  {attribute: "Memory", points: 0},
+  {attribute: "Wits", points: 0},
+  {attribute: "Damage", points: 0},
+  {attribute: "Critical Chance", points: 0},
+  {attribute: "Accuracy", points: 0},
+  {attribute: "Dodging", points: 0},
+  {attribute: "Physical Armor", points: 0},
+  {attribute: "Magic Armor", points: 0},
+  {attribute: "Fire", points: 0},
+  {attribute: "Water", points: 0},
+  {attribute: "Earth", points: 0},
+  {attribute: "Air", points: 0},
+  {attribute: "Poison", points: 0},
 ]
+
+const myAttributes = document.getElementById('attributes');
+
+function addItems(index) {
+  attributesArray[index].points++;
+  renderAttributes();
+}
+
+function removeItems(index) {
+  if (attributesArray[index].points > 0) {
+    attributesArray[index].points--;
+    renderAttributes();
+  }
+}
+
+function renderAttributes() {
+  myAttributes.innerHTML = '';
+
+  attributesArray.forEach((item, index) => {
+    const listAttribute = document.createElement('li');
+
+    const attributeText = document.createElement('span');
+    attributeText.textContent = item.attribute;
+    listAttribute.appendChild(attributeText);
+
+    const decreaseButton = document.createElement('button');
+    decreaseButton.textContent = '-';
+    decreaseButton.addEventListener('click', () => removeItems(index));
+    listAttribute.appendChild(decreaseButton);
+
+    const pointsText = document.createElement('span');
+    pointsText.textContent = item.points;
+    listAttribute.appendChild(pointsText);
+
+    const increaseButton = document.createElement('button');
+    increaseButton.textContent = '+';
+    increaseButton.addEventListener('click', () => addItems(index));
+    listAttribute.appendChild(increaseButton);
+
+    myAttributes.appendChild(listAttribute);
+  });
+}
+
+renderAttributes();
