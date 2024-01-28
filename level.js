@@ -403,9 +403,9 @@ function renderAttributes() {
   });
 }
 
-levelDropdown.addEventListener('change'), () => {
+levelDropdown.addEventListener('change', () => {
   updateTotalAttPoints();
   renderAttributes();
-}
+});
 
 renderAttributes();
