@@ -4,7 +4,7 @@
   "description": "An app to track your divinity character build",
   "main": "index.html",
   "scripts": {
-    "lint": "eslint --ext .js --config=.eslintrc.js main.js"
+    "lint": "eslint --ext .js --config=.eslintrc.cjs src"
   },
   "repository": {
     "type": "git",
