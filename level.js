@@ -348,7 +348,7 @@ let totalAttPoints = 0;
 for (let i = 1; i<= 30; i++) {
   const option = document.createElement('option');
   option.value = i;
-  option.textContent = `Level ${i}`;
+  option.textContent = `${i}`;
   levelDropdown.appendChild(option);
 }
 
