@@ -39,6 +39,10 @@ ul, li
   margin-right: auto;
 }
 
+.item-text {
+  grid-area: text;
+}
+
 #items {
   display: flex;
   flex-wrap: wrap;
@@ -51,8 +55,12 @@ ul, li
   padding: 5px 10px 5px 10px;
   width: 130px;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   color: white;
+  align-items: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "text text text text text"
 }
 
 ul.items {

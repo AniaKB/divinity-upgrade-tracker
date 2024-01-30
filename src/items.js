@@ -1,6 +1,6 @@
 let itemArray = [
   { item:'Jar of mind maggots', img: "photos/items/A_Jar_of_Mind_Maggots.webp", inventory: 0},
-  { item:'Ancient human skull', img: "/photos/items/Skull.webp", inventory: 0},
+  { item:'Ancient human skull', img: "/photos/items/Ancient_Human_Skull.webp", inventory: 0},
   { item:'Animal hide', img: "photos/items/Animal_Hide.webp", inventory: 0},
   { item:'Air essence', img: "photos/items/Air_Essence.webp", inventory: 0},
   { item:'Arrow', img: "photos/items/Arrow.webp", inventory: 0},
@@ -19,10 +19,10 @@ let itemArray = [
   { item:'Claw', img: "photos/items/Claw.webp", inventory: 0},
   { item:'Crab\'s claw', img: "photos/items/Crab's_Claw.webp", inventory: 0},
   { item:'Cooking pot', img: "photos/items/Cooking_Pot.webp", inventory: 0},
-  { item:'Deathfog barrel', img: "photos/items/Deathfog_Barrel.webp", inventory: 0},
-  { item:'Cursed oil barrel', img: "photos/items/Cursed_Oil_Barrel.webp", inventory: 0},
+  { item:'Deathfog barrel', img: "photos/items/no icon.png", inventory: 0},
+  { item:'Cursed oil barrel', img: "photos/items/no icon.png", inventory: 0},
   { item:'Dirty socks', img: "photos/items/Dirty_Socks.webp", inventory: 0},
-  { item:'Deathfog crate', img: "photos/items/Deathfog_Crate.webp", inventory: 0},
+  { item:'Deathfog crate', img: "photos/items/no icon.png", inventory: 0},
   { item:'Empty bottle', img: "photos/items/Empty_Bottle.webp", inventory: 0},
   { item:'Earth essence', img: "photos/items/Earth_Essence.webp", inventory: 0},
   { item:'Empty cup', img: "photos/items/Empty_Cup.webp", inventory: 0},
@@ -30,7 +30,7 @@ let itemArray = [
   { item:'Empty grenade', img: "photos/items/Empty_Grenade.webp", inventory: 0},
   { item:'Empty flask', img: "photos/items/Empty_Flask.webp", inventory: 0},
   { item:'Empty mug', img: "photos/items/Empty_Mug.webp", inventory: 0},
-  { item:'Empty honey jar', img: "photos/items/Honey_Jar.webp", inventory: 0},
+  { item:'Empty honey jar', img: "photos/items/no icon.png", inventory: 0},
   { item:'Empty potion bottle', img: "photos/items/Empty_Potion_Bottle.webp", inventory: 0},
   { item:'Empty perfume bottle', img: "photos/items/Empty_Perfume_Bottle.webp", inventory: 0},
   { item:'Eternal plate', img: "photos/items/Eternal_Plate.webp", inventory: 0},
@@ -50,7 +50,7 @@ let itemArray = [
   { item:'Jawless skull', img: "photos/items/Skull.webp", inventory: 0},
   { item:'Intestines', img: "photos/items/Intestines.webp", inventory: 0},
   { item:'Large tusk', img: "photos/items/Tusk.webp", inventory: 0},
-  { item:'Lamp', img: "photos/items/Lamp.webp", inventory: 0},
+  { item:'Lamp', img: "photos/items/no icon.png", inventory: 0},
   { item:'Life essence', img: "photos/items/Life_Essence.webp", inventory: 0},
   { item:'Leather scraps', img: "photos/items/Leather_Scraps.webp", inventory: 0},
   { item:'Livewood log', img: "photos/items/Livewood_Log.webp", inventory: 0},
@@ -90,7 +90,7 @@ let itemArray = [
   { item:'Silver glass', img: "photos/items/Silver_Glass.webp", inventory: 0},
   { item:'Silver cup', img: "photos/items/Silver_Cup.webp", inventory: 0},
   { item:'Sinew', img: "photos/items/Bowstring.webp", inventory: 0},
-  { item:'Silver lever shaft', img: "photos/items/Silver_Lever_Shaft.webp", inventory: 0},
+  { item:'Silver lever shaft', img: "photos/items/no icon.png", inventory: 0},
   { item:'Slime', img: "photos/items/Slime.webp", inventory: 0},
   { item:'Skull', img: "photos/items/Skull.webp", inventory: 0},
   { item:'Soap', img: "photos/items/Soap.webp", inventory: 0},
@@ -138,10 +138,6 @@ function renderList() {
     imgElement.style.width = '30px';
     listItem.appendChild(imgElement);
 
-    const itemText = document.createElement('span');
-    itemText.textContent = item.item;
-    listItem.appendChild(itemText);
-
     const decreaseButton = document.createElement('button');
     decreaseButton.textContent = '-';
     decreaseButton.addEventListener('click', () => removeItems(index));
@@ -155,6 +151,11 @@ function renderList() {
     increaseButton.textContent = '+';
     increaseButton.addEventListener('click', () => addItems(index));
     listItem.appendChild(increaseButton);
+
+    const itemText = document.createElement('span');
+    itemText.textContent = item.item;
+    itemText.className = "item-text"
+    listItem.appendChild(itemText);
 
     myItems.appendChild(listItem);
   });

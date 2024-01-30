@@ -341,7 +341,7 @@ let attributesArray = [
 ]
 
 const myAttributes = document.getElementById('attributes');
-const totalPointsDisplay = document.getElementById('totalAttPointsDisplay');
+const totalAttPointsDisplay = document.getElementById('totalAttPointsDisplay');
 const levelDropdown = document.getElementById('levelDropdown');
 let totalAttPoints = 0;
 
@@ -378,26 +378,26 @@ function removePoints(index) {
 function renderAttributes() {
   myAttributes.innerHTML = '';
 
-  attributesArray.forEach((item, index) => {
+  attributesArray.forEach((att, total) => {
     const listAttribute = document.createElement('li');
 
     const attributeText = document.createElement('span');
-    attributeText.textContent = item.attribute;
+    attributeText.textContent = att.attribute;
     listAttribute.appendChild(attributeText);
 
-    const decreaseButton = document.createElement('button');
-    decreaseButton.textContent = '-';
-    decreaseButton.addEventListener('click', () => removeItems(index));
-    listAttribute.appendChild(decreaseButton);
+    const decreaseAttButton = document.createElement('button');
+    decreaseAttButton.textContent = '-';
+    decreaseAttButton.addEventListener('click', () => removeItems(total));
+    listAttribute.appendChild(decreaseAttButton);
 
     const pointsText = document.createElement('span');
-    pointsText.textContent = item.points;
+    pointsText.textContent = att.points;
     listAttribute.appendChild(pointsText);
 
-    const increaseButton = document.createElement('button');
-    increaseButton.textContent = '+';
-    increaseButton.addEventListener('click', () => addItems(index));
-    listAttribute.appendChild(increaseButton);
+    const increaseAttButton = document.createElement('button');
+    increaseAttButton.textContent = '+';
+    increaseAttButton.addEventListener('click', () => addItems(total));
+    listAttribute.appendChild(increaseAttButton);
 
     myAttributes.appendChild(listAttribute);
   });
