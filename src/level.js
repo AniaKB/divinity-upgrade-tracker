@@ -338,29 +338,36 @@ let attributesArray = [
   {attribute: "Earth", points: 0},
   {attribute: "Air", points: 0},
   {attribute: "Poison", points: 0},
-]
+];
 
 const myAttributes = document.getElementById('attributes');
 const totalAttPointsDisplay = document.getElementById('totalAttPointsDisplay');
 const levelDropdown = document.getElementById('levelDropdown');
 let totalAttPoints = 0;
 
-for (let i = 1; i<= 30; i++) {
+for (let i = 1; i <= 30; i++) {
   const option = document.createElement('option');
   option.value = i;
   option.textContent = `${i}`;
   levelDropdown.appendChild(option);
 }
 
+levelDropdown.value = 1;
+updateTotalAttPoints();
+
 function updateTotalAttPoints() {
-  totalAttPoints = levelDropdown.value * 2;
-  totalAttPointsDisplay.textContent = `Attribute Points: ${totalAttPoints}`
+  let total = levelDropdown.value * 2;
+  attributesArray.forEach(att => {
+    total -= att.points;
+  });
+  totalAttPoints = total;
+  totalAttPointsDisplay.textContent = `Attribute Points: ${totalAttPoints}`;
 }
 
 function addPoints(index) {
   if (totalAttPoints > 0) {
     attributesArray[index].points++;
-    totalPoints--;
+    totalAttPoints--;
     renderAttributes();
     updateTotalAttPoints();
   }
@@ -368,17 +375,17 @@ function addPoints(index) {
 
 function removePoints(index) {
   if (attributesArray[index].points > 0) {
-      attributesArray[index].points--;
-      totalAttPoints++;
-      renderAttributes();
-      updateTotalAttPoints();
+    attributesArray[index].points--;
+    totalAttPoints++;
+    renderAttributes();
+    updateTotalAttPoints();
   }
- }
+}
 
 function renderAttributes() {
   myAttributes.innerHTML = '';
 
-  attributesArray.forEach((att, total) => {
+  attributesArray.forEach((att, index) => {
     const listAttribute = document.createElement('li');
 
     const attributeText = document.createElement('span');
@@ -387,7 +394,7 @@ function renderAttributes() {
 
     const decreaseAttButton = document.createElement('button');
     decreaseAttButton.textContent = '-';
-    decreaseAttButton.addEventListener('click', () => removeItems(total));
+    decreaseAttButton.addEventListener('click', () => removePoints(index));
     listAttribute.appendChild(decreaseAttButton);
 
     const pointsText = document.createElement('span');
@@ -396,7 +403,7 @@ function renderAttributes() {
 
     const increaseAttButton = document.createElement('button');
     increaseAttButton.textContent = '+';
-    increaseAttButton.addEventListener('click', () => addItems(total));
+    increaseAttButton.addEventListener('click', () => addPoints(index));
     listAttribute.appendChild(increaseAttButton);
 
     myAttributes.appendChild(listAttribute);
