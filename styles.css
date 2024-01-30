@@ -50,10 +50,13 @@ ul, li
 }
 
 #items > li {
-  background-color: rgb(0, 0, 0, 0.5);
-  border-radius: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(25, 30, 78, 0.2));
+  border-radius: 6px;
+  border-style: solid outset outset solid;
+  border-color: #000000;
+  border-width: 2px;
   padding: 5px 10px 5px 10px;
-  width: 130px;
+  width: 127px;
   text-align: center;
   font-size: 11px;
   color: white;
@@ -101,9 +104,6 @@ img {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  width: 100%;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #120e0d;
-}
