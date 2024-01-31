@@ -1,9 +1,10 @@
 
-let classes = [
+let skillsArray = [
       "Aerothurge" = [
         1 = [
           {
-            "name": "Blinding Radiance",
+            "name": 'Blinding Radiance',
+            book: ''
             "img": "photos/aerothurge/Blinding_Radiance.webp",
             "description": "Blinding Radiance sets \"Radiant\" status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting",
             "action points": 2,
@@ -1120,28 +1121,21 @@ let classes = [
   }
 ]*/
 
-const myClass = document.getElementById('class');
+const mySkills = document.getElementById('skills');
 
-function addItems(index) {
-  itemArray[index].inventory++;
-  renderList();
+function addSkills(index) {
+  skillsArray[index].inventory++;
+  renderSkills();
 }
 
-function removeItems(index) {
-  if (itemArray[index].inventory > 0) {
-    itemArray[index].inventory--;
-    renderList();
-  }
-}
+function renderSkills() {
+  mySkills.innerHTML = '';
 
-function renderList() {
-  myItems.innerHTML = '';
-
-  itemArray.forEach((item, index) => {
-    const listItem = document.createElement('li');
+  itemArray.forEach((skill, index) => {
+    const listItem = document.createElement('input');
 
     const imgElement = document.createElement('img');
-    imgElement.src = item.img;
+    imgElement.src = skill.img;
     imgElement.alt = item.item;
     imgElement.style.width = '30px';
     listItem.appendChild(imgElement);
@@ -1150,19 +1144,9 @@ function renderList() {
     itemText.textContent = item.item;
     listItem.appendChild(itemText);
 
-    const decreaseButton = document.createElement('button');
-    decreaseButton.textContent = '-';
-    decreaseButton.addEventListener('click', () => removeItems(index));
-    listItem.appendChild(decreaseButton);
-
     const inventoryText = document.createElement('span');
     inventoryText.textContent = item.inventory;
     listItem.appendChild(inventoryText);
-
-    const increaseButton = document.createElement('button');
-    increaseButton.textContent = '+';
-    increaseButton.addEventListener('click', () => addItems(index));
-    listItem.appendChild(increaseButton);
 
     myItems.appendChild(listItem);
   });
