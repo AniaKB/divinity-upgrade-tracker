@@ -4,48 +4,48 @@ let skillsArray = [
     type: 'Aerotheurge',
     img: 'photos/aerotheurge/Aerotheurge.png',
     level: [
-      1: [
+      1 = [
         {
           name: 'Blinding Radiance',
           img: 'photos/aerothurge/Blinding_Radiance.webp',
           description: 'Blinding Radiance sets \'Radiant\' status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting',
           actionPoints: 2,
           spourcePoints: 0,
-          required: 'Aerotheurge 1'
+          required: { Aerotheurge: 1 }
         },
         {
           name: 'Electric Discharge',
           img: '/photos/aerothurge/Electric_Discharge.webp',
-          description 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
+          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
           actionPoins: 2,
           sourcePoints: 0,
-          required: 'Aerotheurge 1'
+          required: { Aerotheurge: 1 }
         },
         {
           name: 'Favorable Wind',
           img: 'photos/aerothurge/Favorable_Wind.webp',
-          description 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
+          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
           actionPoints: 1,
           sourcePoints: 0,
-          required 'Aerotheurge 1'
+          required: { Aerotheurge: 1 },
         },
         {
           name: 'Shocking Touch',
           img: 'photos/aerothurge/Shocking_Touch.webp',
           description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
-          action points: 1,
-          sourcePoints 0,
-          required: 'Aerotheurge 1'
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Aerotheurge: 1 },
         },
       ],
-      4: [
+      4 = [
         {
           name: 'Dazing Bolt',
           img: 'photos/aerothurge/Dazing_Bolt.webp',
           description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
           actionPoints: 3,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Aerotheurge: 2 },
         },
         {
           name: 'Teleportation',
@@ -53,7 +53,7 @@ let skillsArray = [
           description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Aerotheurge: 2 },
         },
         {
           name: 'Uncanny Evasion',
@@ -61,17 +61,17 @@ let skillsArray = [
           description: 'Increases dodging by 90% and movement by 20%.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Aerotheurge: 2 },
         },
       ],
-      9: [
+      9 = [
         {
           name: 'Chain Lightning',
           img: 'photos/aerothurge/Chain_Lightning.webp',
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 3,
           sourcePoints: 1,
-          required: 'Aerotheurge 3'
+          required: { Aerotheurge: 3 },
         },
         {
           name: 'Nether Swap',
@@ -79,7 +79,7 @@ let skillsArray = [
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Aerotheurge: 2 },
         },
         {
           name: 'Pressure Spike',
@@ -87,27 +87,27 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Aerotheurge: 2 },
         },
       ],
-      13: [
+      13 = [
         {
           name: 'Closed Circuit',
           img: 'photos/aerothurge/Closed_Circuit.webp',
           description: 'Deal air damage around you and created cursed static clouds at the edge of the area of effect.',
           actionPoints: 2,
           sourcePoints: 2,
-          required: 'Aerotheurge 3'
+          required: { Aerotheurge: 3 },
         }
       ],
-      16: [
+      16 = [
         {
           name: 'Super Conductor',
           img: 'photos/aerothurge/Super_Conductor.webp',
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 2,
           sourcePoints: 2,
-          required: 'Aerotheurge 3'
+          required: { Aerotheurge: 3 },
         },
         {
           name: 'Thunderstorm',
@@ -115,7 +115,7 @@ let skillsArray = [
           description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour.',
           actionPoints: 4,
           sourcePoints: 3,
-          required: 'Aerotheurge 5'
+          required: { Aerotheurge: 5 },
         },
         {
           name: 'Pressure Spike',
@@ -123,17 +123,17 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 2,
           sourcePoints: 2,
-          required: 'Aerotheurge 3'
+          required: { Aerotheurge: 3 },
         },
       ],
-      'craftable': [
+      'craftable' = [
         {
           name: 'Breathing Bubble',
           img: 'photos/aerothurge/Breathing_Bubble.webp',
-          description: 'Create a bubble of clean air around the caster's head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.',
+          description: 'Create a bubble of clean air around the caster\'s head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.',
           actionPoints: 1,
           sourcePoints: 0,
-        required ['Aerotheurge 1', 'Warfare 3'],
+          required: { Aerotheurge: 1, Warfare: 3 },
         },
         {
           name: 'Electric Infusion',
@@ -141,7 +141,7 @@ let skillsArray = [
           description: 'Infuse your Incarnate with air element. Gives Incarnate Electric Discharge skill.',
           actionPoints: 1,
           sourcePoints: 0,
-        required ['Aerotheurge 1', 'Summoning 1'],
+          required: { Aerotheurge: 1, Summoning: 1 },
         },
         {
           name: 'Erratic Wisp',
@@ -149,7 +149,7 @@ let skillsArray = [
           description: 'Cause target character to teleport in a random direction each time they are damaged with physical attack.',
           actionPoints: 1,
           sourcePoints: 0,
-        required ['Aerotheurge 1', 'Huntsman 1'],
+          required: { Aerotheurge: 1, Huntsman: 1 },
         },
         {
           name: 'Smoke Cover',
@@ -157,7 +157,7 @@ let skillsArray = [
           description: 'Create a smoke cloud blocking vision of all characters in it.',
           actionPoints: 2,
           sourcePoints: 0,
-        required ['Aerotheurge 1', 'Scoundrel 1'],
+          required: { Aerotheurge: 1, Scoundrel: 1 },
         },
         {
           name: 'Vaccuum Touch',
@@ -165,7 +165,7 @@ let skillsArray = [
           description: 'Deal air damage and sets Suffocating (Original Sin 2) Suffocating and Silence status effects.',
           actionPoints: 1,
           sourcePoints: 0,
-        required ['Aerotheurge 1', 'Necromancer 1'],
+          required: { Aerotheurge: 1, Necromancer: 1 },
         },
         {
           name: 'Vaporize',
@@ -173,17 +173,17 @@ let skillsArray = [
           description: 'Turn liquid surfaces into clouds. Removes Petrified and Frozen from target. ',
           actionPoints: 1,
           sourcePoints: 0,
-        required ['Aerotheurge 1', 'Polymorph 1'],
+          required: { Aerotheurge: 1, Polymorph: 1 },
         },
       ],
-      sourceP [
+      'sourcePoint' = [
         {
           name: 'Blessed Smoke Cloud',
           img: 'photos/aerothurge/Blessed_Smoke_Cloud.webp',
           description: 'Conjures a cloud of thick blessed smoke that makes characters Invisible. Removes Silenced status.',
           actionPoints: 1,
           sourcePoints: 2,
-          required ['Aerotheurge 2', 'Scoundrel 2'],
+          required: { Aerotheurge: 2, Scoundrel: 2 },
         },
         {
           name: 'Cursed Electric Infusion',
@@ -191,42 +191,42 @@ let skillsArray = [
           description: 'Infuse your Incarnate with cursed electricity. Gives Incarnate Electric Discharge and Closed Circuit spells.',
           actionPoints: 1,
           sourcePoints: 2,
-          required ['Aerotheurge 2', 'Summoning 2'],
+          required: { Aerotheurge: 2, Summoning: 2 },
         },
         {
           name: 'Evasive Aura',
-          img 'photos/aerothurge/Evasive_Aura.webp',
+          img: 'photos/aerothurge/Evasive_Aura.webp',
           description: 'Increase dodging ability of yourself and all allies by 90%. Increases movement by 1',
           actionPoints: 2,
           sourcePoints: 1,
-          required ['Aerotheurge 2', 'Huntsman 2'],
+          required: { Aerotheurge: 2, Huntsman: 2 },
         },
         {
           name: 'Jellyfish Skin',
-          img 'photos/aerothurge/Jellyfish_Skin.webp',
+          img: 'photos/aerothurge/Jellyfish_Skin.webp',
           description: 'You gain immunity to electricity, but lowered resistance to poison and earth damage. Bleed electrified water.',
           actionPoints: 1,
           sourcePoints: 1,
-          required ['Aerotheurge 2', 'Polymorph 2'],
+          required: { Aerotheurge: 2, Polymorph: 2 },
         },
         {
           'name': 'Mass Breathing Bubble',
-          img 'photos/aerothurge/Mass_Breathing_Bubble.webp',
+          img: 'photos/aerothurge/Mass_Breathing_Bubble.webp',
           description: 'Create a bubble of clear air around your and your allies heads, making you ignore cloud effects. Gives Immunity to Suffocating.',
           actionPoints: 1,
           sourcePoints: 1,
-          required ['Aerotheurge 2', 'Warfare 2'],
+          required: { Aerotheurge: 2, Warfare: 2 },
         },
         {
           'name': 'Vacuum Aura',
-          img 'photos/aerothurge/Vacuum_Aura.webp',
+          img: 'photos/aerothurge/Vacuum_Aura.webp',
           description: 'Vacuum aura deals air damage to enemies in the area around caster. Enemies will get Silenced and Suffocating if they dont have Magic Armour.',
           actionPoints: 2,
           sourcePoints: 1,
-          required ['Aerotheurge 2', 'Necromancer 2'],
+          required: { Aerotheurge: 2, Necromancer: 2 },
         },
       ],
-      ],
+    ],
   },
   {
     type: 'Geomancer',
