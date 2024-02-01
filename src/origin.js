@@ -20,7 +20,7 @@ let origin = [
   {
     origin: 'Beast',
     talents: ['Petrifying Touch', 'Blinding Squall'],
-    civil: ['Sturdy', 'Dwarven Guile']
+    civil: ['Sturdy', 'Dwarven Guile'],
     {attribute: 'Sneaking', points: 1},
   }
   {
