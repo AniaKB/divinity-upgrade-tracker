@@ -1,23 +1,27 @@
-Let origin = [
+let origin = [
   {
     origin: 'Red Prince',
     talents: ['Dragon\'s Blaze', 'Demonic Stare'],
-    civil: ['Sophisticated', 'Spellsong' (Persuasion +1)]
+    civil: ['Sophisticated', 'Spellsong']
+    {attribute: 'Persuasion', points: 1},
   }
   {
     origin: 'Sebille',
     talents: ['Flesh Sacrifice', 'Break the Shackles'],
-    civil: ['Corpse Eater', 'Ancestral Knowledge' (Loremaster +1)],
+    civil: ['Corpse Eater', 'Ancestral Knowledge'],
+    {attribute: 'Loremaster', points: 1},
   },
   {
     origin: 'Ifan',
     talents: ['Flesh Sacrifice', 'Break the Shackles'],
-    civil: ['Ingenious', 'thrifty' (Bartering +1)]
+    civil: ['Ingenious', 'thrifty']
+    {attribute: 'Bartering', points: 1},
   }
   {
     origin: 'Beast',
     talents: ['Petrifying Touch', 'Blinding Squall'],
-    civil: ['Sturdy', 'Dwarven Guile' (Sneaking +1)]
+    civil: ['Sturdy', 'Dwarven Guile']
+    {attribute: 'Sneaking', points: 1},
   }
   {
     origin: 'Fane',
@@ -27,22 +31,26 @@ Let origin = [
   {
     origin: 'Dwarf',
     talents: ['Petrifying Touch', 'Dome of Protection'],
-    civil: ['Sturdy', 'Dwarven Guile' (Sneaking +1)]
+    civil: ['Sturdy', 'Dwarven Guile']
+    {attribute: 'Sneaking', points: 1},
   }
   {
     origin: 'Elf',
     talents: ['Flesh Sacrifice', 'Dome of Protection'],
-    civil: ['Corpse Eater', 'Ancestral Knowledge' (Loremaster +1)],
+    civil: ['Corpse Eater', 'Ancestral Knowledge'],
+    {attribute: 'Loremaster', points: 1},
   },
   {
     origin: 'Human',
     talents: ['Encourage', 'Dome of Protection'],
-    civil: ['Ingenious', 'thrifty' (Bartering +1)]
+    civil: ['Ingenious', 'thrifty']
+    {attribute: 'Bartering', points: 1},
   },
   {
     origin: 'Lizard',
     talents: ['Dragon\'s Blaze', 'Dome of Protection'],
-    civil: ['Sophisticated', 'Spellsong' (Persuasion +1)]
+    civil: ['Sophisticated', 'Spellsong']
+    {attribute: 'Persuasion', points: 1},
   }
   {
     origin: 'Undead Dwarf',
