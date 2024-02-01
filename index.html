@@ -8,6 +8,7 @@
     <script defer src="src/main.js"></script>
     <script defer src="src/items.js"></script>
     <script defer src="src/level.js"></script>
+    <script defer src="src/combat.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet"> 
@@ -17,7 +18,7 @@
       <h1>Divinity Upgrade Tracker</h1>
     </header>
     <aside class="aside">
-      <label for="class">Class:</label>
+      <label for="class">Origin:</label>
       <select class="dropdown">
         <option value=class id="skills"></a>
       </select>
@@ -30,7 +31,10 @@
       </div>
       </div>
       <ul id="attributes"></ul>
-      <span class="dropbtn">Combat Abilities</span>
+      <div class="abilities">
+        <span class="dropbtn" id="totalComPointsDisplay">Combat Abilities</span>
+      </div>
+      <ul id="combat"></ul>
     </aside>
     <h2>
       Types
