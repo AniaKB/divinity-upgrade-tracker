@@ -59,7 +59,7 @@ function removePoints(index) {
 }
 
 function rendercombat() {
-  mycombat.innerHTML = '';
+  myCombat.innerHTML = '';
 
   combatArray.forEach((Com, index) => {
     const listComribute = document.createElement('li');
