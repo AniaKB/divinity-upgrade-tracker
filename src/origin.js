@@ -2,27 +2,27 @@ let origin = [
   {
     origin: 'Red Prince',
     talents: ['Dragon\'s Blaze', 'Demonic Stare'],
-    civil: ['Sophisticated', 'Spellsong']
-    {attribute: 'Persuasion', points: 1},
-  }
+    civil: ['Sophisticated', 'Spellsong'],
+    attribute: {Persuasion: 1},
+  },
   {
     origin: 'Sebille',
     talents: ['Flesh Sacrifice', 'Break the Shackles'],
     civil: ['Corpse Eater', 'Ancestral Knowledge'],
-    {attribute: 'Loremaster', points: 1},
+    attribute: {Loremaster: 1},
   },
   {
     origin: 'Ifan',
     talents: ['Flesh Sacrifice', 'Break the Shackles'],
-    civil: ['Ingenious', 'thrifty']
-    {attribute: 'Bartering', points: 1},
-  }
+    civil: ['Ingenious', 'thrifty'],
+    attribute: {Bartering: 1},
+  },
   {
     origin: 'Beast',
     talents: ['Petrifying Touch', 'Blinding Squall'],
     civil: ['Sturdy', 'Dwarven Guile'],
-    {attribute: 'Sneaking', points: 1},
-  }
+    attribute: {Sneaking: 1},
+  },
   {
     origin: 'Fane',
     talents: ['Play Dead', 'Time Warp'],
@@ -31,27 +31,27 @@ let origin = [
   {
     origin: 'Dwarf',
     talents: ['Petrifying Touch', 'Dome of Protection'],
-    civil: ['Sturdy', 'Dwarven Guile']
-    {attribute: 'Sneaking', points: 1},
-  }
+    civil: ['Sturdy', 'Dwarven Guile'],
+    attribute: {Sneaking: 1},
+  },
   {
     origin: 'Elf',
     talents: ['Flesh Sacrifice', 'Dome of Protection'],
     civil: ['Corpse Eater', 'Ancestral Knowledge'],
-    {attribute: 'Loremaster', points: 1},
+    attribute: {Loremaster: 1},
   },
   {
     origin: 'Human',
     talents: ['Encourage', 'Dome of Protection'],
-    civil: ['Ingenious', 'thrifty']
-    {attribute: 'Bartering', points: 1},
+    civil: ['Ingenious', 'thrifty'],
+    attribute: {Bartering: 1},
   },
   {
     origin: 'Lizard',
     talents: ['Dragon\'s Blaze', 'Dome of Protection'],
-    civil: ['Sophisticated', 'Spellsong']
-    {attribute: 'Persuasion', points: 1},
-  }
+    civil: ['Sophisticated', 'Spellsong'],
+    attribute: {Persuasion: 1},
+  },
   {
     origin: 'Undead Dwarf',
     talents: ['Play Dead', 'Dome of Protection'],
@@ -77,7 +77,7 @@ let origin = [
 let civil = [
   {
     Bartering: 0,
-    Lucky Charm: 0,
+    'Lucky Charm': 0,
     Persuasion: 0,
     Loremaster: 0,
     Telekinesis: 0,
