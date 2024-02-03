@@ -1,23 +1,21 @@
 let combatArray = [
-  {
-    'Dual Wielding': 0,
-    Ranged: 0,
-    'Single-Handed': 0,
-    'Two-Handed': 0,
-    Leadership: 0,
-    Perseverance: 0,
-    Retribution: 0,
-    Aerotheurge: 0,
-    Geomancer: 0,
-    Huntsman: 0,
-    Hydrosophist: 0,
-    Necromancer: 0,
-    Polymorph: 0,
-    Pyrokinetic: 0,
-    Scoundrel: 0,
-    Summoning: 0,
-    Warfare: 0,
-  }
+  { combat: 'Dual Wielding', points: 0 },
+  { combat: 'Ranged', points: 0 },
+  { combat: 'Single-Handed', points: 0 },
+  { combat: 'Two-Handed', points: 0 },
+  { combat: 'Leadership', points: 0 },
+  { combat: 'Perseverance', points: 0 },
+  { combat: 'Retribution', points: 0 },
+  { combat: 'Aerotheurge', points: 0 },
+  { combat: 'Geomancer', points: 0 },
+  { combat: 'Huntsman', points: 0 },
+  { combat: 'Hydrosophist', points: 0 },
+  { combat: 'Necromancer', points: 0 },
+  { combat: 'Polymorph', points: 0 },
+  { combat: 'Pyrokinetic', points: 0 },
+  { combat: 'Scoundrel', points: 0 },
+  { combat: 'Summoning', points: 0 },
+  { combat: 'Warfare', points: 0 }
 ];
 
 const myCombat = document.getElementById('combat');
@@ -25,9 +23,9 @@ const totalCombatPointsDisplay = document.getElementById('totalCombatPointsDispl
 let totalCombatPoints = 0;
 
 function updateTotalCombatPoints() {
-  let total = levelDropdown.value * 2;
-  combatArray.forEach(Com => {
-    total -= Com.points;
+  let total = levelDropdown.value + 1;
+  combatArray.forEach(com => {
+    total -= com.points;
   });
   totalCombatPoints = total;
   totalCombatPointsDisplay.textContent = `Combat Abilities: ${totalCombatPoints}`;
@@ -73,7 +71,7 @@ function renderCombat() {
     const increaseCombatButton = document.createElement('button');
     increaseCombatButton.textContent = '+';
     increaseCombatButton.addEventListener('click', () => addPoints(index));
-    listCombat.appendChild(increaseComnatButton);
+    listCombat.appendChild(increaseCombatButton);
 
     myCombat.appendChild(listCombat);
   });
