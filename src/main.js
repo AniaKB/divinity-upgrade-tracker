@@ -463,91 +463,197 @@ let skillsArray = [
     level: [
       1: [
         {
-          name: 'Blinding Radiance',
-          img: 'photos/aerotheurge/Blinding_Radiance.webp',
-          description: 'Blinding Radiance sets \'Radiant\' status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting',
-          actionPoints: 2,
+          name: 'Elemental Arrowheads',
+          img: 'photos/huntsman/Elemental_Arrowheads.webp',
+          description: 'Change elemental type of your basic attack by infusing it with the surface you are standing on.',
+          actionPoints: 1,
           sourcePoints: 0,
           required: { Huntsman: 1 }
         },
         {
-          name: 'Electric Discharge',
-          img: '/photos/aerotheurge/Electric_Discharge.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: 'Aerotheurge 1'
-        },
-        {
-          name: 'Favorable Wind',
-          img: 'photos/aerotheurge/Favorable_Wind.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
+          name: 'First Aid',
+          img: '/photos/huntsman/First_Aid.webp',
+          description: 'Heal your target. Removes: Crippled, Knocked Down, Blinded, Silenced, Bleeding, Burning, Poisoned, Diseased',
           actionPoints: 1,
           sourcePoints: 0,
-          required: 'Aerotheurge 1'
+          required: { Huntsman: 1 }
         },
         {
-          name: 'Shocking Touch',
-          img: 'photos/aerotheurge/Shocking_Touch.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
-          actionPoints: 1,
-          sourcePoints: 0,
-          required: 'Aerotheurge 1'
-        },
-      ],
-      4 = [
-        {
-          'name': 'Dazing Bolt',
-          img: 'photos/aerotheurge/Dazing_Bolt.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
+          name: 'Pin Down',
+          img: 'photos/huntsman/Pin_Down.webp',
+          description: 'Shoot an arrow that will Crippled (Original Sin 2) immobilise and damage your enemy.',
           actionPoints: 3,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Huntsman: 1 }
         },
         {
-          'name': 'Teleportation',
-          img: 'photos/aerotheurge/Teleportation.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          name: 'Ricochet',
+          img: 'photos/huntsman/Ricochet.webp',
+          description: 'Fire a normal arrow that harms multiple foes at once.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
-        },
-        {
-          name: 'Uncanny Evasion',
-          img: 'photos/aerotheurge/Uncanny_Evasion.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
-          actionPoints: 1,
-          sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Huntsman: 1 }
         },
       ],
-      9 = [
+      4: [
         {
-          'name': 'Chain Lightning',
-          img: 'photos/aerotheurge/Chain_Lightning.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          name: 'Barrage',
+          img: 'photos/huntsman/Barrage.webp',
+          description: 'Fire three arrows at three targets of your choice, each dealing physical damage.',
+          actionPoints: 3,
+          sourcePoints: 0,
+          required: { Huntsman: 2 }
+        },
+        {
+          name: 'Sky Shot',
+          img: 'photos/huntsman/Sky_Shot.webp',
+          description: 'Leap into the air before shooting, gaining damage bonus for your superior height. Deals physical damage.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Huntsman: 2 }
+        },
+        {
+          name: 'Tactical Retreat',
+          img: 'photos/huntsman/Tactical_Retreat.webp',
+          description: 'Teleport yourself away from danger. Applies Hasted status effect.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Huntsman: 2 }
+        },
+      ],
+      9: [
+        {
+          name: 'Arrow Spray',
+          img: 'photos/huntsman/Arrow_Spray.webp',
+          description: 'Fire 15 arrows in a 60 degree arc.',
           actionPoints: 3,
           sourcePoints: 1,
-          required: 'Aerotheurge 3'
+          required: { Huntsman: 3 }
         },
         {
-          'name': 'Nether Swap',
-          img: 'photos/aerotheurge/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          name: 'Ballistic Shot',
+          img: 'photos/huntsman/Ballistic_Shot.webp',
+          description: 'Fire an arrow whose damage will increase with distance between caster and their target.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Huntsman: 2 }
         },
         {
-          'name': 'Pressure Spike',
-          img: 'photos/aerotheurge/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Marksman\'s Fang',
+          img: 'photos/huntsman/Marksman\'s_Fang.webp',
+          description: 'Fire an arrow that goes straight through enemies in straight line, ignoring armour, and dealing piercing damage to every enemy in range.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Huntsman: 2 }
+        },
+        {
+          name: 'Reactive Shot',
+          img: 'photos/huntsman/Reactive_Shot.webp',
+          description: 'Target a circular area. Until your next turn, you will reflexively shoot at the first three enemies moving within this area.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Huntsman: 2 }
+        },
+      ],
+      13: [
+        {
+          name: 'Farsight',
+          img: 'photos/huntsman/Farsight.webp',
+          description: 'Increases the range of a target character\'s ranged attacks and skills by 3m.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Huntsman: 3 }
+        }
+      ],
+      16: [
+        {
+          name: 'Arrow Storm',
+          img: 'photos/huntsman/Arrow_Storm.webp',
+          description: '16 Arrows fall from the sky in the target area, each dealing physical damage.',
+          actionPoints: 3,
+          sourcePoints: 3,
+          required: { Huntsman: 5 }
+        },
+        {
+          name: 'Assasinate',
+          img: 'photos/huntsman/Assasinate.webp',
+          description: 'Shoot at your target with great aim. Damage is increased by 50 % if caster is sneaking.',
+          actionPoints: 3,
+          sourcePoints: 0,
+          required: { Huntsman: 3 }
+        },
+        {
+          name: 'Glitter Dust',
+          img: 'photos/huntsman/Glitter_Dust.webp',
+          description: 'Mark your target to reduce their dodging ability by 100 %.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: 'Aerotheurge 2'
+          required: { Huntsman: 3 }
         },
       ],
     ],
+    other: [
+      craftable: [
+        {
+          name: 'Evasive Aura',
+          img: 'photos/huntsman/Evasive_Aura.webp',
+          description: 'Increase dodging ability of yourself and all allies by 90 %. Increases movement by 1',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Huntsman: 2, Aerotheurge: 2 }
+        },
+        {
+          name: 'Dust Blast',
+          img: 'photos/huntsman/Dust_Blast.webp',
+          description: 'Dust blast throws dust at all enemies in range setting Blinded and dealing earth damage. ',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Huntsman: 2, Geomancer: 2 }
+        },
+        {
+          name: 'Mass Cryotherapy',
+          img: 'photos/huntsman/Mass_Cryotherapy.webp',
+          description: 'Each ally consumes frozen surfaces around them, converting the frozen surfaces to Magic Armour.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Huntsman: 2, Hydrosophist: 2 }
+        },
+        {
+          name: 'Deploy Mass Traps',
+          img: 'photos/huntsman/Deploy_Mass_Traps.webp',
+          description: 'Each ally consumes frozen surfaces around them, converting the frozen surfaces to Magic Armour.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Huntsman: 2, Pyrokinetic: 2 }
+        },
+      ],
+      craftable: [
+        {
+          name: 'Arrow Storm',
+          img: 'photos/huntsman/Arrow_Storm.webp',
+          description: 'Throw 4 explosive traps at target locations. Each trap takes a turn to activate. When active, trap will explode when a character approaches it.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Huntsman: 2 }
+        },
+        {
+          name: 'Assasinate',
+          img: 'photos/huntsman/Assasinate.webp',
+          description: 'Shoot at your target with great aim. Damage is increased by 50 % if caster is sneaking.',
+          actionPoints: 3,
+          sourcePoints: 0,
+          required: { Huntsman: 3 }
+        },
+        {
+          name: 'Glitter Dust',
+          img: 'photos/huntsman/Glitter_Dust.webp',
+          description: 'Mark your target to reduce their dodging ability by 100 %.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Huntsman: 3 }
+        },
+      ]
+    ]
   },
 ];
 /*
