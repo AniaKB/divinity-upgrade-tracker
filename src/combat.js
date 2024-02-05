@@ -22,16 +22,16 @@ const myCombat = document.getElementById('combat');
 const totalCombatPointsDisplay = document.getElementById('totalCombatPointsDisplay');
 let totalCombatPoints = 0;
 
-function updateTotalCombatPoints() {
-  let total = levelDropdown.value + 1;
-  combatArray.forEach(com => {
+function updateTotalCombatPoints () {
+  let total = levelDropdown.value;
+  combatArray.forEach((com) => {
     total -= com.points;
   });
   totalCombatPoints = total;
   totalCombatPointsDisplay.textContent = `Combat Abilities: ${totalCombatPoints}`;
 }
 
-function addPoints(index) {
+function addPoints (index) {
   if (totalCombatPoints > 0) {
     combatArray[index].points++;
     totalCombatPoints--;
@@ -40,7 +40,7 @@ function addPoints(index) {
   }
 }
 
-function removePoints(index) {
+function removePoints (index) {
   if (combatArray[index].points > 0) {
     combatArray[index].points--;
     totalCombatPoints++;
@@ -49,15 +49,15 @@ function removePoints(index) {
   }
 }
 
-function renderCombat() {
+function renderCombat () {
   myCombat.innerHTML = '';
 
   combatArray.forEach((com, index) => {
     const listCombat = document.createElement('li');
 
-    const CombatText = document.createElement('span');
-    CombatText.textContent = com.Combat;
-    listCombat.appendChild(CombatText);
+    const combatText = document.createElement('span');
+    combatText.textContent = com.combat;
+    listCombat.appendChild(combatText);
 
     const decreaseCombatButton = document.createElement('button');
     decreaseCombatButton.textContent = '-';
