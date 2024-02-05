@@ -456,25 +456,22 @@ let skillsArray = [
         }
       ]
     }
-  }
-];
-/*
   },
   {
     type: 'Huntsman',
-    img: 'photos/geomancer/Geomancer.png',
+    img: 'photos/huntsman/Huntsman.png',
     level: [
-      1 = [
+      1: [
         {
-          'name': 'Blinding Radiance',
+          name: 'Blinding Radiance',
           img: 'photos/aerotheurge/Blinding_Radiance.webp',
           description: 'Blinding Radiance sets \'Radiant\' status which inflicts Blinded status upon enemies without Magic Armour as well as dealing air damage upon casting',
           actionPoints: 2,
           sourcePoints: 0,
-          required: 'Aerotheurge 1'
+          required: { Huntsman: 1 }
         },
         {
-          'name': 'Electric Discharge',
+          name: 'Electric Discharge',
           img: '/photos/aerotheurge/Electric_Discharge.webp',
           description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
           actionPoints: 2,
@@ -482,7 +479,7 @@ let skillsArray = [
           required: 'Aerotheurge 1'
         },
         {
-          'name': 'Favorable Wind',
+          name: 'Favorable Wind',
           img: 'photos/aerotheurge/Favorable_Wind.webp',
           description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
           actionPoints: 1,
@@ -490,7 +487,7 @@ let skillsArray = [
           required: 'Aerotheurge 1'
         },
         {
-          'name': 'Shocking Touch',
+          name: 'Shocking Touch',
           img: 'photos/aerotheurge/Shocking_Touch.webp',
           description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
           actionPoints: 1,
@@ -552,6 +549,8 @@ let skillsArray = [
       ],
     ],
   },
+];
+/*
   {
     type: 'Hydrosophist',
     img: 'photos/hydrosophist/Hydrosophist.png',
