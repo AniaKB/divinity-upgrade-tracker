@@ -213,23 +213,23 @@
 */
 
 let attributesArray = [
-  {attribute: "Strength", points: 0},
-  {attribute: "Finesse", points: 0},
-  {attribute: "Intelligence", points: 0},
-  {attribute: "Constitution", points: 0},
-  {attribute: "Memory", points: 0},
-  {attribute: "Wits", points: 0},
-  {attribute: "Damage", points: 0},
-  {attribute: "Critical Chance", points: 0},
-  {attribute: "Accuracy", points: 0},
-  {attribute: "Dodging", points: 0},
-  {attribute: "Physical Armor", points: 0},
-  {attribute: "Magic Armor", points: 0},
-  {attribute: "Fire", points: 0},
-  {attribute: "Water", points: 0},
-  {attribute: "Earth", points: 0},
-  {attribute: "Air", points: 0},
-  {attribute: "Poison", points: 0},
+  { attribute: 'Strength', points: 0 },
+  { attribute: 'Finesse', points: 0 },
+  { attribute: 'Intelligence', points: 0 },
+  { attribute: 'Constitution', points: 0 },
+  { attribute: 'Memory', points: 0 },
+  { attribute: 'Wits', points: 0 },
+  { attribute: 'Damage', points: 0 },
+  { attribute: 'Critical Chance', points: 0 },
+  { attribute: 'Accuracy', points: 0 },
+  { attribute: 'Dodging', points: 0 },
+  { attribute: 'Physical Armor', points: 0 },
+  { attribute: 'Magic Armor', points: 0 },
+  { attribute: 'Fire', points: 0 },
+  { attribute: 'Water', points: 0 },
+  { attribute: 'Earth', points: 0 },
+  { attribute: 'Air', points: 0 },
+  { attribute: 'Poison', points: 0 }
 ];
 
 const myAttributes = document.getElementById('attributes');
@@ -247,17 +247,17 @@ for (let i = 1; i <= 30; i++) {
 levelDropdown.value = 1;
 updateTotalAttPoints();
 
-function updateTotalAttPoints() {
+function updateTotalAttPoints () {
   let total = 0;
-  for (let i =1; i <= levelDropdown.value; i++) {
-    total += i === 1? 3: 2;
+  for (let i = 1; i <= levelDropdown.value; i++) {
+    total += i === 1 ? 3 : 2;
   }
   totalAttPoints = total;
   console.log(totalAttPoints);
   totalAttPointsDisplay.textContent = `Attribute Points: ${totalAttPoints}`;
 };
 
-function addPoints(index) {
+function addPoints (index) {
   if (totalAttPoints > 0 && attributesArray[index].points < totalAttPoints) {
     attributesArray[index].points++;
     totalAttPoints--;
@@ -266,7 +266,7 @@ function addPoints(index) {
   }
 }
 
-function removePoints(index) {
+function removePoints (index) {
   if (attributesArray[index].points > 0) {
     attributesArray[index].points--;
     totalAttPoints++;
@@ -275,7 +275,7 @@ function removePoints(index) {
   }
 }
 
-function renderAttributes() {
+function renderAttributes () {
   myAttributes.innerHTML = '';
 
   attributesArray.forEach((att, index) => {
