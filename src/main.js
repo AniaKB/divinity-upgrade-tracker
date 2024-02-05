@@ -460,7 +460,7 @@ let skillsArray = [
   {
     type: 'Huntsman',
     img: 'photos/huntsman/Huntsman.png',
-    level: [
+    level: {
       1: [
         {
           name: 'Elemental Arrowheads',
@@ -591,9 +591,43 @@ let skillsArray = [
           required: { Huntsman: 3 }
         },
       ],
-    ],
-    other: [
+    },
+    other: {
       craftable: [
+        {
+          name: 'Erratic Wisp',
+          img: 'photos/huntsman/Erratic_Wisp.webp',
+          description: 'Cause target character to teleport in a random direction each time they are damaged with physical attack.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Huntsman: 1, Aerotheurge: 1 }
+        },
+        {
+          name: 'Throw Dust',
+          img: 'photos/huntsman/Throw_Dust.webp',
+          description: 'Throw dust at a character, blinding them and dealing earth damage. Clears surfaces and clouds in the area.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Huntsman: 1, Geomancer: 1 }
+        },
+        {
+          name: 'Cryotherapy',
+          img: 'photos/huntsman/Mass_Cryotherapy.webp',
+          description: 'Consume Frozen surfaces around yourself and convert it to Magic Armour.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Huntsman: 1, Hydrosophist: 1 }
+        },
+        {
+          name: 'Throw Explosive Trap',
+          img: 'photos/huntsman/Throw_Explosive_Trap.webp',
+          description: 'Throw an explosive trap at target location. Trap takes 1 turn to activate. When active, the trap will explode when a character approaches it.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Huntsman: 1, Pyrokinetic: 1 }
+        }
+      ],
+      source: [
         {
           name: 'Evasive Aura',
           img: 'photos/huntsman/Evasive_Aura.webp',
@@ -627,33 +661,7 @@ let skillsArray = [
           required: { Huntsman: 2, Pyrokinetic: 2 }
         },
       ],
-      craftable: [
-        {
-          name: 'Arrow Storm',
-          img: 'photos/huntsman/Arrow_Storm.webp',
-          description: 'Throw 4 explosive traps at target locations. Each trap takes a turn to activate. When active, trap will explode when a character approaches it.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Huntsman: 2 }
-        },
-        {
-          name: 'Assasinate',
-          img: 'photos/huntsman/Assasinate.webp',
-          description: 'Shoot at your target with great aim. Damage is increased by 50 % if caster is sneaking.',
-          actionPoints: 3,
-          sourcePoints: 0,
-          required: { Huntsman: 3 }
-        },
-        {
-          name: 'Glitter Dust',
-          img: 'photos/huntsman/Glitter_Dust.webp',
-          description: 'Mark your target to reduce their dodging ability by 100 %.',
-          actionPoints: 1,
-          sourcePoints: 0,
-          required: { Huntsman: 3 }
-        },
-      ]
-    ]
+    }
   },
 ];
 /*
