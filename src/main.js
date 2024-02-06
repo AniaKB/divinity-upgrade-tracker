@@ -22,7 +22,7 @@ let skillsArray = [
         },
         {
           name: 'Favorable Wind',
-          img: 'photos/aerotheurge/Favorable_Wind.webp',
+          img: 'photos/aerotheurge/Favourable_Wind.webp',
           description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
           actionPoints: 1,
           sourcePoints: 0,
@@ -102,7 +102,7 @@ let skillsArray = [
       16: [
         {
           name: 'Super Conductor',
-          img: 'photos/aerotheurge/Super_Conductor.webp',
+          img: 'photos/aerotheurge/Superconductor.webp',
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 2,
           sourcePoints: 2,

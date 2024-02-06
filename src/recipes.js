@@ -361,7 +361,7 @@ let recipes = [
         craft: 'Apple Pie Dough',
         img: 'photos/items/make/Apple_Pie_Dough.webp',
         description: '',
-        ingredients: [ '	Apple', 'Dough' ]
+        ingredients: [ 'Apple', 'Dough' ]
       },
       {
         craft: 'Boiled Potato',
