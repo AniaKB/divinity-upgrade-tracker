@@ -1279,7 +1279,62 @@ let classes = [
 
 const skillsContainer = document.getElementById('skillsContainer');
 
-function createSkillList (type) {
+function createSkillButtons() {
+  skillsContainer.innerHTML = '',
+
+  skillsArray.forEach((skill) => {
+    const skillButton = document.createElement('button');
+    skillButton.textContent = skill.type;
+    skillButton.className = 'skill-button';
+
+    skillButton.addEventListener('click', () => toggleSkillType(skillButton, skill));
+
+    skillButton.style.backgroundImage = `url(${skill.img})`;
+    skillButton.style.backgroundSize = 'cover';
+    skillButton.style.backgroundPosition = 'center';
+
+    skillsContainer.appendChild(skillButton);
+
+    const skillList = document.createElement('div');
+    skillList.className = 'skill-list';
+
+    skillsContainer.appendChild(skillList);
+
+    Object.values(skill.level).forEach((level) =>{
+      level.forEach((sublevel) => {
+        const subSkillButton = document.createElement('button');
+        subSkillButton.textContent = sublevel.name;
+        subSkillButton.className = 'subskill-button';
+
+        subSkillButton.addEventListener('click', () => toggleSkillSelection(subSkillButton));
+
+        subSkillButton.style.backgroundImage = `url(${sublevel.img})`;
+        subSkillButton.style.backgroundSize = 'cover';
+        subSkillButton.style.backgroundPosition = 'center';
+
+        skillList.appendChild(subSkillButton);
+      });
+    });
+
+    skillList.style.display = 'none';
+  });
+}
+
+function toggleSkillType(skillButton, skill) {
+  skillButton.classList.toggle('active');
+
+  const skillList = skillButton.nextElementSibling;
+
+  skillList.style.display = skillList.style.display === 'none' ? 'block' : 'none';
+}
+
+function toggleSkillSelection(subSkillButton) {
+  subSkillButton.classList.toggle('active');
+}
+
+createSkillButtons();
+
+/*function createSkillList (type) {
   skillsContainer.innerHTML = '';
   const skillType = skillsArray.find((skill) => skill.type === type);
 
@@ -1306,3 +1361,4 @@ skillsArray.forEach((skill) => {
   button.addEventListener('click', () => createSkillList(skill.type));
   skillsContainer.appendChild(button);
 });
+*/
