@@ -1283,82 +1283,46 @@ function createSkillButtons() {
   skillsContainer.innerHTML = '',
 
   skillsArray.forEach((skill) => {
+    const skillGroup = document.createElement('div');
+    skillGroup.className = 'skill-group';
+
     const skillButton = document.createElement('button');
     skillButton.textContent = skill.type;
     skillButton.className = 'skill-button';
-
-    skillButton.addEventListener('click', () => toggleSkillType(skillButton, skill));
-
     skillButton.style.backgroundImage = `url(${skill.img})`;
     skillButton.style.backgroundSize = 'cover';
     skillButton.style.backgroundPosition = 'center';
+
+    skillButton.addEventListener('click', () => {
+      skillButton.classList.toggle('active');
+      skillList.classList.toggle('active');
+    });
 
     skillsContainer.appendChild(skillButton);
 
     const skillList = document.createElement('div');
     skillList.className = 'skill-list';
 
-    skillsContainer.appendChild(skillList);
-
     Object.values(skill.level).forEach((level) =>{
       level.forEach((sublevel) => {
         const subSkillButton = document.createElement('button');
         subSkillButton.textContent = sublevel.name;
         subSkillButton.className = 'subskill-button';
-
-        subSkillButton.addEventListener('click', () => toggleSkillSelection(subSkillButton));
-
         subSkillButton.style.backgroundImage = `url(${sublevel.img})`;
         subSkillButton.style.backgroundSize = 'cover';
         subSkillButton.style.backgroundPosition = 'center';
+
+        subSkillButton.addEventListener('click', () => {
+          subSkillButton.classList.toggle('active');
+        });
 
         skillList.appendChild(subSkillButton);
       });
     });
 
-    skillList.style.display = 'none';
+    skillGroup.appendChild(skillList);
+    skillsContainer.appendChild(skillGroup);
   });
-}
-
-function toggleSkillType(skillButton, skill) {
-  skillButton.classList.toggle('active');
-
-  const skillList = skillButton.nextElementSibling;
-
-  skillList.style.display = skillList.style.display === 'none' ? 'block' : 'none';
-}
-
-function toggleSkillSelection(subSkillButton) {
-  subSkillButton.classList.toggle('active');
 }
 
 createSkillButtons();
-
-/*function createSkillList (type) {
-  skillsContainer.innerHTML = '';
-  const skillType = skillsArray.find((skill) => skill.type === type);
-
-  Object.values(skillType.level).forEach((level) => {
-    level.forEach((skill) => {
-      const img = document.createElement('img');
-      img.src = skill.img;
-
-      const name = document.createElement('p');
-      name.textContent = skill.name;
-
-      const skillDiv = document.createElement('div');
-      skillDiv.appendChild(img);
-      skillDiv.appendChild(name);
-
-      skillsContainer.appendChild(skillDiv);
-    });
-  });
-}
-
-skillsArray.forEach((skill) => {
-  const button = document.createElement('button');
-  button.textContent = skill.type;
-  button.addEventListener('click', () => createSkillList(skill.type));
-  skillsContainer.appendChild(button);
-});
-*/

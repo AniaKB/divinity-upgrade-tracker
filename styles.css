@@ -119,3 +119,30 @@ img {
   width: 70px;
   height: 70px;
 }
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+.skill-group {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+}
+
+#skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-button.active {
+  box-shadow: none;
+  background-color:red;
+}
+
+.subskill-button.active {
+  box-shadow: none;
+  background-color:blue;
+}
