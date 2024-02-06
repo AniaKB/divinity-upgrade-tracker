@@ -139,10 +139,13 @@ img {
 
 .skill-button.active {
   box-shadow: none;
-  background-color:red;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: outset solid solid outset;
+  border-color: grey white white gray;
 }
 
 .subskill-button.active {
   box-shadow: none;
-  background-color:blue;
+  background-color:black;
+  border-color: grey white white gray;
 }

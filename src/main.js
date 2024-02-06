@@ -1279,8 +1279,8 @@ let classes = [
 
 const skillsContainer = document.getElementById('skillsContainer');
 
-function createSkillButtons() {
-  skillsContainer.innerHTML = '',
+function createSkillButtons () {
+  skillsContainer.innerHTML = '';
 
   skillsArray.forEach((skill) => {
     const skillGroup = document.createElement('div');
@@ -1319,7 +1319,7 @@ function createSkillButtons() {
         skillList.appendChild(subSkillButton);
       });
     });
-
+    skillGroup.appendChild(skillButton);
     skillGroup.appendChild(skillList);
     skillsContainer.appendChild(skillGroup);
   });
