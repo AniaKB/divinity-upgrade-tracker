@@ -109,3 +109,13 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.skill-button {
+  width: 70px;
+  height: 100px;
+}
+
+.subskill-button {
+  width: 70px;
+  height: 70px;
+}
