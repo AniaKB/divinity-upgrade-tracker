@@ -1280,6 +1280,7 @@ let classes = [
 const skillsContainer = document.getElementById('skillsContainer');
 
 function createSkillList (type) {
+  skillsContainer.innerHTML = '';
   const skillType = skillsArray.find((skill) => skill.type === type);
 
   Object.values(skillType.level).forEach((level) => {
