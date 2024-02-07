@@ -327,6 +327,16 @@ let skillsArray = [
           required: { Geomancer: 3 }
         }
       ],
+      13: [
+        {
+          name: 'Acid Spores',
+          img: 'photos/geomancer/Acid_Spores.webp',
+          description: 'Vines sprout from the ground to block the path in a target area, emitting poison clouds around them.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Geomancer: 3 }
+        },
+      ],
       16: [
         {
           name: 'Living Wall',
@@ -761,6 +771,42 @@ let skillsArray = [
           required: { Hydrosophist: 2 }
         },
       ],
+      13: [
+        {
+          name: 'Steam Lance',
+          img: 'photos/hydrosophist/Steam_Lance.webp',
+          description: 'Fully restore target character\'s Magic Armour. Removes: Burning, Necrofirere, Poisonedd, Stunned, Frozen, Terrified, Silenced, Taunted, Suffocatingting, Maddening Song, Mad, Petrifieded',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Hydrosophist: 3 }
+        },
+      ],
+      16: [
+        {
+          name: 'Deep Freeze',
+          img: 'photos/hydrosophist/Deep_Freeze.webp',
+          description: 'Fully restore target character\'s Magic Armour. Removes: Burning, Necrofirere, Poisonedd, Stunned, Frozen, Terrified, Silenced, Taunted, Suffocatingting, Maddening Song, Mad, Petrifieded',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Hydrosophist: 3 }
+        },
+        {
+          name: 'Hail Storm',
+          img: 'photos/hydrosophist/Hail_Storm.webp',
+          description: 'Cryogenic stasis makes the target incapacitated under status effect Permafrost. However while unable to move or act they become immune to all damage and heal over time.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Hydrosophist: 2 }
+        },
+        {
+          name: 'Ice Breaker',
+          img: 'photos/hydrosophist/Ice_Breaker.webp',
+          description: 'Set Chilled (Original Sin 2) Chilled on enemies around you and deal water damage. Freeze all susceptible surfaces.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Hydrosophist: 2 }
+        },
+      ]
     },
     other: {
       craftable: [
@@ -908,6 +954,32 @@ let skillsArray = [
           sourcePoints: 1,
           required: { Necromancer : 3 }
         }
+      ],
+      16: [
+        {
+          name: 'Last Rites',
+          img: 'photos/necromancer/Last_Rites.webp',
+          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Necromancer : 3 }
+        },
+        {
+          name: 'Silencing Stare',
+          img: 'photos/necromancer/Silencing_Stare.webp',
+          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Necromancer : 2 }
+        },
+        {
+          name: 'Totems of the Necromancer',
+          img: 'photos/necromancer/Totems_of_the_Necromancer.webp',
+          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Necromancer : 2 }
+        },
       ]
     },
     other: {
@@ -1545,22 +1617,66 @@ let skillsArray = [
           required: { Aerotheurge: 3 }
         },
         {
-          name: 'Nether Swap',
-          img: 'photos/summoning/Nether_Swap.webp',
+          name: 'Door to Eternity',
+          img: 'photos/summoning/Door_to_Eternity.webp',
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/summoning/Pressure_Spike.webp',
+          name: 'Shadow Infusion',
+          img: 'photos/summoning/Shadow_Infusion.webp',
+          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2 }
+        },
+        {
+          name: 'Soul Mate',
+          img: 'photos/summoning/Soul_Mate.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
         },
       ],
+      13: [
+        {
+          name: 'Planar Gateway',
+          img: 'photos/summoning/Planar_Gateway.webp',
+          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Aerotheurge: 3 }
+        },
+      ],
+      16: [
+        {
+          name: 'Cannibalize',
+          img: 'photos/summoning/Cannibalize.webp',
+          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Aerotheurge: 3 }
+        },
+        {
+          name: 'Ethereal Storm',
+          img: 'photos/summoning/Ethereal_Storm.webp',
+          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Aerotheurge: 3 }
+        },
+        {
+          name: 'Warp Infusion',
+          img: 'photos/summoning/Warp_Infusion.webp',
+          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Aerotheurge: 3 }
+        },
+      ]
     },
     other: {
       craftable: [
@@ -1607,32 +1723,32 @@ let skillsArray = [
     level: {
       1: [
         {
-          name: 'Armour of Frost',
-          img: 'photos/aerotheurge/Armour_of_Frost.webp',
+          name: 'Battering Ram',
+          img: 'photos/warfare/Battering_Ram.webp',
           description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
         },
         {
-          name: 'Electric Discharge',
-          img: '/photos/aerotheurge/Electric_Discharge.webp',
+          name: 'Battle Stomp',
+          img: '/photos/warfare/Battle_Stomp.webp',
           description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
         },
         {
-          name: 'Favorable Wind',
-          img: 'photos/aerotheurge/Favorable_Wind.webp',
+          name: 'Bouncing Shield',
+          img: 'photos/warfare/Bouncing_Shield.webp',
           description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
         },
         {
-          name: 'Shocking Touch',
-          img: 'photos/aerotheurge/Shocking_Touch.webp',
+          name: 'Crippling Blow',
+          img: 'photos/warfare/Crippling_Blow.webp',
           description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
           actionPoints: 1,
           sourcePoints: 0,
@@ -1641,24 +1757,24 @@ let skillsArray = [
       ],
       4: [
         {
-          name: 'Dazing Bolt',
-          img: 'photos/aerotheurge/Dazing_Bolt.webp',
+          name: 'Enrage',
+          img: 'photos/warfare/Enrage.webp',
           description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
           actionPoints: 3,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
         },
         {
-          name: 'Teleportation',
-          img: 'photos/aerotheurge/Teleportation.webp',
+          name: 'Provoke',
+          img: 'photos/warfare/Provoke.webp',
           description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
         },
         {
-          name: 'Uncanny Evasion',
-          img: 'photos/aerotheurge/Uncanny_Evasion.webp',
+          name: 'Whirlwind',
+          img: 'photos/warfare/Whirlwind.webp',
           description: 'Increases dodging by 90% and movement by 20%.',
           actionPoints: 1,
           sourcePoints: 0,
@@ -1667,25 +1783,69 @@ let skillsArray = [
       ],
       9: [
         {
-          name: 'Chain Lightning',
-          img: 'photos/aerotheurge/Chain_Lightning.webp',
+          name: 'Blitz Attack',
+          img: 'photos/warfare/Blitz_Attack.webp',
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 3,
           sourcePoints: 1,
           required: { Aerotheurge: 3 }
         },
         {
-          name: 'Nether Swap',
-          img: 'photos/aerotheurge/Nether_Swap.webp',
+          name: 'Deflective Barrier',
+          img: 'photos/warfare/Deflective_Barrier.webp',
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/aerotheurge/Pressure_Spike.webp',
+          name: 'Phoenix Dive',
+          img: 'photos/warfare/Phoenix_Dive.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2 }
+        },
+        {
+          name: 'Thick of the Fight',
+          img: 'photos/warfare/Thick_of_the_Fight.webp',
+          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2 }
+        },
+      ],
+      13: [
+        {
+          name: 'Onslaught',
+          img: 'photos/warfare/Onslaught.webp',
+          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
+          actionPoints: 3,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2 }
+        },
+      ],
+      16: [
+        {
+          name: 'Challenge',
+          img: 'photos/warfare/Challenge.webp',
+          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
+          actionPoints: 3,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2 }
+        },
+        {
+          name: 'Guardian Angel',
+          img: 'photos/warfare/Guardian_Angel.webp',
+          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2 }
+        },
+        {
+          name: 'Overpower',
+          img: 'photos/warfare/Overpower.webp',
+          description: 'Increases dodging by 90% and movement by 20%.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
@@ -1696,7 +1856,7 @@ let skillsArray = [
       craftable: [
         {
           name: 'Nether Swap',
-          img: 'photos/aerotheurge/Nether_Swap.webp',
+          img: 'photos/warfare/Nether_Swap.webp',
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
@@ -1704,7 +1864,7 @@ let skillsArray = [
         },
         {
           name: 'Pressure Spike',
-          img: 'photos/aerotheurge/Pressure_Spike.webp',
+          img: 'photos/warfare/Pressure_Spike.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
@@ -1714,7 +1874,7 @@ let skillsArray = [
       source: [
         {
           name: 'Nether Swap',
-          img: 'photos/aerotheurge/Nether_Swap.webp',
+          img: 'photos/warfare/Nether_Swap.webp',
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
@@ -1722,7 +1882,7 @@ let skillsArray = [
         },
         {
           name: 'Pressure Spike',
-          img: 'photos/aerotheurge/Pressure_Spike.webp',
+          img: 'photos/warfare/Pressure_Spike.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
