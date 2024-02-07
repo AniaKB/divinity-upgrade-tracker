@@ -335,7 +335,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Geomancer: 3 }
-        },
+        }
       ],
       16: [
         {
@@ -503,7 +503,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Huntsman: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -529,7 +529,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Huntsman: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -563,7 +563,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Huntsman: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -599,8 +599,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Huntsman: 3 }
-        },
-      ],
+        }
+      ]
     },
     other: {
       craftable: [
@@ -669,8 +669,8 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Huntsman: 2, Pyrokinetic: 2 }
-        },
-      ],
+        }
+      ]
     }
   },
   {
@@ -709,7 +709,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Hydrosophist: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -735,7 +735,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Hydrosophist: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -769,7 +769,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Hydrosophist: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -779,7 +779,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Hydrosophist: 3 }
-        },
+        }
       ],
       16: [
         {
@@ -805,7 +805,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Hydrosophist: 2 }
-        },
+        }
       ]
     },
     other: {
@@ -825,7 +825,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Hydrosophist: 2 }
-        },
+        }
       ],
       source: [
         {
@@ -843,8 +843,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Hydrosophist: 2 }
-        },
-      ],
+        }
+      ]
     }
   },
   {
@@ -858,7 +858,7 @@ let skillsArray = [
           description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 1 }
+          required: { Necromancer: 1 }
         },
         {
           name: 'Decaying Touch',
@@ -866,7 +866,7 @@ let skillsArray = [
           description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 1 }
+          required: { Necromancer: 1 }
         },
         {
           name: 'Mosquito Swarm',
@@ -874,7 +874,7 @@ let skillsArray = [
           description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 1 }
+          required: { Necromancer: 1 }
         },
         {
           name: 'Raise Bloated Corpse',
@@ -882,8 +882,8 @@ let skillsArray = [
           description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 1 }
-        },
+          required: { Necromancer: 1 }
+        }
       ],
       4: [
         {
@@ -892,7 +892,7 @@ let skillsArray = [
           description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
           actionPoints: 3,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Infect',
@@ -900,7 +900,7 @@ let skillsArray = [
           description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Shackles of Pain',
@@ -908,8 +908,8 @@ let skillsArray = [
           description: 'Increases dodging by 90% and movement by 20%.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
-        },
+          required: { Necromancer: 2 }
+        }
       ],
       9: [
         {
@@ -918,7 +918,7 @@ let skillsArray = [
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 3,
           sourcePoints: 1,
-          required: { Necromancer : 3 }
+          required: { Necromancer: 3 }
         },
         {
           name: 'Bone Cage',
@@ -926,7 +926,7 @@ let skillsArray = [
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Living on the Edge',
@@ -934,7 +934,7 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Raise Bone Widow',
@@ -942,8 +942,8 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
-        },
+          required: { Necromancer: 2 }
+        }
       ],
       13: [
         {
@@ -952,7 +952,7 @@ let skillsArray = [
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 3,
           sourcePoints: 1,
-          required: { Necromancer : 3 }
+          required: { Necromancer: 3 }
         }
       ],
       16: [
@@ -962,7 +962,7 @@ let skillsArray = [
           description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
           actionPoints: 3,
           sourcePoints: 1,
-          required: { Necromancer : 3 }
+          required: { Necromancer: 3 }
         },
         {
           name: 'Silencing Stare',
@@ -970,7 +970,7 @@ let skillsArray = [
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Totems of the Necromancer',
@@ -978,8 +978,8 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
-        },
+          required: { Necromancer: 2 }
+        }
       ]
     },
     other: {
@@ -990,7 +990,7 @@ let skillsArray = [
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Pressure Spike',
@@ -998,8 +998,8 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
-        },
+          required: { Necromancer: 2 }
+        }
       ],
       source: [
         {
@@ -1008,7 +1008,7 @@ let skillsArray = [
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
+          required: { Necromancer: 2 }
         },
         {
           name: 'Pressure Spike',
@@ -1016,9 +1016,9 @@ let skillsArray = [
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer : 2 }
-        },
-      ],
+          required: { Necromancer: 2 }
+        }
+      ]
     }
   },
   {
@@ -1057,7 +1057,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -1083,7 +1083,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -1117,7 +1117,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -1127,7 +1127,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Aerotheurge: 3 }
-        },
+        }
       ],
       16: [
         {
@@ -1153,7 +1153,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Aerotheurge: 3 }
-        },
+        }
       ]
     },
     other: {
@@ -1173,7 +1173,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       source: [
         {
@@ -1191,8 +1191,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
-      ],
+        }
+      ]
     }
   },
   {
@@ -1231,7 +1231,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -1257,7 +1257,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -1291,7 +1291,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -1301,7 +1301,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ],
       16: [
         {
@@ -1327,7 +1327,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ]
     },
     other: {
@@ -1347,7 +1347,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       source: [
         {
@@ -1365,8 +1365,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
-      ],
+        }
+      ]
     }
   },
   {
@@ -1405,7 +1405,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -1431,7 +1431,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -1465,7 +1465,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -1475,7 +1475,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Aerotheurge: 3 }
-        },
+        }
       ],
       16: [
         {
@@ -1501,7 +1501,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ]
     },
     other: {
@@ -1521,7 +1521,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       source: [
         {
@@ -1539,8 +1539,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
-      ],
+        }
+      ]
     }
   },
   {
@@ -1579,7 +1579,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -1605,7 +1605,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -1639,7 +1639,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -1649,7 +1649,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Aerotheurge: 3 }
-        },
+        }
       ],
       16: [
         {
@@ -1675,7 +1675,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Aerotheurge: 3 }
-        },
+        }
       ]
     },
     other: {
@@ -1695,7 +1695,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       source: [
         {
@@ -1713,8 +1713,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
-      ],
+        }
+      ]
     }
   },
   {
@@ -1753,7 +1753,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1 }
-        },
+        }
       ],
       4: [
         {
@@ -1779,7 +1779,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       9: [
         {
@@ -1813,7 +1813,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       13: [
         {
@@ -1823,7 +1823,7 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       16: [
         {
@@ -1849,8 +1849,8 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
-      ],
+        }
+      ]
     },
     other: {
       craftable: [
@@ -1869,7 +1869,7 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
+        }
       ],
       source: [
         {
@@ -1887,46 +1887,28 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 2 }
-        },
-      ],
+        }
+      ]
     }
-  },
-  
+  }
 ];
-
 
 /*
 let classes = [
-  {
-    'Cleric',
-    build: ['Restoration', 'Blood Sucker', 'Decaying Touch']
-    'Conjurer',
-    build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem']
-    'Enchanter',
-    build: ['Rain', 'Hail Strike', 'Electric Discharge']
-    'Witch',
-    build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm']
-    'Wizard',
-    build: ['Ignition', 'Searing Daggers', 'Fossil Strike']
-    'Metamorph',
-    build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash']
-    'Ranger',
-    build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind']
-    'Rogue',
-    build: ['Adrenaline', 'Backlash', 'Throwing Knife']
-    'Shadowblade',
-    build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw']
-    'Wayfarer',
-    build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike']
-    'Battlemage',
-    build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch']
-    'Fighter',
-    build: ['Battle Stomp', 'Bouncing Shield', 'Fortify']
-    'Inquisitor',
-    build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm']
-    'Knight',
-    build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow']
-  }
+    { type: 'Cleric', build: ['Restoration', 'Blood Sucker', 'Decaying Touch' ]},
+    { type: 'Conjurer', build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem' ]},
+    { type: 'Enchanter', build: ['Rain', 'Hail Strike', 'Electric Discharge' ]},
+    { type: 'Witch', build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm' ]},
+    { type: 'Wizard', build: ['Ignition', 'Searing Daggers', 'Fossil Strike' ]},
+    { type: 'Metamorph', build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash' ]},
+    { type: 'Ranger', build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind' ]},
+    { type: 'Rogue', build: ['Adrenaline', 'Backlash', 'Throwing Knife' ]},
+    { type: 'Shadowblade', build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw' ]},
+    { type: 'Wayfarer', build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike' ]},
+    { type: 'Battlemage', build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch' ]},
+    { type: 'Fighter', build: ['Battle Stomp', 'Bouncing Shield', 'Fortify' ]},
+    { type: 'Inquisitor', build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm' ]},
+    { type: 'Knight', build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow' ]}
 ]*/
 
 const skillsContainer = document.getElementById('skillsContainer');
@@ -1938,8 +1920,11 @@ function createSkillButtons () {
     const skillGroup = document.createElement('div');
     skillGroup.className = 'skill-group';
 
+    const skillButtonLabel = document.createElement('span');
+    skillButtonLabel.textContent = skill.type.toUpperCase();
+
     const skillButton = document.createElement('button');
-    skillButton.textContent = skill.type;
+    skillButton.textContent = skill.type.toUpperCase();
     skillButton.className = 'skill-button';
     skillButton.style.backgroundImage = `url(${skill.img})`;
     skillButton.style.backgroundSize = 'cover';

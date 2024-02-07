@@ -132,24 +132,30 @@ button {
 .skill-group {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 #skillsContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  padding: 8px;
+  width: auto;
+  justify-content: center;
 }
 
 .skill-button.active {
   box-shadow: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: black;
+  background-blend-mode: multiply;
   border-style: outset solid solid outset;
-  border-color: grey white white gray;
+  border-color: black white white black;
 }
 
 .subskill-button.active {
   box-shadow: none;
-  background-color:black;
-  border-color: grey white white gray;
+  background-color:rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  border-style: outset solid solid outset;
+  border-color: black white white black;
 }
