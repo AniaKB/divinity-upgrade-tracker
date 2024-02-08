@@ -124,9 +124,7 @@ let skillsArray = [
           sourcePoints: 2,
           required: { Aerotheurge: 3 }
         }
-      ]
-    },
-    other: {
+      ],
       craftable: [
         {
           name: 'Breathing Bubble',
@@ -161,16 +159,16 @@ let skillsArray = [
           required: { Aerotheurge: 1, Scoundrel: 1 }
         },
         {
-          name: 'Vaccuum Touch',
-          img: 'photos/aerotheurge/Vaccuum_Touch.webp',
+          name: 'Vacuum Touch',
+          img: 'photos/aerotheurge/Vacuum_Touch.webp',
           description: 'Deal air damage and sets Suffocating (Original Sin 2) Suffocating and Silence status effects.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Aerotheurge: 1, Necromancer: 1 }
         },
         {
-          name: 'Vaporize',
-          img: 'photos/aerotheurge/Vaporize.webp',
+          name: 'Vaporise',
+          img: 'photos/aerotheurge/Vaporise.webp',
           description: 'Turn liquid surfaces into clouds. Removes Petrified and Frozen from target. ',
           actionPoints: 1,
           sourcePoints: 0,
@@ -361,10 +359,8 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Geomancer: 3 }
-        }
-      ]
-    },
-    other: {
+        },
+      ],
       craftable: [
         {
           name: 'Corrosive Touch',
@@ -464,6 +460,24 @@ let skillsArray = [
           sourcePoints: 1,
           required: { Geomancer: 2, Scoundrel: 2 }
         }
+      ],
+      petPower: [
+        {
+          name: 'Oil infusion',
+          img: 'photos/geomancer/Oil_infusion.webp',
+          description: 'Changes Incarnate\'s element to acid, unlocking Poison Dart and Acid Spores.',
+          actionPoints: 1,
+          sourcePoints: 2,
+          required: { Geomancer: 3, Summoning: 3 }
+        },
+        {
+          name: 'Cursed Oil Infusion',
+          img: 'photos/geomancer/Cursed_Oil_Infusion.webp',
+          description: 'Corrosive spray deals physical armour damage and sets Acid and Atrophy on targets in a cone.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Geomancer: 2, Necromancer: 2 }
+        },
       ]
     }
   },
@@ -587,7 +601,7 @@ let skillsArray = [
         {
           name: 'Assasinate',
           img: 'photos/huntsman/Assasinate.webp',
-          description: 'Shoot at your target with great aim. Damage is increased by 50 % if caster is sneaking.',
+          description: 'Shoot at your target with great aim. Damage is increased by 50% if caster is sneaking.',
           actionPoints: 3,
           sourcePoints: 0,
           required: { Huntsman: 3 }
@@ -595,15 +609,13 @@ let skillsArray = [
         {
           name: 'Glitter Dust',
           img: 'photos/huntsman/Glitter_Dust.webp',
-          description: 'Mark your target to reduce their dodging ability by 100 %.',
+          description: 'Mark your target to reduce their dodging ability by 100%.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Huntsman: 3 }
-        }
-      ]
-    },
-    other: {
-      craftable: [
+        },
+      ],
+      base: [
         {
           name: 'Erratic Wisp',
           img: 'photos/huntsman/Erratic_Wisp.webp',
@@ -775,9 +787,9 @@ let skillsArray = [
         {
           name: 'Steam Lance',
           img: 'photos/hydrosophist/Steam_Lance.webp',
-          description: 'Fully restore target character\'s Magic Armour. Removes: Burning, Necrofirere, Poisonedd, Stunned, Frozen, Terrified, Silenced, Taunted, Suffocatingting, Maddening Song, Mad, Petrifieded',
-          actionPoints: 3,
-          sourcePoints: 1,
+          description: 'Releases a stream of Blessed Steam which heals characters in its path.',
+          actionPoints: 2,
+          sourcePoints: 2,
           required: { Hydrosophist: 3 }
         }
       ],
@@ -785,85 +797,147 @@ let skillsArray = [
         {
           name: 'Deep Freeze',
           img: 'photos/hydrosophist/Deep_Freeze.webp',
-          description: 'Fully restore target character\'s Magic Armour. Removes: Burning, Necrofirere, Poisonedd, Stunned, Frozen, Terrified, Silenced, Taunted, Suffocatingting, Maddening Song, Mad, Petrifieded',
-          actionPoints: 3,
-          sourcePoints: 1,
+          description: 'Characters in the cone that are Frozen (Original Sin 2) Frozen and below 10% Vitality shatter and instantly die. Otherwise they receive water damage and become Frozen.',
+          actionPoints: 4,
+          sourcePoints: 0,
           required: { Hydrosophist: 3 }
         },
         {
           name: 'Hail Storm',
           img: 'photos/hydrosophist/Hail_Storm.webp',
-          description: 'Cryogenic stasis makes the target incapacitated under status effect Permafrost. However while unable to move or act they become immune to all damage and heal over time.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Hydrosophist: 2 }
+          description: '20 Ice shards rain from the sky, each dealing water damage to characters within the impact zone. Sets Chilled.',
+          actionPoints: 4,
+          sourcePoints: 3,
+          required: { Hydrosophist: 5 }
         },
         {
           name: 'Ice Breaker',
           img: 'photos/hydrosophist/Ice_Breaker.webp',
-          description: 'Set Chilled (Original Sin 2) Chilled on enemies around you and deal water damage. Freeze all susceptible surfaces.',
+          description: 'Ice breaker sets off a chain reaction that causes ice areas to explode into water puddles, dealing water damage and setting Chilled.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Hydrosophist: 2 }
+          required: { Hydrosophist: 3 }
         }
-      ]
-    },
-    other: {
-      craftable: [
+      ],
+      base: [
         {
-          name: 'Nether Swap',
-          img: 'photos/hydrosophist/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          name: 'Cleanse Wounds',
+          img: 'photos/hydrosophist/Cleanse_Wounds.webp',
+          description: 'Heal target and create a water puddle beneath them. Removes: Burning, Diseased, Decaying, Poisoned, Bleeding',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Hydrosophist: 2 }
+          required: { Hydrosophist: 1, Warfare: 1 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/hydrosophist/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Cryotherapy',
+          img: 'photos/hydrosophist/Cryotherapy.webp',
+          description: 'Consume Frozen surfaces around yourself and convert it to Magic Armour.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Hydrosophist: 2 }
+          required: { Hydrosophist: 2, Huntsman: 1 }
+        },
+        {
+          name: 'Healing Tears',
+          img: 'photos/hydrosophist/Healing_Tears.webp',
+          description: 'Summon three tears around yourself in order to heal allies near you.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Hydrosophist: 1, Polymorph: 1 }
+        },
+        {
+          name: 'Raining Blood',
+          img: 'photos/hydrosophist/Blood_Rain.webp',
+          description: 'Conjure a rain of blood in target area which makes enemies bleed and creating large blood surface.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Hydrosophist: 1, Necromancer: 1 }
+        },
+        {
+          name: 'Vampiric Hunger',
+          img: 'photos/hydrosophist/Vampiric_Hunger.webp',
+          description: 'Allows caster to recover 50 % Vitality from damage dealt to enemies.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Hydrosophist: 1, scoundrel: 2 }
+        },
+        {
+          name: 'Water Infusion',
+          img: 'photos/hydrosophist/Water_Infusion.webp',
+          description: 'Infuse your Incarnate with water element.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Hydrosophist: 1, summoning: 1 }
         }
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/hydrosophist/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Hydrosophist: 2 }
+          name: 'Blood Storm',
+          img: 'photos/hydrosophist/Blood_Storm.webp',
+          description: 'Bolts of coagulated blood fall on enemy characters in the area dealing physical damage and setting disease and decaying. Turns water in the area into blood. ',
+          actionPoints: 4,
+          sourcePoints: 3,
+          required: { Hydrosophist: 3, Necromancer: 3 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/hydrosophist/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Ice Infusion',
+          img: 'photos/hydrosophist/Ice_Infusion.webp',
+          description: 'Infuse your Incarnate with blessed ice element.',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Hydrosophist: 2 }
+          sourcePoints: 2,
+          required: { Hydrosophist: 2, summoning: 2 }
+        },
+        {
+          name: 'Icy Skin',
+          img: 'photos/hydrosophist/Icy_Skin.webp',
+          description: 'Infuse your skin with Water. Gaining Resistance towards water element but weakness to fire element.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Hydrosophist: 2, Polymorph: 2 }
+        },
+        {
+          name: 'Mass Cleanse Wounds',
+          img: 'photos/hydrosophist/Mass_Cleanse_Wounds.webp',
+          description: 'Heal yourself and allies around creating a water puddle beneath them. Removes: Burning, Diseased, Decaying, Poisoned, Bleeding',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Hydrosophist: 2, Warfare: 2 }
+        },
+        {
+          name: 'Mass Cryotherapy',
+          img: 'photos/hydrosophist/Mass_Cryotherapy.webp',
+          description: 'Each ally consumes frozen surfaces around them, converting the frozen surfaces to Magic Armour.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Hydrosophist: 2, Huntsman: 2 }
+        },
+        {
+          name: 'Vampiric Hunger Aura',
+          img: 'photos/hydrosophist/Vampiric_Hunger_Aura.webp',
+          description: 'Allows the caster and allies around them to heal 50 % Vitality from damage dealt to enemies.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Hydrosophist: 2, Scoundrel: 2 }
         }
       ]
     }
   },
   {
-    type: 'Necromancer', /* Descriptions need updated from here as well as 'other:' */
+    type: 'Necromancer',
     img: 'photos/necromancer/Necromancer.png',
     level: {
       1: [
         {
           name: 'Blood Sucker',
           img: 'photos/necromancer/Blood_Sucker.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
+          description: 'Absorb blood surface beneath you to restore your Vitality.',
+          actionPoints: 1,
           sourcePoints: 0,
           required: { Necromancer: 1 }
         },
         {
           name: 'Decaying Touch',
           img: '/photos/necromancer/Decaying_Touch.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
+          description: 'Touch you target to deal them physical damage and set Decaying status on them.',
           actionPoints: 2,
           sourcePoints: 0,
           required: { Necromancer: 1 }
@@ -871,7 +945,7 @@ let skillsArray = [
         {
           name: 'Mosquito Swarm',
           img: 'photos/necromancer/Mosquito_Swarm.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
+          description: 'Summon a mosquito swarm on your target to deal them physical damage and make them bleed. Restores the casters Vitality.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Necromancer: 1 }
@@ -879,7 +953,7 @@ let skillsArray = [
         {
           name: 'Raise Bloated Corpse',
           img: 'photos/necromancer/Raise_Bloated_Corpse.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
+          description: 'Target a nearby corpse and raise a bloated cadaver to fight for you.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Necromancer: 1 }
@@ -889,23 +963,23 @@ let skillsArray = [
         {
           name: 'Death Wish',
           img: 'photos/necromancer/Death_Wish.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: 'Target character receives a damage bonus equal to the percentage of their lost Vitality.',
+          actionPoints: 2,
           sourcePoints: 0,
           required: { Necromancer: 2 }
         },
         {
           name: 'Infect',
           img: 'photos/necromancer/Infect.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
-          actionPoints: 2,
+          description: 'Deal physical damage. Infect a target with a disease that will spread to other nearby characters.',
+          actionPoints: 3,
           sourcePoints: 0,
           required: { Necromancer: 2 }
         },
         {
           name: 'Shackles of Pain',
           img: 'photos/necromancer/Shackles_of_Pain.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
+          description: 'Mark a target so that it will receive all the damage you receive.',
           actionPoints: 1,
           sourcePoints: 0,
           required: { Necromancer: 2 }
@@ -915,32 +989,32 @@ let skillsArray = [
         {
           name: 'Black Shroud',
           img: 'photos/necromancer/Black_Shroud.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
+          description: 'Creates a cloud of cursed smoke in an area, setting Suffocating and Blind on all characters within it. ',
+          actionPoints: 1,
           sourcePoints: 1,
           required: { Necromancer: 3 }
         },
         {
           name: 'Bone Cage',
           img: 'photos/necromancer/Bone_Cage.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
+          description: 'Bone cage increases physical armour for each corpse in the area around you.',
+          actionPoints: 1,
           sourcePoints: 0,
           required: { Necromancer: 2 }
         },
         {
           name: 'Living on the Edge',
           img: 'photos/necromancer/Living_on_the_Edge.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'For 2 turns, your target character\'s Vitality cannot be reduced below 1 point, keeping them alive against all odds.',
+          actionPoints: 3,
           sourcePoints: 0,
           required: { Necromancer: 2 }
         },
         {
           name: 'Raise Bone Widow',
           img: 'photos/necromancer/Raise_Bone_Widow.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'Raise a walking pile of bones that will fight for you.',
+          actionPoints: 2,
           sourcePoints: 0,
           required: { Necromancer: 2 }
         }
@@ -949,9 +1023,9 @@ let skillsArray = [
         {
           name: 'Grasp of the Starved',
           img: 'photos/necromancer/Grasp_of_the_Starved.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
+          description: 'Undead hands rise from the underground, attacking enemy characters that stand in blood surfaces and clouds.',
+          actionPoints: 2,
+          sourcePoints: 2,
           required: { Necromancer: 3 }
         }
       ],
@@ -959,65 +1033,113 @@ let skillsArray = [
         {
           name: 'Last Rites',
           img: 'photos/necromancer/Last_Rites.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          description: 'Sacrifice yourself to bring an ally back to life.',
           actionPoints: 3,
-          sourcePoints: 1,
+          sourcePoints: 0,
           required: { Necromancer: 3 }
         },
         {
           name: 'Silencing Stare',
           img: 'photos/necromancer/Silencing_Stare.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          description: 'Silence enemies in a cone in front of you.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Necromancer: 2 }
+          required: { Necromancer: 3 }
         },
         {
           name: 'Totems of the Necromancer',
           img: 'photos/necromancer/Totems_of_the_Necromancer.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
-          sourcePoints: 0,
-          required: { Necromancer: 2 }
+          description: 'Spawn bone totems near every corpse in the area, which will attack your enemies.',
+          actionPoints: 2,
+          sourcePoints: 3,
+          required: { Necromancer: 5 }
         }
-      ]
-    },
-    other: {
+      ],
       craftable: [
         {
-          name: 'Nether Swap',
-          img: 'photos/necromancer/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Necromancer: 2 }
-        },
-        {
-          name: 'Pressure Spike',
-          img: 'photos/necromancer/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Corpse Explosion',
+          img: 'photos/necromancer/Corpse_Explosion.webp',
+          description: 'Explode target corpse dealing physical damage in an area.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer: 2 }
+          required: { Necromancer: 1, Pyrokinetic: 1 }
+        },
+        {
+          name: 'Corrosive Touch',
+          img: 'photos/necromancer/Corrosive_Touch.webp',
+          description: 'Destroy physical armour of your target and coat them in Acid.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Necromancer: 1, Geomancer: 1 }
+        },
+        {
+          name: 'Raining Blood',
+          img: 'photos/necromancer/Blood_Rain.webp',
+          description: 'Create a rain of blood which will make enemies bleed and create a large blood surface in target area.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Necromancer: 1, Hydrosophist: 1 }
+        },
+        {
+          name: 'Vacuum Touch',
+          img: 'photos/necromancer/Vacuum_Touch.webp',
+          description: 'Deal air damage to your target as you suffocate and silence them.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Necromancer: 1, Aerotheurge: 1 }
         }
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/necromancer/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Necromancer: 2 }
+          name: 'Blood Storm',
+          img: 'photos/necromancer/Blood_Storm.webp',
+          description: 'Bolts of coagulated blood fall on enemy characters in the area dealing physical damage and setting disease and decaying.',
+          actionPoints: 4,
+          sourcePoints: 3,
+          required: { Aerotheurge: 2, Hydrosophist: 2 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/necromancer/Pressure_Spike.webp',
+          name: 'Corrosive Spray',
+          img: 'photos/necromancer/Corrosive_Spray.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Necromancer: 2 }
+          required: { Aerotheurge: 2, Geomancer: 2 }
+        },
+        {
+          name: 'Mass Corpse Explosion',
+          img: 'photos/necromancer/Mass_Corpse_Explosion.webp',
+          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2, Pyrokinetic: 2 }
+        },
+        {
+          name: 'Vacuum Aura',
+          img: 'photos/necromancer/Vacuum_Aura.webp',
+          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Aerotheurge: 2, Aerotheurge: 2 }
         }
+      ],
+      petPower: [
+        {
+          name: 'Blood Infusion',
+          img: 'photos/necromancer/Blood_Infusion.webp',
+          description: 'Maximum Physical Armour + 15%, Maximum Magic Armour + 15%, immunity to bleeding',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Necromancer: 5, Warfare: 1 }
+        },
+        {
+          name: 'Cursed Blood Infusion',
+          img: 'photos/necromancer/Cursed_Blood_Infusion.webp',
+          description: 'Maximum Physical Armour + 25%, Maximum Magic Armour + 25%, immunity to bleeding and decaying',
+          actionPoints: 0,
+          sourcePoints: 2,
+          required: { Necromancer: 10, Warfare: 1 }
+        },
       ]
     }
   },
@@ -1029,168 +1151,198 @@ let skillsArray = [
         {
           name: 'Bull Horns',
           img: 'photos/polymorph/Bull_Horns.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
+          description: 'Enables Bull Rush. Incompatible with: Medusa Head.',
+          actionPoints: 0,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Polymorph: 1 }
         },
         {
           name: 'Chicken Claw',
           img: '/photos/polymorph/Chicken_Claw.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
+          description: 'Morphs target into a chicken if they do not have Physical Armour.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Polymorph: 1 }
         },
         {
           name: 'Tentacle Lash',
           img: 'photos/polymorph/Tentacle_Lash.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
-          actionPoints: 1,
+          description: 'Strikes target for physical damage and gives them Atrophy status.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Polymorph: 1 }
         },
         {
           name: 'Chameleon Cloak',
           img: 'photos/polymorph/Chameleon_Cloak.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
+          description: 'Renders the user invisible.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Polymorph: 1 }
         }
       ],
       4: [
         {
           name: 'Heart of Steel',
           img: 'photos/polymorph/Heart_of_Steel.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: 'Restores Physical Armour for the caster.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Polymorph: 2 }
         },
         {
           name: 'Medusa Head',
           img: 'photos/polymorph/Medusa_Head.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          description: 'Grants Petrifying Aura and Petrifying Visage skill. Incompatible with: Bull Horns',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Polymorph: 2 }
         },
         {
           name: 'Spread Your Wings',
           img: 'photos/polymorph/Spread_Your_Wings.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
+          description: 'Enables Flight and allows the user to ignore surfaces. Incompatible with: Spider Legs',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Polymorph: 2 }
         }
       ],
       9: [
         {
           name: 'Spider Legs',
           img: 'photos/polymorph/Spider_Legs.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Allows movement on web surface and grants the ability to create web surfaces. Web Surfaces grant Haste. Incompatible with: Spread Your Wings',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Polymorph: 2 }
         },
         {
           name: 'Terrain Transmutation',
           img: 'photos/polymorph/Terrain_Transmutation.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
+          description: 'Swaps surfaces and clouds',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Polymorph: 2 }
         },
         {
           name: 'Summon Oily Blob',
           img: 'photos/polymorph/Summon_Oily_Blob.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'Summons an oily blob. Blob uses Fossil Strike and Turn to Oil. Lasts 3 turns',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Polymorph: 2 }
         },
         {
           name: 'Skin Graft',
           img: 'photos/polymorph/Skin_Graft.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          description: 'Resets all cooldowns. Removes: Burning, Necrofire, Poisoned, Bleeding',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          sourcePoints: 1,
+          required: { Polymorph: 3 }
         }
       ],
       13: [
         {
           name: 'Forced Exchange',
           img: 'photos/polymorph/Forced_Exchange.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Exchange Vitality percentages with target character',
+          actionPoints: 1,
+          sourcePoints: 2,
+          required: { Polymorph: 3 }
         }
       ],
       16: [
         {
           name: 'Equalise',
           img: 'photos/polymorph/Equalise.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Vitality and Armour percentages of characters in target area are summed up and redistributed equally.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Polymorph: 3 }
         },
         {
           name: 'Flay Skin',
           img: 'photos/polymorph/Flay_Skin.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Swaps surfaces and clouds.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Polymorph: 3 }
         },
         {
           name: 'Apotheosis',
           img: 'photos/polymorph/Apotheosis.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Reduces the cost of all skills by 3 Source points (lowering source cost of all Source skills to zero). All primary attributes increased by 5.',
+          actionPoints: 2,
+          sourcePoints: 3,
+          required: { Polymorph: 5 }
         }
-      ]
-    },
-    other: {
+      ],
       craftable: [
         {
-          name: 'Nether Swap',
-          img: 'photos/polymorph/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
-        },
-        {
-          name: 'Pressure Spike',
-          img: 'photos/polymorph/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Bleed Fire',
+          img: 'photos/polymorph/Bleed_Fire.webp',
+          description: 'Make your enemies bleed fire whenever they are hit. Creates fire surface beneath them.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Polymorph: 1, Polykinetic: 1 }
+        },
+        {
+          name: 'Healing Tears',
+          img: 'photos/polymorph/Healing_Tears.webp',
+          description: 'Summon three tears around yourself in order to heal allies near you.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Polymorph: 1, Hydrosophist: 1 }
+        },
+        {
+          name: 'Turn to Oil',
+          img: 'photos/polymorph/Turn_to_Oil.webp',
+          description: 'Turn blood and water into oil. Removes Stunned and Shocked. ',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Polymorph: 1, Geomancer: 1 }
+        },
+        {
+          name: 'Vaporise',
+          img: 'photos/polymorph/Vaporise.webp',
+          description: 'Turn ground surfaces into clouds. Removes Frozen and Petrified.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Polymorph: 1, Aerotheurge: 1 }
         }
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/polymorph/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          name: 'Flaming Skin',
+          img: 'photos/polymorph/Flaming_Skin.webp',
+          description: 'Fire Resistance + 100%, Water Resistance - 30%, Bleeding Fire',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Polymorph: 2, Pyrokinetic: 2 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/polymorph/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Icy Skin',
+          img: 'photos/polymorph/Icy_Skin.webp',
+          description: 'Water Resistance + 100%, Fire Resistance - 30%, Bleeding ice',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          sourcePoints: 1,
+          required: { Polymorph: 2, Hydrosophist: 2 }
+        },
+        {
+          name: 'Jellyfish Skin',
+          img: 'photos/polymorph/Jellyfish_Skin.webp',
+          description: 'Air Resistance + 100%, Earth Resistance - 30%, Poison Resistance - 30%, Bleeding electrified water',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Polymorph: 2, Aerotheurge: 2 }
+        },
+        {
+          name: 'Poisonous Skin',
+          img: 'photos/polymorph/Poisonous_Skin.webp',
+          description: 'Earth Resistance + 100%, Poison Resistance + 100%, Air Resistance - 30%, Bleeding Poison',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Polymorph: 2, Geomancer: 2 }
         }
       ]
     }
@@ -1203,168 +1355,230 @@ let skillsArray = [
         {
           name: 'Haste',
           img: 'photos/pyrokinetic/Haste.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
+          description: 'Increases movement per AP spent by 2m. + 1 temporary AP. Removes: Slowed & Crippled',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Pyrokinetic: 1 }
         },
         {
           name: 'Ignition',
           img: '/photos/pyrokinetic/Ignition.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
-          actionPoints: 2,
+          description: 'Deals fire damage to all enemies around you in line of sight.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Pyrokinetic: 1 }
         },
         {
           name: 'Peace of Mind',
           img: 'photos/pyrokinetic/Peace_of_Mind.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
+          description: 'Increases Strength, Finesse, Intelligence and Wits by 1 point each. Removes:, Blinded, Terrified, Charmed, Taunted, Sleeping, Enraged, & Mad',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Pyrokinetic: 1 }
         },
         {
           name: 'Searing Daggers',
           img: 'photos/pyrokinetic/Searing_Daggers.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
-          actionPoints: 1,
+          description: 'Throw 3 small blades of fire that deal fire damage to the target.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Pyrokinetic: 1 }
         }
       ],
       4: [
         {
           name: 'Fireball',
           img: 'photos/pyrokinetic/Fireball.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: 'Hurl a fiery sphere that will explode, dealing fire damage.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Spontaneous Combustion',
           img: 'photos/pyrokinetic/Spontaneous_Combustion.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          description: 'Deals fire damage around the target. If the target already has Burning or Necrofire on them, the damage from Spontaneous Combustion will be amplified for the remaining turns it affects them. ',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Supernova',
           img: 'photos/pyrokinetic/Supernova.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
-          actionPoints: 1,
+          description: 'Explode, creating fire surfaces and dealing fire damage in a area around you (except areas blocked by obstacles).',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Pyrokinetic: 3 }
         }
       ],
       9: [
         {
           name: 'Fire Whip',
           img: 'photos/pyrokinetic/Fire_Whip.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          description: 'Long-range attack that deals fire damage to a single target, leaving them Blind and Burning. ',
           actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          sourcePoints: 0,
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Flaming Tongues',
           img: 'photos/pyrokinetic/Flaming_Tongues.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
+          description: 'Flaming tongues protect the caster. Whenever an enemy gets close enough he will suffer fire damage.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Laser Ray',
           img: 'photos/pyrokinetic/Laser_Ray.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'Line of intense heat that deals fire damage to characters and leaves fire clouds behind.',
+          actionPoints: 3,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Summon Fire Slug',
           img: 'photos/pyrokinetic/Summon_Fire_Slug.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          description: 'Summon a fire slug, which can create fire surfaces and launch linear fire attacks with Laser Ray and Slug Rush.',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          sourcePoints: 1,
+          required: { Pyrokinetic: 3 }
         }
       ],
       13: [
         {
           name: 'Epidemic of Fire',
           img: 'photos/pyrokinetic/Epidemic_of_Fire.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          description: 'Send a cursed flame that will split on impact up to 5 times dealing fire damage and leaving a cursed fire surface behind.',
+          actionPoints: 3,
+          sourcePoints: 2,
+          required: { Pyrokinetic: 3 }
         }
       ],
       16: [
         {
           name: 'Firebrand',
           img: 'photos/pyrokinetic/Firebrand.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
+          description: 'An aura that adds fire damage to weapon skills and attacks for all allies near you for 3 turns.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Pyrokinetic: 3 }
         },
         {
           name: 'Flaming Crescendo',
           img: 'photos/pyrokinetic/Flaming_Crescendo.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
+          description: 'Curse the target to explode in next turn or on death.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Pyrokinetic: 3 }
         },
         {
           name: 'Meteor Shower',
           img: 'photos/pyrokinetic/Meteor_Shower.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          description: '25 Fireballs come crashing from the sky. Each does fire damage within a 3m range from impact.',
+          actionPoints: 4,
+          sourcePoints: 3,
+          required: { Pyrokinetic: 5 }
         }
-      ]
-    },
-    other: {
-      craftable: [
+      ],
+      base: [
         {
-          name: 'Nether Swap',
-          img: 'photos/pyrokinetic/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
-        },
-        {
-          name: 'Pressure Spike',
-          img: 'photos/pyrokinetic/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Bleed Fire',
+          img: 'photos/pyrokinetic/Bleed_Fire.webp',
+          description: 'Make your enemy bleed fire when hit. Creates Fire Surface.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Pyrokinetic: 1, Polymorph: 1 }
+        },
+        {
+          name: 'Corpse Explosion',
+          img: 'photos/pyrokinetic/Corpse_Explosion.webp',
+          description: 'Explode target corpse, dealing physical damage.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Pyrokinetic: 1, Necromancer: 1 }
+        },
+        {
+          name: 'Fire Infusion',
+          img: 'photos/pyrokinetic/Fire_Infusion.webp',
+          description: 'Infuse your Incarnate with fire.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Pyrokinetic: 1, Summoning: 1 }
+        },
+        {
+          name: 'Sabotage',
+          img: 'photos/pyrokinetic/Sabotage.webp',
+          description: 'Make a random grenade or arrow explode in your targets inventory.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Pyrokinetic: 1, Scoundrel: 1 }
+        },
+        {
+          name: 'Sparking Swings',
+          img: 'photos/pyrokinetic/Sparking_Swings.webp',
+          description: 'Make your basic melee attacks shoot fiery projectiles on nearest enemy.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Pyrokinetic: 1, Warfare: 1 }
+        },
+        {
+          name: 'Throw Explosive Trap',
+          img: 'photos/pyrokinetic/Throw_Explosive_Trap.webp',
+          description: 'Throw an explosive trap at target location. Trap takes 1 turn to activate. When active, the trap will explode when a character approaches it.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Pyrokinetic: 1, Huntsman: 1 }
         }
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/pyrokinetic/Nether_Swap.webp',
+          name: 'Deploy Mass Traps',
+          img: 'photos/pyrokinetic/Deploy_Mass_Traps.webp',
           description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Pyrokinetic: 2, Huntsman: 1 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/pyrokinetic/Pressure_Spike.webp',
+          name: 'Flaming Skin',
+          img: 'photos/pyrokinetic/Flaming_Skin.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          sourcePoints: 1,
+          required: { Pyrokinetic: 2, Polymorph: 1 }
+        },
+        {
+          name: 'Mass Corpse Explosion',
+          img: 'photos/pyrokinetic/Mass_Corpse_Explosion.webp',
+          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Pyrokinetic: 2, Necromancer: 1 }
+        },
+        {
+          name: 'Master of Sparks',
+          img: 'photos/pyrokinetic/Master_of_Sparks.webp',
+          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Pyrokinetic: 2, Warfare: 1 }
+        },
+        {
+          name: 'Mass Sabotage',
+          img: 'photos/pyrokinetic/Mass_Sabotage.webp',
+          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Pyrokinetic: 2, Scoundrel: 1 }
+        },
+        {
+          name: 'Necrofire Infusion',
+          img: 'photos/pyrokinetic/Necrofire_Infusion.webp',
+          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 1,
+          sourcePoints: 2,
+          required: { Pyrokinetic: 2, Summoning: 1 }
         }
       ]
     }
