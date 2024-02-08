@@ -1544,3 +1544,504 @@ let craftingStations = [
   'Well',
   'Wine Barrel'
 ];
+
+let skillBooks = [
+  {
+    craft: 'Blinding Radiance Blank Skill Book',
+    img: '',
+    description: '',
+    ingredients:	[ 'Aerotheurge Blank Skill Book', 'Blinding Radiance Scroll' ]
+  },
+  {
+  craft: 'Chain Lightning Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients: [ '	Aerotheurge Blank Skill Book', 'Chain Lightning Scroll' ]
+  },
+  {
+  craft: 'Electric Fence Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Aerotheurge Blank Skill Book', 'Electric Fence Scroll' ]
+  },
+  {
+  craft: 'Favourable Wind Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Aerotheurge Blank Skill Book', 'Favourable Wind Scroll' ]
+  },
+  {
+  craft: 'Lightning Bolt Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Aerotheurge Blank Skill Book', 'Lightning Bolt Scroll' ]
+  },
+  {
+  craft: 'Teleportation Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Aerotheurge Blank Skill Book', 'Teleportation Scroll' ]
+  },
+  {
+  craft: 'Shocking Touch Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Aerotheurge Blank Skill Book', 'Shocking Touch Scroll' ]
+  },
+  {
+  craft: 'Tornado Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Aerotheurge Blank Skill Book', 'Tornado Scroll' ]
+  },
+  {
+  craft: 'Acid Spores Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', 'Acid Spores Scroll' ]
+  },
+  {
+  craft: 'Contamination Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', '	Contamination Scroll' ]
+  },
+  {
+  craft: 'Corrosive Spray Skillbook',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', 'Any Source Necromancy Skillbook' ]
+  },
+  {
+  craft: 'Fortify Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', 'Fortify Scroll' ]
+  },
+  {
+  craft: 'Poison Dart Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', 'Poison Dart Scroll' ]
+  },
+  {
+  craft: 'Fossil Strike Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', 'Fossil Strike Scroll' ]
+  },
+  {
+  craft: 'Impalement Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Geomancer Blank Skill Book', 'Impalement Scroll' ]
+  },
+  {
+  craft: 'Burn My Eyes Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Burn My Eyes Scroll' ]
+  },
+  {
+  craft: 'Fireball Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Fireball Scroll' ]
+  },
+  {
+  craft: 'Fireblood Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Any Polymorph Skillbook' ]
+  },
+  {
+  craft: 'Fireblood Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Fireblood Scroll' ]
+  },
+  {
+  craft: 'Searing Daggers Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Searing Daggers Scroll' ],
+  },
+  {
+  craft: 'Haste Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Haste Scroll' ],
+  },
+  {
+  craft: 'Ignition Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Ignition Scroll' ],
+  },
+  {
+  craft: 'Infectious Flame Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Infectious Flame Scroll' ],
+  },
+  {
+  craft: 'Spontaneous Combustion Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Spontaneous Combustion Scroll' ],
+  },
+  {
+  craft: 'Blood Sucker Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Necromancer Blank Skill Book', 'Blood Sucker Scroll' ],
+  },
+  {
+  craft: 'Decaying Touch Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Necromancer Blank Skill Book', 'Decaying Touch Scroll' ],
+  },
+  {
+  craft: 'Mosquito Swarm Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Necromancer Blank Skill Book', 'Mosquito Swarm Scroll' ],
+  },
+  {
+  craft: 'Rain of Blood Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Necromancer Blank Skill Book', 'Rain of Blood Scroll' ],
+  },
+  {
+  craft: 'Shackles of Pain Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Necromancer Blank Skill Book', 'Shackles of Pain Scroll' ],
+  },
+  {
+  craft: 'Infect Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Necromancer Blank Skill Book', 'Infect Scroll' ],
+  },
+  {
+  craft: 'Tentacle Lash Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Polymorph Blank Skill Book', 'Tentacle Lash Scroll' ],
+  },
+  {
+  craft: 'Chicken Claw Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Polymorph Blank Skill Book', 'Chicken Claw Scroll' ],
+  },
+  {
+  craft: 'Bull Horns Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Polymorph Blank Skill Book', 'Bull Horns Scroll' ],
+  },
+  {
+  craft: 'Chameleon Cloak Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Polymorph Blank Skill Book', 'Chameleon Cloak Scroll' ],
+  },
+  {
+  craft: 'Heart of Steel Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Polymorph Blank Skill Book', 'Heart of Steel Scroll' ],
+  },
+  {
+  craft: 'Spread Your Wings Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Polymorph Blank Skill Book', 'Spread Your Wings Scroll' ],
+  },
+  {
+  craft: 'Conjure Incarnate Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Conjure Incarnate Scroll' ],
+  },
+  {
+  craft: 'Dimensional Bolt Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Dimensional Bolt Scroll' ],
+  },
+  {
+  craft: 'Elemental Totem Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Elemental Totem Scroll' ],
+  },
+  {
+  craft: 'Farsight Infusion Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Farsight Infusion Scroll' ],
+  },
+  {
+  craft: 'Power Infusion Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Power Infusion Scroll' ],
+  },
+  {
+  craft: 'Rallying Cry Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Rallying Cry Scroll' ],
+  },
+  {
+  craft: 'Supercharger Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Summoning Blank Skill Book', 'Supercharger Scroll' ],
+  },
+  {
+  craft: 'Armour of Frost Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 'Armour of Frost Scroll' ],
+  },
+  {
+  craft: 'Hail Strike Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 'Hail Strike Scroll' ],
+  },
+  {
+  craft: 'Healing Ritual Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 'Healing Ritual Scroll' ],
+  },
+  {
+  craft: 'Rain Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 'Rain Scroll' ],
+  },
+  {
+  craft: 'Restoration Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 'Restoration Scroll' ],
+  },
+  {
+  craft: 'Winter Blast Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 'Winter Blast Scroll' ],
+  },
+  {
+  craft: 'Steam Lance Blank Skill Book',
+  img: '',
+  description: '',
+  ingredients:	[ 'Hydrosophist Blank Skill Book', 	'Global Cooling Scroll' ]
+  }
+];
+
+let baseSkillBooks = [
+  {
+    craft: 'Vacuum Touch',
+    ingredients: [ 'Aerothurge 	Necromancer 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Vaporize 	Aerothurge',
+    ingredients: [ 'Polymorphing 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Erratic Wisp',
+    ingredients: [ 'Aerothurge 	Huntsman 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Smoke Cover',
+    ingredients: [ 'Aerothurge 	Scoundrel 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Electric Infusion',
+    ingredients: [ 'Aerothurge 	Summoning 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Breathing Bubble',
+    ingredients: [ 'Aerothurge 	Warfare 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Corrosive Spray',
+    ingredients: [ 'Geomancer 	Necromancer 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Turn To Oil',
+    ingredients: [ 'Geomancer 	Polymorphing 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Throw Dust',
+    ingredients: [ 'Geomancer 	Huntsman 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Venom Coating',
+    ingredients: [ 'Geomancer 	Scoundrel 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Poison Infusion',
+    ingredients: [ 'Geomancer 	Summoning 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Oily Carapace',
+    ingredients: [ 'Geomancer 	Warfare 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Corpse Explosion',
+    ingredients: [ 'Pyrokinetic 	Necromancer 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Bleed Fire',
+    ingredients: [ 'Pyrokinetic 	Polymorphing 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Throw Explosive Trap',
+    ingredients: [ 'Pyrokinetic 	Huntsman 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Sabotage 	Pyrokinetic',
+    ingredients: [ 'Scoundrel 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Fire Infusion',
+    ingredients: [ 'Pyrokinetic 	Summoning 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Sparking Swings',
+    ingredients: [ 'Pyrokinetic 	Warfare 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Raining Blood',
+    ingredients: [ 'Hydrosophist 	Necromancer 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Healing Tears',
+    ingredients: [ 'Hydrosophist 	Polymorphing 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Cryotherapy',
+    ingredients: [ 'Hydrosophist 	Huntsman 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Vampiric Hunger',
+    ingredients: [ 'Hydrosophist 	Scoundrel 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Water Infusion',
+    ingredients: [ 'Hydrosophist 	Summoning 	Neither skillbook may consume Source points.
+  },
+  {
+    craft: 'Cleanse Wounds',
+    ingredients: [ 'Hydrosophist 	Warfare 	Neither skillbook may consume Source points.
+  }
+]
+
+let herbGardenSkillbooks = [
+  {
+    craft: 'Quill',
+    img: '',
+    description: '',
+    ingredients: [ 'Any Feather 	Any Cutting Tool' ]
+  },
+  {
+    craft: 'Leather Cover',
+    img: '',
+    description: '',
+    ingredients: [ 'Any Cutting Tool 	Leather Scraps 	Leather Scraps' ]
+  },
+  {
+    craft: 'Blank Air Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Tea' ]
+  },
+  {
+    craft: 'Blank Earth Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Amadouvier' ]
+  },
+  {
+    craft: 'Blank Fire Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Boletus' ]
+  },
+  {
+    craft: 'Blank Necromancy Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Trumpet of Death' ]
+  },
+  {
+    craft: 'Blank Polymorph Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Whisperwood' ]
+  },
+  {
+    craft: 'Blank Summoning Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Drudanae' ]
+  },
+  {
+    craft: 'Blank Water Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Leather Cover 	Quill 	Distinctive Farhangite' ]
+  },
+  {
+    craft: 'High Tier Blank Air Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Air Skillbook 	Quill 	Distinctive Tea' ]
+  },
+  {
+    craft: 'High Tier Blank Earth Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Earth Skillbook 	Quill 	Distinctive Amadouvier' ]
+  },
+  {
+    craft: 'High Tier Blank Fire Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Fire Skillbook 	Quill 	Distinctive Boletus' ]
+  },
+  {
+    craft: 'High Tier Blank Necromancy Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Necromancy Skillbook 	Quill 	Distinctive Trumpet of Death' ]
+  },
+  {
+    craft: 'High Tier Blank Polymorph Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Polymorph Skillbook 	Quill 	Distinctive Whisperwood' ]
+  },
+  {
+    craft: 'High Tier Blank Summoning Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Summoning Skillbook 	Quill 	Distinctive Drudanae' ]
+  },
+  {
+    craft: 'High Tier Blank Water Skillbook',
+    img: '',
+    description: '',
+    ingredients: [ 'Blank Water Skillbook 	Quill 	Distinctive Farhangite' ]
+  },
+]
