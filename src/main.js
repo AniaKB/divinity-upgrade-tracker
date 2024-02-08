@@ -1591,168 +1591,198 @@ let skillsArray = [
         {
           name: 'Adrenaline',
           img: 'photos/scoundrel/Adrenaline.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
-          actionPoints: 2,
+          description: 'Gain 2 Action Points immediately at the cost of 2 Action poins gained next turn.',
+          actionPoints: 0,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Scoundrel: 1 }
         },
         {
           name: 'Backlash',
           img: '/photos/scoundrel/Backlash.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
-          actionPoints: 2,
+          description: 'Jump behind your enemy and backstab them, dealing physical damage.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Scoundrel: 1 }
         },
         {
           name: 'Chloroform',
           img: 'photos/scoundrel/Chloroform.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
+          description: 'Throw a bottle of chloroform at your enemy, damaging their Magic Armour setting them asleep.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Scoundrel: 1 }
         },
         {
           name: 'Throwing Knife',
           img: 'photos/scoundrel/Throwing_Knife.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
-          actionPoints: 1,
+          description: 'Throw knife at your opponent dealing physical damage.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Scoundrel: 1 }
         }
       ],
       4: [
         {
           name: 'Cloak and Dagger',
           img: 'photos/scoundrel/Cloak_and_Dagger.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: 'Caster teleports themselves without breaking sneaking or invisibility.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Sawtooth Knife',
           img: 'photos/scoundrel/Sawtooth_Knife.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          description: 'Pierces the enemy\'s physical armour and directly deals piercing damage.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Rupture Tendons',
           img: 'photos/scoundrel/Rupture_Tendons.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
-          actionPoints: 1,
+          description: 'Deals physical damage and makes them take piercing damage whenever they move.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 2 }
         }
       ],
       9: [
         {
           name: 'Corrupted Blade',
           img: 'photos/scoundrel/Corrupted_Blade.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          description: 'Dagger attack that deals physical damage and sets Decay and Diseased.',
           actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          sourcePoints: 0,
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Fan of Knives',
           img: 'photos/scoundrel/Fan_of_Knives.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          description: 'Throw daggers at enemies around you dealing Physical damage.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Scoundrel: 3 }
         },
         {
           name: 'Gag Order',
           img: 'photos/scoundrel/Gag_Order.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'Destroy your targets Magic Armour and Silence them.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Sleeping Arms',
           img: 'photos/scoundrel/Sleeping_Arms.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'Deal Physical damage and disarm your foes through Atrophy.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 2 }
         }
       ],
       13: [
         {
           name: 'Daggers Drawn',
           img: 'photos/scoundrel/Daggers_Drawn.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Whirl into a barrage of 5 stabs, each dealing physical damage.',
+          actionPoints: 4,
+          sourcePoints: 2,
+          required: { Scoundrel: 3 }
         }
       ],
       16: [
         {
           name: 'Mortal Blow',
           img: 'photos/scoundrel/Mortal_Blow.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          description: 'Deal physical damage (Doubled if caster is invisible or sneaking) Target is killed instantly if below 20% Vitality.',
+          actionPoints: 2,
+          sourcePoints: 3,
+          required: { Scoundrel: 5 }
         },
         {
           name: 'Terrifying Cruelty',
           img: 'photos/scoundrel/Terrifying_Cruelty.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
-          actionPoints: 2,
+          description: 'Dagger attack that deals physical damage and sets Bleeding and Terrified (Original Sin 2) Terrify on target character.',
+          actionPoints: 3,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 3 }
         },
         {
           name: 'Wind-Up Toy',
           img: 'photos/scoundrel/Wind-Up_Toy.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
+          description: 'Summon a mechanical bomber at the target point. The bomber can explode, dealing fire damage and producing a fire surface.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 3 }
         }
-      ]
-    },
-    other: {
-      craftable: [
+      ],
+      base: [
         {
-          name: 'Nether Swap',
-          img: 'photos/scoundrel/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
+          name: 'Sabotage',
+          img: 'photos/scoundrel/Sabotage.webp',
+          description: 'Explode a random arrow or grenade in your targets inventory.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 1, Pyrokinetic: 1 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/scoundrel/Pressure_Spike.webp',
+          name: 'Smoke Cover',
+          img: 'photos/scoundrel/Smoke_Cover.webp',
           description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Scoundrel: 1, Aerotheurge: 1 }
+        },
+        {
+          name: 'Vampiric Hunger',
+          img: 'photos/scoundrel/Vampiric_Hunger.webp',
+          description: 'Allows caster to recover 50 % Vitality from damage dealt to enemies.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Scoundrel: 1, Hydrosophist: 1 }
+        },
+        {
+          name: 'Venom Coating',
+          img: 'photos/scoundrel/Venom_Coating.webp',
+          description: 'Applies poison damage on equipped weapons and skills.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Scoundrel: 1, Geomancer: 1 }
         }
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/scoundrel/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          name: 'Blessed Smoke Cloud',
+          img: 'photos/scoundrel/Blessed_Smoke_Cloud.webp',
+          description: 'Conjure a cloud of blessed smoke in targed area which renders characters Invisible. Removes Silenced.',
+          actionPoints: 1,
+          sourcePoints: 2,
+          required: { Scoundrel: 2, Aerotheurge: 2 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/scoundrel/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Mass Sabotage',
+          img: 'photos/scoundrel/Mass_Sabotage.webp',
+          description: 'Explode 2 random grenades or arrows of your enemies in targeted area.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Scoundrel: 2, Pyrokinetic: 2 }
+        },
+        {
+          name: 'Vampiric Hunger Aura',
+          img: 'photos/scoundrel/Vampiric_Hunger_Aura.webp',
+          description: 'Allows the caster and allies around them to heal 50 % Vitality from damage dealt to enemies.',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          sourcePoints: 1,
+          required: { Scoundrel: 2, Hydrosophist: 2 }
+        },
+        {
+          name: 'Venomous Aura',
+          img: 'photos/scoundrel/Venomous_Aura.webp',
+          description: 'Applies poison damage on equipped weapons and skills of caster and their allies.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Scoundrel: 2, Geomancer: 2 }
         }
       ]
     }
@@ -1939,168 +1969,198 @@ let skillsArray = [
         {
           name: 'Battering Ram',
           img: 'photos/warfare/Battering_Ram.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
+          description: 'Rush forward in a straight line to a point far away, hitting all enemies in your path and knocking them down if they do not have Physical Armour.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Warfare: 1 }
         },
         {
           name: 'Battle Stomp',
           img: '/photos/warfare/Battle_Stomp.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
+          description: 'Deal damage in column in front of you, knocking down enemies and removing surfaces in the process. ',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Warfare: 1 }
         },
         {
           name: 'Bouncing Shield',
           img: 'photos/warfare/Bouncing_Shield.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
-          actionPoints: 1,
+          description: 'Throw your shield in order to damage your enemy and their ally near them.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Warfare: 1 }
         },
         {
           name: 'Crippling Blow',
           img: 'photos/warfare/Crippling_Blow.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
-          actionPoints: 1,
+          description: 'Cripple the target with a sweeping blow, and all characters around it. Deals physical damage.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Warfare: 1 }
         }
       ],
       4: [
         {
           name: 'Enrage',
           img: 'photos/warfare/Enrage.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: ' Enrage target allied character is guaranteed to land critical hits with basic attacks and weapon skills, but is Silenced (Original Sin 2) silenced. Removes:, Taunted, Terrified, Charmed, Mad, Clear-Minded',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 2 }
         },
         {
           name: 'Provoke',
           img: 'photos/warfare/Provoke.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          description: 'Taunt and tease your enemies to make them attack you.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 2 }
         },
         {
           name: 'Whirlwind',
           img: 'photos/warfare/Whirlwind.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
-          actionPoints: 1,
+          description: 'Spin around in order to damage enemies around you.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 2 }
         }
       ],
       9: [
         {
           name: 'Blitz Attack',
           img: 'photos/warfare/Blitz_Attack.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Jump from one target to another, hitting up to 2 targets, dealing physical damage to each.',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Warfare: 2 }
         },
         {
           name: 'Deflective Barrier',
           img: 'photos/warfare/Deflective_Barrier.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
+          description: 'Reflect projectiles aimed at you, back at their caster. Gives Physical armour',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 2 }
         },
         {
           name: 'Phoenix Dive',
           img: 'photos/warfare/Phoenix_Dive.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          description: 'Leap through the air towards a target position, creating a fire surface upon landing.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 2 }
         },
         {
           name: 'Thick of the Fight',
           img: 'photos/warfare/Thick_of_the_Fight.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          description: 'Gain a damage boost for every character near you.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Warfare: 3 }
         }
       ],
       13: [
         {
           name: 'Onslaught',
           img: 'photos/warfare/Onslaught.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          description: 'Attack your enemy 5 times in quick session.',
+          actionPoints: 4,
+          sourcePoints: 2,
+          required: { Warfare: 3 }
         }
       ],
       16: [
         {
           name: 'Challenge',
           img: 'photos/warfare/Challenge.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: 'Mark enemy target. If they die in the next 2 turns, you are healed and receive damage and armor bonuses. If target survives, their Vitality is restored to full and the caster takes damage.',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 3 }
         },
         {
           name: 'Guardian Angel',
           img: 'photos/warfare/Guardian_Angel.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          description: 'Allies in melee range redirect 50% of received damage to you.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 3 }
         },
         {
           name: 'Overpower',
           img: 'photos/warfare/Overpower.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
+          description: 'Deal physical damage. If your physical armour is higher than your opponent\'s, destroy all of their physical armour. Can set Knocked Down. ',
+          actionPoints: 2,
+          sourcePoints: 3,
+          required: { Warfare: 5 }
+        }
+      ],
+      base: [
+        {
+          name: 'Breathing Bubble',
+          img: 'photos/warfare/Breathing_Bubble.webp',
+          description: 'Create a bubble of clean air around the caster\'s head, allowing them to ignore effects of cloud surfaces. Gives immunity to Suffocating.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
-        }
-      ]
-    },
-    other: {
-      craftable: [
-        {
-          name: 'Nether Swap',
-          img: 'photos/warfare/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 1, Aerotheurge: 1 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/warfare/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Cleanse Wounds',
+          img: 'photos/warfare/Cleanse_Wounds.webp',
+          description: 'Heal target and create a water puddle beneath them. Removes: Burning, Diseased, Decaying, Poisoned, Bleeding',
+          actionPoints: 2,
+          sourcePoints: 0,
+          required: { Warfare: 1, Hydrosophist: 1 }
+        },
+        {
+          name: 'Oily Carapace',
+          img: 'photos/warfare/Oily_Carapace.webp',
+          description: 'This skill absorbs any oil surfaces around the caster and converts it to Physical Armour.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Warfare: 1, Geomancer: 1 }
+        },
+        {
+          name: 'Sparking Swings',
+          img: 'photos/warfare/Sparking_Swings.webp',
+          description: 'Make your basic melee attacks shoot fiery projectiles on nearest enemy.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Warfare: 1, Pyrokinetic: 1 }
         }
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/warfare/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          name: 'Mass Breathing Bubble',
+          img: 'photos/warfare/Mass_Breathing_Bubble.webp',
+          description: 'Create a bubble of clear air around your and your allies heads, making you ignore cloud effects. Gives Immunity to Suffocating.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Warfare: 2, Aerotheurge: 2 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/warfare/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          name: 'Mass Cleanse Wounds',
+          img: 'photos/warfare/Mass_Cleanse_Wounds.webp',
+          description: 'Heal yourself and allies around creating a water puddle beneath them. Removes: Burning, Diseased, Decaying, Poisoned, Bleeding',
           actionPoints: 1,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          sourcePoints: 1,
+          required: { Warfare: 2, Hydrosophist: 2 }
+        },
+        {
+          name: 'Mass Oily Carapace',
+          img: 'photos/warfare/Mass_Oily_Carapace.webp',
+          description: 'Convert all oil surfaces around caster and their allies into Physical Armour.',
+          actionPoints: 2,
+          sourcePoints: 1,
+          required: { Warfare: 2, Geomancer: 2 }
+        },
+        {
+          name: 'Master of Sparks',
+          img: 'photos/warfare/Master_of_Sparks.webp',
+          description: 'Causes your target and their surrounding allies melee attacks to shoot a fiery projectile at nearest enemy.',
+          actionPoints: 1,
+          sourcePoints: 1,
+          required: { Warfare: 2, Pyrokinetic: 2 }
         }
       ]
     }
