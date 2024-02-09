@@ -484,37 +484,44 @@ let recipes = [
         craft: 'Elven Stew',
         img: 'photos/items/make/Elven_Stew.webp',
         description: '2 Finesse, Heals 20%, Duration 6 Turns.',
-        ingredients: [ 'Dinner', 'Tomato Sauce' ]},
+        ingredients: [ 'Dinner', 'Tomato Sauce' ]
+      },
       {
         craft: 'Fish Pie Dough',
         img: 'photos/items/make/Fish_Pie_Dough.webp',
         description: '',
-        ingredients: [ 'Any Fish', 'Dough' ]},
+        ingredients: [ ['Red Snapper', 'Plaice', 'Mackerel', 'Herring', 'Chub Fish'], 'Dough' ]
+      },
       {
         craft: 'Flour',
         img: 'photos/items/make/Flour.webp',
         description: '',
-        ingredients: [ 'Mortar And Pestle', 'Wheat' ]},
+        ingredients: [ 'Mortar And Pestle', 'Wheat' ]
+      },
       {
         craft: 'Glass of Wine',
         img: 'photos/items/make/n.webp',
         description: 'Heals 5%, Set Drunk for 2 Turns, Duration 5 Turns.',
-        ingredients: [ 'Empty Cup', 'Grapes' ]},
+        ingredients: [ 'Empty Cup', 'Grapes' ]
+      },
       {
         craft: 'Glass of Wine',
         img: 'photos/items/make/n.webp',
         description: 'Heals 5%, Set Drunk for 2 Turns, Duration 5 Turns.',
-        ingredients: [ 'Empty Cup', 'Wine barrel' ]},
+        ingredients: [ 'Empty Cup', 'Wine barrel' ]
+      },
       {
         craft: 'Jar of Honey',
         img: 'photos/items/make/n.webp',
         description: '1 Intelligence, Heals 5%, 15% Poison Resistance.',
-        ingredients: [ 'Beehive', 'Empty Honey Jar' ]},
+        ingredients: [ 'Beehive', 'Empty Honey Jar' ]
+      },
       {
         craft: 'Mashed Potatoes',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: [ 'Boiled Potato', 'Milk' ]},
+        ingredients: [ 'Boiled Potato', 'Milk' ]
+      },
       {
         craft: 'Mashed Potatoes',
         img: 'photos/items/make/n.webp',
@@ -524,67 +531,80 @@ let recipes = [
         craft: 'Milk',
         img: 'photos/items/make/n.webp',
         description: 'Heals 10%, Duration 6 Turns.',
-        ingredients: [ 'Empty Cup', 'Milk Jug' ]},
+        ingredients: [ 'Empty Cup', 'Milk Jug' ]
+      },
       {
         craft: 'Milk and Honey',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Milk_and_Honey.webp',
         description: ' 	Heals 15%, 20% Poison Resistance, Set Warm for 2 Turns, Duration 6 Turns.',
-        ingredients: [ 'Jar of Honey', 'Milk' ]},
+        ingredients: [ 'Jar of Honey', 'Milk' ]
+      },
       {
         craft: 'Mug of Beer',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Mug_of_Beer.webp',
         description: '-1 Intelligence, Heals 20%, Set Drunk for 2 Turns, Duration 5 Turns.',
-        ingredients: [ 'Beer barrel', 'Empty Mug' ]},
+        ingredients: [ 'Beer barrel', 'Empty Mug' ]
+      },
       {
         craft: 'Mug of Lemonade',
         img: 'photos/items/make/n.webp',
         description: '1 Wits, Heals 5% Duration 5 Turns.',
-        ingredients: [ 'Empty Mug', 'Lemon' ]},
+        ingredients: [ 'Empty Mug', 'Lemon' ]
+      },
       {
         craft: 'Mug of Water',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Mug_of_Water.webp',
         description: 'Heals 5%, Duration 5 Turns.',
-        ingredients: [ 'Any Water Source', 'Empty Mug' ]},
+        ingredients: [ 'Any Water Source', 'Empty Mug' ]
+      },
       {
         craft: 'Orange Juice',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Orange_Juice.webp',
         description: '1 Finesse, Heals 10%, Duration 6 Turns.',
-        ingredients: [ 'Empty Cup', 'Orange' ]},
+        ingredients: [ 'Empty Cup', 'Orange' ]
+      },
       {
         craft: 'Pizza',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Pizza.webp',
         description: '',
-        ingredients: [ 'Oven', 'Pizza Dough' ]},
+        ingredients: [ 'Oven', 'Pizza Dough' ]
+      },
       {
         craft: 'Pizza Dough',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Pizza_Dough.webp',
         description: '',
-        ingredients: [ 'Dough', 'Tomato Sauce' ]},
+        ingredients: [ 'Dough', 'Tomato Sauce' ]
+      },
       {
         craft: 'Porridge',
         img: 'photos/items/make/n.webp',
         description: '1 Strength, Heals 10%, Duration 6 Turns.',
-        ingredients: [ 'Milk', 'Wheat' ]},
+        ingredients: [ 'Milk', 'Wheat' ]
+      },
       {
         craft: 'Potato Porridge',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Potato_Porridge.webp',
         description: '1 Strength, Heals 10%, Duration 6 Turns.',
-        ingredients: [ 'Milk', 'Potato' ]},
+        ingredients: [ 'Milk', 'Potato' ]
+      },
       {
         craft: 'Pumpkin Soup',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Pumpin_Soup.webp',
         description: '1 Wits, Heals 10%, Duration 6 Turns.',
-        ingredients: [ 'Cooking Station', 'Pumpkin' ]},
+        ingredients: [ 'Cooking Station', 'Pumpkin' ]
+      },
       {
         craft: 'Rivellon Fries',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Rivellion_Fries.webp',
         description: '-1 Finesse, 1 Constitution, Heals 15%, Duration 6 Turns',
-        ingredients: [ 'Cold Fries', 'Cooking Station' ]},
+        ingredients: [ 'Cold Fries', 'Cooking Station' ]
+      },
       {
         craft: 'Tomato Sauce',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/Tomato_Sauce.webp',
         description: 'Heals 5%, Poison Resistance 10%, Duration 3 Turns.',
-        ingredients: [ 'Any Hammer', 'Tomato' ]}
+        ingredients: [ 'Any Hammer', 'Tomato' ]
+      }
     ],
     grenades: [
       {
