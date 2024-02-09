@@ -2,6 +2,10 @@
   font-family: 'Rosarivo', cursive;
 }
 
+header {
+  background: url("logo.webp");
+}
+
 body {
   background: url("photos/background-start.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -111,9 +115,7 @@ button {
 }
 
 .card {
-  display: grid;
-  grid-column: 10;
-  grid-template-columns: 10;
+  display: flex;
 }
 
  /* Dropdown Button */

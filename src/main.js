@@ -1795,169 +1795,199 @@ let skillsArray = [
         {
           name: 'Conjure Incarnate',
           img: 'photos/summoning/creatures/Conjure_Incarnate.webp',
-          description: 'Ice forms a defensive barrier around the target, giving them Magic Shell status effect which increases Magic Armour. Removes: Burning, Poisoned, Stunned, Frozen, Suffocating, Petrified',
+          description: 'Summon an Incarnate minion. Base Incarnate has no armour, deals physical damage and has Provoke skill. Incarnate can be changed by summoning it on elemental surface (does not include: lava, source and deathfog).',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Summoning: 1 }
         },
         {
           name: 'Dimensional Bolt',
           img: '/photos/summoning/Dimensional_Bolt.webp',
-          description: 'Deal air damage and set Shocked for two turns on enemies without Magic Armour',
+          description: 'Deal random ranged elemental or physical damage that creates corresponding surface.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Summoning: 1 }
         },
         {
           name: 'Elemental Totem',
           img: 'photos/summoning/Elemental_Totem.webp',
-          description: 'Sets Favorable Wind Aura on the caster and allies within close proximity for four turns, increasing their movement speed by 1.5m for 4 turns.',
-          actionPoints: 1,
+          description: 'Summon an Elemental Totem which will shoot projectiles. Totem can be changed by summoning it on elemental surface (does not include: lava, source and deathfog).',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Summoning: 1 }
         },
         {
           name: 'Farsight Infusion',
           img: 'photos/summoning/Farsight_Infusion.webp',
-          description: 'Touch your enemy to deal them air damage and set Stunned them if they dont have Magic Armour.',
+          description: 'Grants summoned Incarnate a Ranged Attack that deals damage based on their element. Gives Magic Armour, Increases damage by 25 %',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 1 }
+          required: { Summoning: 1 }
         }
       ],
       4: [
         {
           name: 'Power Infusion',
           img: 'photos/summoning/Power_Infusion.webp',
-          description: 'Shoot an electrical bolt from the sky dealing air damage to characters and items in the area, and setting Shocked status.',
-          actionPoints: 3,
+          description: 'Grants summoned Incarnate Whirlwind and Battering Ram skills. Gives Incarnate Physical Armour Icon (Original Sin 2)Physical Armour. Increases Incarnate\'s damage by 25 %',
+          actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Summoning: 1 }
         },
         {
           name: 'Rallying Cry',
           img: 'photos/summoning/Rallying_Cry.webp',
-          description: 'Move objects (inanimate or otherwise) from one location to another. Deals physical damage upon impact.',
+          description: 'Restores the casters Vitality and Magic Armour depending on number of friendly characters and totems nearby.',
           actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Summoning: 2 }
         },
         {
           name: 'Supercharger',
           img: 'photos/summoning/Supercharger.webp',
-          description: 'Increases dodging by 90% and movement by 20%.',
+          description: 'Increases Incarnate attack by 50%, but it will disappear next turn.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Summoning: 2 }
         }
       ],
       9: [
         {
           name: 'Dominate Mind',
           img: 'photos/summoning/Dominate_Mind.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
+          description: 'Charm a non-allied character, making them join combat on your side.',
           actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          sourcePoints: 0,
+          required: { Summoning: 2 }
         },
         {
           name: 'Door to Eternity',
           img: 'photos/summoning/Door_to_Eternity.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          description: 'Prevent all summoned creatures to die or disappear during the duration of the spell.',
+          actionPoints: 3,
+          sourcePoints: 1,
+          required: { Summoning: 3 }
         },
         {
           name: 'Shadow Infusion',
           img: 'photos/summoning/Shadow_Infusion.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          description: 'Grants Incarnate Chameleon Cloak and Corrupted Blade skills. Increases Incarnate\'s movement by 1 Increases Incarnate\'s damage by 25 %.',
+          actionPoints: 2,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Summoning: 2 }
         },
         {
           name: 'Soul Mate',
           img: 'photos/summoning/Soul_Mate.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          description: 'Caster and their target will receive half of each healing and armour restoration received. Removes: Frozen, Stunned, Knocked Down & Petrified.',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Summoning: 2 }
         }
       ],
       13: [
         {
           name: 'Planar Gateway',
           img: 'photos/summoning/Planar_Gateway.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Create a portal between two places through which characters can move.',
+          actionPoints: 0,
+          sourcePoints: 2,
+          required: { Summoning: 3 }
         }
       ],
       16: [
         {
           name: 'Cannibalize',
           img: 'photos/summoning/Cannibalize.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Devour your summoned minion or totem in order to receive their Vitality, Physical and Magic Armour.',
+          actionPoints: 1,
+          sourcePoints: 0,
+          required: { Summoning: 3 }
         },
         {
           name: 'Ethereal Storm',
           img: 'photos/summoning/Ethereal_Storm.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
+          description: 'Summon a storm which will deal massive random elemental and physical damage in an area.',
+          actionPoints: 4,
+          sourcePoints: 3,
+          required: { Summoning: 5 }
         },
         {
           name: 'Warp Infusion',
           img: 'photos/summoning/Warp_Infusion.webp',
-          description: 'Target enemy receives air damage. The spell then forks up to eight times up to 8m of the original impact zone dealing air damage to each enemy struck.',
-          actionPoints: 3,
-          sourcePoints: 1,
-          required: { Aerotheurge: 3 }
-        }
-      ]
-    },
-    other: {
-      craftable: [
-        {
-          name: 'Nether Swap',
-          img: 'photos/summoning/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
-          sourcePoints: 0,
-          required: { Aerotheurge: 2 }
-        },
-        {
-          name: 'Pressure Spike',
-          img: 'photos/summoning/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
+          description: 'Grants Incarnate Tactical Retreat and Swap Places spells. Increases Incarnate\'s damage by 25 %. Increases Incarnate\'s dodging by 15 %',
           actionPoints: 1,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Summoning: 3 }
         }
+      ],
+      base: [
+        {
+          name: 'Electric Infusion',
+          img: 'photos/summoning/Electric_Infusion.webp',
+          description: 'Air resistance + 100%, Earth resistance -20%, Poison resistance -20%, skills: Electric Discharge',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Aerotheurge: 5 }
+        },
+        {
+          name: 'Fire Infusion',
+          img: 'photos/summoning/Fire_Infusion.webp',
+          description: 'Fire resistance + 100%, Water resistance -20%, skills: Fireball',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Pyrokinetic: 5 }
+        },
+        {
+          name: 'Poison Infusion',
+          img: 'photos/summoning/Poison_Infusion.webp',
+          description: 'Poison resistance + 100%, Air resistance -20%, skills: Poison Dart',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Geomancer: 5 }
+        },
+        {
+          name: 'Water Infusion',
+          img: 'photos/summoning/Water_Infusion.webp',
+          description: 'Water resistance + 100%, Fire resistance -20%, skills: Restoration',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Hydrosophist: 5 }
+        },
       ],
       source: [
         {
-          name: 'Nether Swap',
-          img: 'photos/summoning/Nether_Swap.webp',
-          description: 'Nether swap allows the caster or an ally of their choosing to swap places with an enemy.',
-          actionPoints: 2,
+          name: 'Cursed Electric Infusion',
+          img: 'photos/summoning/Cursed_Electric_Infusion.webp',
+          description: 'Air resistance + 120%, Earth resistance -20%, Poison resistance -20%, skills: Electric Discharge, Closed Circuit',
+          actionPoints: 0,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
+          required: { Aerotheurge: 10 }
         },
         {
-          name: 'Pressure Spike',
-          img: 'photos/summoning/Pressure_Spike.webp',
-          description: 'Pressure Spike condenses all cloud surfaces in the area. Deals air damage to enemies and douses fires.',
-          actionPoints: 1,
+          name: 'Necrofire Infusion',
+          img: 'photos/summoning/Necrofire_Infusion.webp',
+          description: 'Fire resistance + 120%, Water resistance -20%, skills: Fireball, Epidemic of Fire',
+          actionPoints: 0,
           sourcePoints: 0,
-          required: { Aerotheurge: 2 }
-        }
+          required: { Pyrokinetic: 10 }
+        },
+        {
+          name: 'Acid Infusion',
+          img: 'photos/summoning/Acid_Infusion.webp',
+          description: 'Poison resistance + 120%, Air resistance -20%, skills: Poison Dart, Acid Spores',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Geomancer: 10 }
+        },
+        {
+          name: 'Ice Infusion',
+          img: 'photos/summoning/Ice_Infusion.webp',
+          description: 'Water resistance + 120%, Fire resistance -20%, skills: Restoration, Steam Lance',
+          actionPoints: 0,
+          sourcePoints: 0,
+          required: { Hydrosophist: 10 }
+        },
       ]
     }
   },
