@@ -3,7 +3,11 @@
 }
 
 header {
-  background: url("logo.webp");
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  order: 1;
+  font-family: 'IM Fell English SC', serif;
 }
 
 body {
@@ -14,6 +18,12 @@ body {
 h1 {
   text-align: center;
   font-size: 45px;
+  font-family: 'IM Fell English SC', serif;
+  color: black;
+}
+
+h2 {
+  font-family: 'IM Fell English', serif;
 }
 
 nav {

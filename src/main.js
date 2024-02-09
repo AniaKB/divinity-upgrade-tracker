@@ -124,8 +124,10 @@ let skillsArray = [
           sourcePoints: 2,
           required: { Aerotheurge: 3 }
         }
-      ],
-      craftable: [
+      ]
+    },
+    craftable: {
+      base: [
         {
           name: 'Breathing Bubble',
           img: 'photos/aerotheurge/Breathing_Bubble.webp',
@@ -359,9 +361,11 @@ let skillsArray = [
           actionPoints: 3,
           sourcePoints: 1,
           required: { Geomancer: 3 }
-        },
-      ],
-      craftable: [
+        }
+      ]
+    },
+    craftable: {
+      base: [
         {
           name: 'Corrosive Touch',
           img: 'photos/geomancer/Corrosive_Touch.webp',
@@ -477,7 +481,7 @@ let skillsArray = [
           actionPoints: 2,
           sourcePoints: 1,
           required: { Geomancer: 2, Necromancer: 2 }
-        },
+        }
       ]
     }
   },
@@ -613,8 +617,10 @@ let skillsArray = [
           actionPoints: 1,
           sourcePoints: 0,
           required: { Huntsman: 3 }
-        },
-      ],
+        }
+      ]
+    },
+    craftable: {
       base: [
         {
           name: 'Erratic Wisp',
@@ -818,7 +824,9 @@ let skillsArray = [
           sourcePoints: 0,
           required: { Hydrosophist: 3 }
         }
-      ],
+      ]
+    },
+    craftable: {
       base: [
         {
           name: 'Cleanse Wounds',
@@ -1054,8 +1062,10 @@ let skillsArray = [
           sourcePoints: 3,
           required: { Necromancer: 5 }
         }
-      ],
-      craftable: [
+      ]
+    },
+    craftable: {
+      base: [
         {
           name: 'Corpse Explosion',
           img: 'photos/necromancer/Corpse_Explosion.webp',
@@ -1276,8 +1286,10 @@ let skillsArray = [
           sourcePoints: 3,
           required: { Polymorph: 5 }
         }
-      ],
-      craftable: [
+      ]
+    },
+    craftable: {
+      base: [
         {
           name: 'Bleed Fire',
           img: 'photos/polymorph/Bleed_Fire.webp',
@@ -1480,7 +1492,9 @@ let skillsArray = [
           sourcePoints: 3,
           required: { Pyrokinetic: 5 }
         }
-      ],
+      ]
+    },
+    craftable: {
       base: [
         {
           name: 'Bleed Fire',
@@ -1716,7 +1730,9 @@ let skillsArray = [
           sourcePoints: 0,
           required: { Scoundrel: 3 }
         }
-      ],
+      ]
+    },
+    craftable: {
       base: [
         {
           name: 'Sabotage',
@@ -1920,7 +1936,9 @@ let skillsArray = [
           sourcePoints: 0,
           required: { Summoning: 3 }
         }
-      ],
+      ]
+    },
+    craftable: {
       base: [
         {
           name: 'Electric Infusion',
@@ -2124,7 +2142,9 @@ let skillsArray = [
           sourcePoints: 3,
           required: { Warfare: 5 }
         }
-      ],
+      ]
+    },
+    craftable: {
       base: [
         {
           name: 'Breathing Bubble',

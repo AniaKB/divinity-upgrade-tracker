@@ -577,7 +577,7 @@ let recipes = [
       },
       {
         craft: 'Porridge',
-        img: 'photos/items/make/n.webp',
+        img: 'photos/items/make/porridge.png',
         description: '1 Strength, Heals 10%, Duration 6 Turns.',
         ingredients: [ 'Milk', 'Wheat' ]
       },
@@ -1580,7 +1580,105 @@ let recipes = [
         img: 'photos/items/make/Potent_Ferocity_Herbmix.webp',
         description: '',
         ingredients: ''
-      }      
+      }
+    ],
+    blankSkillbooks: [
+      {
+        craft: 'Quill',
+        img: '',
+        description: '',
+        ingredients: [ 'Any Feather 	Any Cutting Tool' ]
+      },
+      {
+        craft: 'Leather Cover',
+        img: '',
+        description: '',
+        ingredients: [ 'Any Cutting Tool', 'Leather Scraps', 'Leather Scraps' ]
+      },
+      {
+        craft: 'Blank Air Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Tea' ]
+      },
+      {
+        craft: 'Blank Earth Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Amadouvier' ]
+      },
+      {
+        craft: 'Blank Fire Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Boletus' ]
+      },
+      {
+        craft: 'Blank Necromancy Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Trumpet of Death' ]
+      },
+      {
+        craft: 'Blank Polymorph Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Whisperwood' ]
+      },
+      {
+        craft: 'Blank Summoning Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Drudanae' ]
+      },
+      {
+        craft: 'Blank Water Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Leather Cover', 'Quill', 'Distinctive Farhangite' ]
+      },
+      {
+        craft: 'High Tier Blank Air Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Air Skillbook', 'Quill', 'Distinctive Tea' ]
+      },
+      {
+        craft: 'High Tier Blank Earth Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Earth Skillbook', 'Quill', 'Distinctive Amadouvier' ]
+      },
+      {
+        craft: 'High Tier Blank Fire Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Fire Skillbook', 'Quill', 'Distinctive Boletus' ]
+      },
+      {
+        craft: 'High Tier Blank Necromancy Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Necromancy Skillbook', 'Quill', 'Distinctive Trumpet of Death' ]
+      },
+      {
+        craft: 'High Tier Blank Polymorph Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Polymorph Skillbook', 'Quill', 'Distinctive Whisperwood' ]
+      },
+      {
+        craft: 'High Tier Blank Summoning Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Summoning Skillbook', 'Quill', 'Distinctive Drudanae' ]
+      },
+      {
+        craft: 'High Tier Blank Water Skillbook',
+        img: '',
+        description: '',
+        ingredients: [ 'Blank Water Skillbook', 'Quill', 'Distinctive Farhangite' ]
+      },
     ]
   }
 ];
@@ -1604,61 +1702,61 @@ let craftingStations = [
 
 let skillBooks = [
   {
-    craft: 'Blinding Radiance Blank Skill Book',
+    craft: 'Blinding Radiance Skillbook',
     img: '',
     description: '',
     ingredients:	[ 'Aerotheurge Blank Skill Book', 'Blinding Radiance Scroll' ]
   },
   {
-  craft: 'Chain Lightning Blank Skill Book',
+  craft: 'Chain Lightning Skillbook',
   img: '',
   description: '',
   ingredients: [ '	Aerotheurge Blank Skill Book', 'Chain Lightning Scroll' ]
   },
   {
-  craft: 'Electric Fence Blank Skill Book',
+  craft: 'Electric Fence Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Aerotheurge Blank Skill Book', 'Electric Fence Scroll' ]
   },
   {
-  craft: 'Favourable Wind Blank Skill Book',
+  craft: 'Favourable Wind Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Aerotheurge Blank Skill Book', 'Favourable Wind Scroll' ]
   },
   {
-  craft: 'Lightning Bolt Blank Skill Book',
+  craft: 'Lightning Bolt Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Aerotheurge Blank Skill Book', 'Lightning Bolt Scroll' ]
   },
   {
-  craft: 'Teleportation Blank Skill Book',
+  craft: 'Teleportation Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Aerotheurge Blank Skill Book', 'Teleportation Scroll' ]
   },
   {
-  craft: 'Shocking Touch Blank Skill Book',
+  craft: 'Shocking Touch Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Aerotheurge Blank Skill Book', 'Shocking Touch Scroll' ]
   },
   {
-  craft: 'Tornado Blank Skill Book',
+  craft: 'Tornado Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Aerotheurge Blank Skill Book', 'Tornado Scroll' ]
   },
   {
-  craft: 'Acid Spores Blank Skill Book',
+  craft: 'Acid Spores Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Geomancer Blank Skill Book', 'Acid Spores Scroll' ]
   },
   {
-  craft: 'Contamination Blank Skill Book',
+  craft: 'Contamination Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Geomancer Blank Skill Book', '	Contamination Scroll' ]
@@ -1670,235 +1768,235 @@ let skillBooks = [
   ingredients:	[ 'Geomancer Blank Skill Book', 'Any Source Necromancy Skillbook' ]
   },
   {
-  craft: 'Fortify Blank Skill Book',
+  craft: 'Fortify Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Geomancer Blank Skill Book', 'Fortify Scroll' ]
   },
   {
-  craft: 'Poison Dart Blank Skill Book',
+  craft: 'Poison Dart Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Geomancer Blank Skill Book', 'Poison Dart Scroll' ]
   },
   {
-  craft: 'Fossil Strike Blank Skill Book',
+  craft: 'Fossil Strike Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Geomancer Blank Skill Book', 'Fossil Strike Scroll' ]
   },
   {
-  craft: 'Impalement Blank Skill Book',
+  craft: 'Impalement Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Geomancer Blank Skill Book', 'Impalement Scroll' ]
   },
   {
-  craft: 'Burn My Eyes Blank Skill Book',
+  craft: 'Burn My Eyes Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Burn My Eyes Scroll' ]
   },
   {
-  craft: 'Fireball Blank Skill Book',
+  craft: 'Fireball Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Fireball Scroll' ]
   },
   {
-  craft: 'Fireblood Blank Skill Book',
+  craft: 'Fireblood Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Any Polymorph Skillbook' ]
   },
   {
-  craft: 'Fireblood Blank Skill Book',
+  craft: 'Fireblood Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Fireblood Scroll' ]
   },
   {
-  craft: 'Searing Daggers Blank Skill Book',
+  craft: 'Searing Daggers Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Searing Daggers Scroll' ],
   },
   {
-  craft: 'Haste Blank Skill Book',
+  craft: 'Haste Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Haste Scroll' ],
   },
   {
-  craft: 'Ignition Blank Skill Book',
+  craft: 'Ignition Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Ignition Scroll' ],
   },
   {
-  craft: 'Infectious Flame Blank Skill Book',
+  craft: 'Infectious Flame Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Infectious Flame Scroll' ],
   },
   {
-  craft: 'Spontaneous Combustion Blank Skill Book',
+  craft: 'Spontaneous Combustion Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Pyrokinetic Blank Skill Book', 'Spontaneous Combustion Scroll' ],
   },
   {
-  craft: 'Blood Sucker Blank Skill Book',
+  craft: 'Blood Sucker Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Necromancer Blank Skill Book', 'Blood Sucker Scroll' ],
   },
   {
-  craft: 'Decaying Touch Blank Skill Book',
+  craft: 'Decaying Touch Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Necromancer Blank Skill Book', 'Decaying Touch Scroll' ],
   },
   {
-  craft: 'Mosquito Swarm Blank Skill Book',
+  craft: 'Mosquito Swarm Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Necromancer Blank Skill Book', 'Mosquito Swarm Scroll' ],
   },
   {
-  craft: 'Rain of Blood Blank Skill Book',
+  craft: 'Rain of Blood Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Necromancer Blank Skill Book', 'Rain of Blood Scroll' ],
   },
   {
-  craft: 'Shackles of Pain Blank Skill Book',
+  craft: 'Shackles of Pain Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Necromancer Blank Skill Book', 'Shackles of Pain Scroll' ],
   },
   {
-  craft: 'Infect Blank Skill Book',
+  craft: 'Infect Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Necromancer Blank Skill Book', 'Infect Scroll' ],
   },
   {
-  craft: 'Tentacle Lash Blank Skill Book',
+  craft: 'Tentacle Lash Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Polymorph Blank Skill Book', 'Tentacle Lash Scroll' ],
   },
   {
-  craft: 'Chicken Claw Blank Skill Book',
+  craft: 'Chicken Claw Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Polymorph Blank Skill Book', 'Chicken Claw Scroll' ],
   },
   {
-  craft: 'Bull Horns Blank Skill Book',
+  craft: 'Bull Horns Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Polymorph Blank Skill Book', 'Bull Horns Scroll' ],
   },
   {
-  craft: 'Chameleon Cloak Blank Skill Book',
+  craft: 'Chameleon Cloak Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Polymorph Blank Skill Book', 'Chameleon Cloak Scroll' ],
   },
   {
-  craft: 'Heart of Steel Blank Skill Book',
+  craft: 'Heart of Steel Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Polymorph Blank Skill Book', 'Heart of Steel Scroll' ],
   },
   {
-  craft: 'Spread Your Wings Blank Skill Book',
+  craft: 'Spread Your Wings Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Polymorph Blank Skill Book', 'Spread Your Wings Scroll' ],
   },
   {
-  craft: 'Conjure Incarnate Blank Skill Book',
+  craft: 'Conjure Incarnate Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Conjure Incarnate Scroll' ],
   },
   {
-  craft: 'Dimensional Bolt Blank Skill Book',
+  craft: 'Dimensional Bolt Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Dimensional Bolt Scroll' ],
   },
   {
-  craft: 'Elemental Totem Blank Skill Book',
+  craft: 'Elemental Totem Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Elemental Totem Scroll' ],
   },
   {
-  craft: 'Farsight Infusion Blank Skill Book',
+  craft: 'Farsight Infusion Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Farsight Infusion Scroll' ],
   },
   {
-  craft: 'Power Infusion Blank Skill Book',
+  craft: 'Power Infusion Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Power Infusion Scroll' ],
   },
   {
-  craft: 'Rallying Cry Blank Skill Book',
+  craft: 'Rallying Cry Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Rallying Cry Scroll' ],
   },
   {
-  craft: 'Supercharger Blank Skill Book',
+  craft: 'Supercharger Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Summoning Blank Skill Book', 'Supercharger Scroll' ],
   },
   {
-  craft: 'Armour of Frost Blank Skill Book',
+  craft: 'Armour of Frost Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 'Armour of Frost Scroll' ],
   },
   {
-  craft: 'Hail Strike Blank Skill Book',
+  craft: 'Hail Strike Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 'Hail Strike Scroll' ],
   },
   {
-  craft: 'Healing Ritual Blank Skill Book',
+  craft: 'Healing Ritual Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 'Healing Ritual Scroll' ],
   },
   {
-  craft: 'Rain Blank Skill Book',
+  craft: 'Rain Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 'Rain Scroll' ],
   },
   {
-  craft: 'Restoration Blank Skill Book',
+  craft: 'Restoration Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 'Restoration Scroll' ],
   },
   {
-  craft: 'Winter Blast Blank Skill Book',
+  craft: 'Winter Blast Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 'Winter Blast Scroll' ],
   },
   {
-  craft: 'Steam Lance Blank Skill Book',
+  craft: 'Steam Lance Skillbook',
   img: '',
   description: '',
   ingredients:	[ 'Hydrosophist Blank Skill Book', 	'Global Cooling Scroll' ]
@@ -2004,101 +2102,45 @@ let baseSkillBooks = [
   }
 ]
 
-let herbGardenSkillbooks = [
+let enchantment = [
   {
-    craft: 'Quill',
-    img: '',
-    description: '',
-    ingredients: [ 'Any Feather 	Any Cutting Tool' ]
+    craft: 'Weapon deals X-X bonus poison damage based on item level',
+    ingredients: [ 'Weapon',	'Any Poison Source', 'Ooze Barrel' ]
   },
   {
-    craft: 'Leather Cover',
-    img: '',
-    description: '',
-    ingredients: [ 'Any Cutting Tool 	Leather Scraps 	Leather Scraps' ]
+    craft: 'Weapon deals X-X bonus fire damage based on item level',
+    ingredients: [ 'Weapon (except wand)',	'Oil Barrel',	'Campfire Crafter\'s kit gift bag']
   },
   {
-    craft: 'Blank Air Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Tea' ]
+    craft: 'Grants immunity to slipping on ice',
+    ingredients: [ 'Nails',	'Boots ' ]
   },
   {
-    craft: 'Blank Earth Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Amadouvier' ]
+    craft: '2 finesse, 1 huntsman, adds physical armor',
+    ingredients: [ 'Helmet',	'Eternal Artefact' ]
   },
   {
-    craft: 'Blank Fire Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Boletus' ]
+    craft: '10% air resistance, adds physical armor',
+    ingredients: [ 'Chest',	'Eternal Artefact' ]
   },
   {
-    craft: 'Blank Necromancy Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Trumpet of Death' ]
+    craft: '2 strength, 1 warfare, adds physical armor',
+    ingredients: [ 'Belt',	'Eternal Artefact' ]
   },
   {
-    craft: 'Blank Polymorph Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Whisperwood' ]
+    craft: '2 constitution, 10% earth resistance, adds physical armor',
+    ingredients: [ 'Gloves',	'Eternal Artefact' ]
   },
   {
-    craft: 'Blank Summoning Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Drudanae' ]
+    craft: '1 polymorph, 10% air resistance, adds physical armor',
+    ingredients: [ 'Leggings',	'Eternal Artefact' ]
   },
   {
-    craft: 'Blank Water Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Leather Cover 	Quill 	Distinctive Farhangite' ]
+    craft: '1 thievery, 0.1 move points, adds physical armor',
+    ingredients: [ 'Boots',	'Eternal Artefact' ]
   },
   {
-    craft: 'High Tier Blank Air Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Air Skillbook 	Quill 	Distinctive Tea' ]
-  },
-  {
-    craft: 'High Tier Blank Earth Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Earth Skillbook 	Quill 	Distinctive Amadouvier' ]
-  },
-  {
-    craft: 'High Tier Blank Fire Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Fire Skillbook 	Quill 	Distinctive Boletus' ]
-  },
-  {
-    craft: 'High Tier Blank Necromancy Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Necromancy Skillbook 	Quill 	Distinctive Trumpet of Death' ]
-  },
-  {
-    craft: 'High Tier Blank Polymorph Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Polymorph Skillbook 	Quill 	Distinctive Whisperwood' ]
-  },
-  {
-    craft: 'High Tier Blank Summoning Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Summoning Skillbook 	Quill 	Distinctive Drudanae' ]
-  },
-  {
-    craft: 'High Tier Blank Water Skillbook',
-    img: '',
-    description: '',
-    ingredients: [ 'Blank Water Skillbook 	Quill 	Distinctive Farhangite' ]
-  },
+    craft: '1 scoundrel',
+    ingredients: [ 'Ring',	'Eternal Artefact' ]
+  }
 ]
