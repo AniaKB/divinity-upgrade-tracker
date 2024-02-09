@@ -1544,6 +1544,43 @@ let recipes = [
         img: 'photos/items/make/n.webp',
         description: '',
         ingredients:	[ 'Bowstring', 'Short Stick' ]}
+    ],
+    herbmixes: [
+      { craft: 'Alertness Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      },
+      { craft: 'Courage Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      },
+      { craft: 'Enlightenment Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      },
+      { craft: 'Ferocity Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      },
+      { craft: 'Potent Alertness Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      },
+      { craft: 'Potent Enlightenment Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      },
+      { craft: 'Potent Ferocity Herbmix',
+        img: '',
+        description: '',
+        ingredients: ''
+      }      
     ]
   }
 ];
