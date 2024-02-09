@@ -2249,6 +2249,7 @@ function createSkillButtons () {
 
     const skillButton = document.createElement('button');
     skillButton.className = 'skill-button';
+    skillButton.ariaLabel = skill.type;
     skillButton.style.backgroundImage = `url(${skill.img})`;
     skillButton.style.backgroundSize = 'cover';
     skillButton.style.backgroundPosition = 'center';
@@ -2267,6 +2268,7 @@ function createSkillButtons () {
       level.forEach((sublevel) => {
         const subSkillButton = document.createElement('button');
         subSkillButton.className = 'subskill-button';
+        subSkillButton.ariaLabel = sublevel.name;
         subSkillButton.style.backgroundImage = `url(${sublevel.img})`;
         subSkillButton.style.backgroundSize = 'cover';
         subSkillButton.style.backgroundPosition = 'center';
