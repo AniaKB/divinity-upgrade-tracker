@@ -1547,37 +1547,37 @@ let recipes = [
     ],
     herbmixes: [
       { craft: 'Alertness Herbmix',
-        img: '',
+        img: 'photos/items/make/Alertness_Herbmix.webp',
         description: '',
         ingredients: ''
       },
-      { craft: 'Courage Herbmix',
-        img: '',
+      { craft: 'Courage_Herbmix',
+        img: 'photos/items/make/Courage Herbmix.webp',
         description: '',
         ingredients: ''
       },
       { craft: 'Enlightenment Herbmix',
-        img: '',
+        img: 'photos/items/make/Enlightenment_Herbmix.webp',
         description: '',
         ingredients: ''
       },
       { craft: 'Ferocity Herbmix',
-        img: '',
+        img: 'photos/items/make/Enlightenment_Herbmix.webp',
         description: '',
         ingredients: ''
       },
       { craft: 'Potent Alertness Herbmix',
-        img: '',
+        img: 'photos/items/make/Potent_Alertness_Herbmix.webp',
         description: '',
         ingredients: ''
       },
       { craft: 'Potent Enlightenment Herbmix',
-        img: '',
+        img: 'photos/items/make/Potent_Enlightenment_Herbmix.webp',
         description: '',
         ingredients: ''
       },
       { craft: 'Potent Ferocity Herbmix',
-        img: '',
+        img: 'photos/items/make/Potent_Ferocity_Herbmix.webp',
         description: '',
         ingredients: ''
       }      
