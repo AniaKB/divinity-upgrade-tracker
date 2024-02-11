@@ -3,7 +3,7 @@ const totalAttPointsDisplay = document.getElementById('totalAttPointsDisplay');
 const levelDropdown = document.getElementById('levelDropdown');
 let totalAttPoints = 0;
 
-const levels = [
+let levels = [
   {
     level: 1,
     attribute: 3, /* depends on build,*/
@@ -257,12 +257,13 @@ levelDropdown.value = 1;
 updateTotalAttPoints();
 
 function updateTotalAttPoints () {
-  let total = levelDropdown.value * 2;
-  attributesArray.forEach((att) => {
-    total -= att.points;
-  });
+  const selectedLevel = parseInt(levelDropdown.value);
+
+  const total = levels.slice(0, selectedLevel)
+                      .reduce((acc, curr) => acc + curr.attribute, 0);
+
   totalAttPoints = total;
-  totalAttPointsDisplay.textContent = `Attribute Points: ${totalAttPoints}`;
+  totalAttPointsDisplay.textContent = `Attributes: ${totalAttPoints}`;
 }
 
 function addPoints (index) {
