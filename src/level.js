@@ -7,7 +7,7 @@ let levels = [
   {
     level: 1,
     attribute: 3, /* depends on build,*/
-    combat: 3,
+    combat: 2,
     civil: 1,
     talent: 0
   },
@@ -58,7 +58,7 @@ let levels = [
     attribute: 2,
     combat: 1,
     civil: 0,
-    talent: 0
+    talent: 1
   },
   {
     level: 9,
@@ -72,7 +72,7 @@ let levels = [
     attribute: 2,
     combat: 1,
     civil: 1,
-    talent: 1
+    talent: 0
   },
   {
     level: 11,
@@ -248,10 +248,6 @@ function updateLevelsDropdown() {
 }
 
 updateLevelsDropdown();
-
-levelDropdown.addEventListener('change', () => {
-  const selectedLevel = parseInt(levelDropdown.value);
-})
 
 levelDropdown.value = 1;
 updateTotalAttPoints();

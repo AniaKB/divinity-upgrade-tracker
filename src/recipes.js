@@ -604,6 +604,12 @@ let recipes = [
         img: 'photos/items/make/Tomato_Sauce.webp',
         description: 'Heals 5%, Poison Resistance 10%, Duration 3 Turns.',
         ingredients: [ 'Any Hammer', 'Tomato' ]
+      },
+      {
+        craft: 'Poisoned Apple',
+        img: 'photos/items/Poisoned_Apple.webp',
+        description: 'Deals 8 Poison damage, rendering it unsafe for the living but safe for Undead and increases Poison resistance by 5%. The effects last 3 turns.',
+        ingredients: [ ['Zaikk\'s Talon', 'Poison Bottle'], 'Apple' ]
       }
     ],
     grenades: [
@@ -1684,20 +1690,20 @@ let recipes = [
 ];
 
 let craftingStations = [
-  'Anvil',
-  'Beer Barrel',
-  'Bench Saw',
-  'Boiling Pot',
-  'Bonfire',
-  'Campfire',
-  'Dreamer Pipe',
-  'Hand Water Pump',
-  'Oven',
-  'Pot Still',
-  'Spinning Wheel',
-  'Stove',
-  'Well',
-  'Wine Barrel'
+  { station: 'Anvil', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Beer Barrel', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Bench Saw', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Boiling Pot', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Bonfire', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Campfire', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Dreamer Pipe', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Hand Water Pump', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Oven', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Pot Still', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Spinning Wheel', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Stove', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Well', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Wine Barrel', img: 'photos/items/crafting_stations/wine_barrel.png', checked: false }
 ];
 
 let skillBooks = [
