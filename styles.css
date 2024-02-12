@@ -85,14 +85,14 @@ aside > ul, li
   border-style: solid outset outset solid;
   border-color: #000000;
   border-width: 2px;
-  padding: 5px 10px 5px 10px;
-  width: 127px;
+  padding: 2.5px 5px 2.5px 5px;
+  width: 100px;
   text-align: center;
-  font-size: 11px;
+  font-size: 10px;
   color: white;
   align-items: left;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-template-areas: "text text text text text"
 }
 
@@ -120,7 +120,6 @@ button {
 
 .items > button {
   margin: 2px 2px 2px 2px; /* Add space between buttons and inventory count */
-  width: 20px;
   text-align: center;
 }
 
@@ -128,7 +127,6 @@ button {
   display: flex;
 }
 
- /* Dropdown Button */
  .dropbtn {
   background-color: #312221;
   color: white;
