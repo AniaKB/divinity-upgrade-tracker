@@ -47,12 +47,12 @@ a:hover {
 .aside {
   float: left;
   background-color: #cfc6be;
-  min-width: 220px;
+  min-width: 210px;
   top: 0px;
   left: 0px;
   width: 100px;
   height: 100%;
-  border-right: solid;
+  border: solid;
   border-color: #2c2521;
   border-radius: 3px;
 }
@@ -60,6 +60,11 @@ a:hover {
 .abilities {
   display: flex;
   width: 100%;
+}
+
+li > .attributes {
+  display: grid;
+  grid-template-columns: auto;
 }
 
 aside > ul, li
@@ -135,11 +140,6 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-}
-
-.attributes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .skill-button {

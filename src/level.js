@@ -236,10 +236,10 @@ let attributesArray = [
   { attribute: 'Poison', points: 0 }
 ];
 
-function updateLevelsDropdown() {
+function updateLevelsDropdown () {
   levelDropdown.innerHTML = '';
 
-  levels.forEach(level => {
+  levels.forEach((level) => {
     const option = document.createElement('option');
     option.value = level.level;
     option.textContent = `${level.level}`;
@@ -262,8 +262,8 @@ function updateTotalAttPoints () {
   totalAttPointsDisplay.textContent = `Attributes: ${totalAttPoints}`;
 }
 
-function addPoints (index) {
-  if (totalAttPoints > 0) {
+function addAttPoints (index) {
+  if (totalAttPoints > 0 && attributesArray[index].points < totalAttPoints) {
     attributesArray[index].points++;
     totalAttPoints--;
     renderAttributes();
@@ -271,7 +271,7 @@ function addPoints (index) {
   }
 }
 
-function removePoints (index) {
+function removeAttPoints (index) {
   if (attributesArray[index].points > 0) {
     attributesArray[index].points--;
     totalAttPoints++;
@@ -292,7 +292,7 @@ function renderAttributes () {
 
     const decreaseAttButton = document.createElement('button');
     decreaseAttButton.textContent = '-';
-    decreaseAttButton.addEventListener('click', () => removePoints(index));
+    decreaseAttButton.addEventListener('click', () => removeAttPoints(index));
     listAttribute.appendChild(decreaseAttButton);
 
     const pointsText = document.createElement('span');
@@ -301,7 +301,7 @@ function renderAttributes () {
 
     const increaseAttButton = document.createElement('button');
     increaseAttButton.textContent = '+';
-    increaseAttButton.addEventListener('click', () => addPoints(index));
+    increaseAttButton.addEventListener('click', () => addAttPoints(index));
     listAttribute.appendChild(increaseAttButton);
 
     myAttributes.appendChild(listAttribute);
