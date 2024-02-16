@@ -1554,38 +1554,38 @@ let recipes = [
     herbmixes: [
       { craft: 'Alertness Herbmix',
         img: 'photos/items/make/Alertness_Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Wits + 8',
+        ingredients: [ 'Drudanae', 'Puffball' ]
       },
       { craft: 'Courage_Herbmix',
         img: 'photos/items/make/Courage Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Constitution + 8',
+        ingredients: [ 'Drudanae', 'Farhangite' ]
       },
       { craft: 'Enlightenment Herbmix',
         img: 'photos/items/make/Enlightenment_Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Intelligence + 8',
+        ingredients: [ 'Drudanae', 'Calocera' ]
       },
       { craft: 'Ferocity Herbmix',
         img: 'photos/items/make/Enlightenment_Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Start AP: + 2, AP Recovery: + 2',
+        ingredients: [ 'Drudanae', 'Augmentor' ]
       },
       { craft: 'Potent Alertness Herbmix',
         img: 'photos/items/make/Potent_Alertness_Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Wits + 8',
+        ingredients: [ 'Alertness Herbmix', 'Void-Tainted Yellow Ridgeback' ]
       },
       { craft: 'Potent Enlightenment Herbmix',
         img: 'photos/items/make/Potent_Enlightenment_Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Intelligence + 8',
+        ingredients: [ 'Enlightenment Herbmix', 'Void-Tainted Umber Monkfish' ]
       },
       { craft: 'Potent Ferocity Herbmix',
         img: 'photos/items/make/Potent_Ferocity_Herbmix.webp',
-        description: '',
-        ingredients: ''
+        description: 'Start AP: + 2, AP Recovery: + 2 ',
+        ingredients: [ 'Ferocity Herbmix', 'Void-Tainted Crimson Beam' ]
       }
     ],
     blankSkillbooks: [
