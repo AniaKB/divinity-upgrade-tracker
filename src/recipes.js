@@ -1442,12 +1442,20 @@ let recipes = [
         craft: 'Lockpicks',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: [ 'Key', 'Soap' ]},
+        ingredients: [ 'Key', 'Soap' ]
+      },
       {
         craft: 'Rope',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: [ 'Yarn' ]}
+        ingredients: [ 'Yarn' ]
+      },
+      {
+        craft: 'Backpack',
+        img: 'photos/items/make/n.webp',
+        description: '',
+        ingredients: [ 'Rope', 'Leather Scraps' ]
+      }
     ],
     weapons: [
       {
