@@ -157,7 +157,7 @@ button {
 
 .skill-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
   gap: 10px;
 }
 .skill-group {
@@ -189,4 +189,52 @@ button {
   background-blend-mode: darken;
   border-style: outset solid solid outset;
   border-color: black white white black;
+}
+
+@media screen and (max-width: 1080.5px) {
+  .skill-button {
+    width: 50px;
+    height: 80px;
+  }
+
+  .subskill-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    gap: 2px;
+  }
+  .skill-group {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2px;
+  }
+
+  #skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    width: auto;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 849.5px) {
+    .skill-button {
+      width: 25px;
+      height: 40px;
+    }
+
+    .subskill-button {
+      width: 25px;
+      height: 25px;
+    }
+
+    .skill-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+      gap: 2px;
+    }
 }
