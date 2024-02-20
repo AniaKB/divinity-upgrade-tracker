@@ -677,804 +677,959 @@ let recipes = [
         craft: 'Oil Flask',
         img: 'photos/items/make/n.webp',
         description: 'Creates an oil surface with a 2m radius.',
-        ingredients: { 'Any Oil Source', 'Empty Flask' ]},
+        ingredients: { 'Any Oil Source': 1, 'Empty Flask': 1 }
+      },
       {
         craft: 'Razzle Dazzle Grenade',
         img: 'photos/items/make/n.webp',
         description: 'Can inflict blind in a 4m radius. Set blinded for 2 Turns. Resisted by Magic Armour.',
-        ingredients: { 'Any Air Resistance Potion', 'Empty Canister' ]},
+        ingredients: { 'Any Air Resistance Potion': 1, 'Empty Canister': 1 }
+      },
       {
         craft: 'Razzle Dazzle Grenade',
         img: 'photos/items/make/n.webp',
         description: 'Can inflict blind in a 4m radius. Set blinded for 2 Turns. Resisted by Magic Armour.',
-        ingredients: { 'Empty Canister', 'Jellyroom' ]},
+        ingredients: { 'Empty Canister': 1, 'Jellyroom': 1 }
+      },
       {
         craft: 'Terror Grenade',
         img: 'photos/items/make/n.webp',
         description: 'Terrified, Duration 1 Turn',
-        ingredients: { 'Empty Canister', 'Tormented Soul' ]},
+        ingredients: { 'Empty Canister': 1, 'Tormented Soul': 1 }
+      },
       {
         craft: 'Thunderbolt Grenade',
         img: 'photos/items/make/n.webp',
         description: 'Stun targets in a 4m radius and deal air damage. Set Shocked for 2 Turns. Resisted by Magic Armour.',
-        ingredients: { 'Air Essence', 'Empty Canister' ]},
+        ingredients: { 'Air Essence': 1, 'Empty Canister': 1 }
+      },
       {
         craft: 'Tremor Grenade',
         img: 'photos/items/make/n.webp',
         description: 'Earth Damage, Knocked down for 1 turn Empty Canister/Grenade',
-        ingredients: { 'Earth Essence', 'Empty Canister' ]},
+        ingredients: { 'Earth Essence': 1, 'Empty Canister': 1 }
+      },
       {
         craft: 'Water Balloon',
         img: 'photos/items/make/n.webp',
         description: 'Creates a small water surface with a 3m radius. Set Wet for 3 Turns.',
-        ingredients: { 'Any Water Source', 'Intestines' ]},
+        ingredients: { 'Any Water Source': 1, 'Intestines': 1 }
+      },
     ],
     potions: [
       {
         craft: 'Any Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Healing Potion 	Zaikk\'s Talon' ]},
+        ingredients: { 'Any Healing Potion': 1, 	'Zaikk\'s Talon': 1 }
+      },
       {
         craft: 'Arrowhead',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { '	Any Cutting Tool 	Sharp Piece of Metal' ]},
+        ingredients: { '	Any Cutting Tool': 1, 'Sharp Piece of Metal': 1 }
+      },
       {
         craft: 'Ferocity Herbmix',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Augmentor 	Drudanae' ]},
+        ingredients: { 'Augmentor': 1, 'Drudanae': 1 }
+      },
       {
         craft: 'Giant Healing Potion',
         img: 'photos/items/make/n.webp',
         description: 'Heals +1670 Vitality',
-        ingredients: { 'Huge Healing Potion' ]},
+        ingredients: { 'Huge Healing Potion': 2 }
+      },
       {
         craft: 'Giant Poison Potion',
         img: 'photos/items/make/n.webp',
         description: '1220-13480 Poision, Set Poisoned for 3 Turns 2 x HPB',
-        ingredients: { 'Huge Poison Bottle' ]},
+        ingredients: { 'Huge Poison Bottle': 2 }
+      },
       {
         craft: 'Healing Elixir',
         img: 'photos/items/make/n.webp',
         description: 'Heals +80 Vitality',
-        ingredients: { 'Empty Potion Bottle 	Yarrow Flower' ]},
+        ingredients: { 'Empty Potion Bottle': 1,	'Yarrow Flower': 1 }
+      },
       {
         craft: 'Healing Potion',
         img: 'photos/items/make/n.webp',
         description: 'Heals +330 Vitality',
-        ingredients: { 'Medium Healing Potion' ]},
+        ingredients: { 'Medium Healing Potion': 2 }
+      },
       {
         craft: 'Huge Earth Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+90% Earth Resistance for 3 Turns.',
-        ingredients: { 'Large Earth Resistance Potion' ]},
+        ingredients: { 'Large Earth Resistance Potion': 2 }
+      },
       {
         craft: 'Huge Healing Potion',
         img: 'photos/items/make/n.webp',
         description: 'Heals +870 Vitality.',
-        ingredients: { 'Healing Potion' ]},
+        ingredients: { 'Healing Potion': 2 }
+      },
       {
         craft: 'Huge Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '+635-701 Poison, Set Poisoned for 3 Turns.',
-        ingredients: { 'Large Poison Bottle' ]},
+        ingredients: { 'Large Poison Bottle': 2 }
+      },
       {
         craft: 'Large Earth Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+75% Earth Resistance for 3 Turns.',
-        ingredients: { 'Medium Earth Resistance Potion' ]},
+        ingredients: { 'Medium Earth Resistance Potion': 2 }
+      },
       {
         craft: 'Large Magic Armor Potion',
         img: 'photos/items/make/n.webp',
         description: '+309 Magical Armor, 5 Turn Duration 2 x MMAP.',
-        ingredients: { 'Medium Magic Armor Potion' ]},
+        ingredients: { 'Medium Magic Armor Potion': 2 }
+      },
       {
         craft: 'Large Physical Armour Potion',
         img: 'photos/items/make/n.webp',
         description: '+294 Physical Armour. Duration 5 Turns 2 x MPAP.',
-        ingredients: { 'Medium Physical Armour Potion' ]},
+        ingredients: { 'Medium Physical Armour Potion': 2 }
+      },
       {
         craft: 'Large Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '+243-269 Poison Damage, Set Poisoned for 3 Turns.',
-        ingredients: { 'Medium Poison Bottle' ]},
+        ingredients: { 'Medium Poison Bottle': 2 }
+      },
       {
         craft: 'Medium Earth Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+50% Earth Resistance for 3 Turns.',
-        ingredients: { 'Earth Resistance Potion' ]},
+        ingredients: { 'Earth Resistance Potion': 2 }
+      },
       {
         craft: 'Medium Healing Potion',
         img: 'photos/items/make/n.webp',
         description: 'Heals +140 Vitality.',
-        ingredients: { 'Minor Healing Potion' ]},
+        ingredients: { 'Minor Healing Potion': 2 }
+      },
       {
         craft: 'Medium Magic Armor Potion',
         img: 'photos/items/make/n.webp',
         description: '+111 Magical Armor, 5 Turn Duration 2 x SMAP.',
-        ingredients: { 'Small Magic Armor Potion' ]},
+        ingredients: { 'Small Magic Armor Potion': 2 }
+      },
       {
         craft: 'Medium Physical Armour Potion',
         img: 'photos/items/make/n.webp',
         description: '+105 Physical Armour. Duration 5 Turns 2 x PAP.',
-        ingredients: { 'Physical Armor Potion' ]},
+        ingredients: { 'Physical Armor Potion': 2 }
+      },
       {
         craft: 'Medium Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '129-143 Poison Damage, Set Poisoned for 2 Turns.',
-        ingredients: { 'Small Poison Bottle' ]},
+        ingredients: { 'Small Poison Bottle': 2 }
+      },
       {
         craft: 'Minor Constitution Potion',
         img: 'photos/items/make/n.webp',
         description: '1 Constitution, Duration for 3 Turns.',
-        ingredients: { 'Empty Potion Bottle 	Farhangit' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Farhangit': 1 }
+      },
       {
         craft: 'Minor Finesse Potion',
         img: 'photos/items/make/n.webp',
         description: '+1 Finesse for 3 Turns.',
-        ingredients: { 'Boletus 	Empty Potion Bottle' ]},
+        ingredients: { 'Boletus': 1, 'Empty Potion Bottle': 1 }
+      },
       {
         craft: 'Minor Healing Potion',
         img: 'photos/items/make/n.webp',
         description: 'Heals +30 Vitality.',
-        ingredients: { 'Empty Potion Bottle 	Penny Bun Mushroom' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Penny Bun Mushroom': 1 }
+      },
       {
         craft: 'Minor Resist All Potion',
         img: 'photos/items/make/n.webp',
         description: '15% to all Resistances. Duration 3 Turns.',
-        ingredients: { 'Empty Potion Bottle 	Trumpet of Death' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Trumpet of Death': 1 }
+      },
       {
         craft: 'Minor Strength Potion',
         img: 'photos/items/make/n.webp',
         description: '1 Strength, Duration 3 Turns.',
-        ingredients: { 'Amethyst Deceiver 	Empty Potion Bottle' ]},
+        ingredients: { 'Amethyst Deceiver': 1, 'Empty Potion Bottle': 1 }
+      },
       {
         craft: 'Minor Wits Potion',
         img: 'photos/items/make/n.webp',
         description: '1 Wits, Duration 3 Turns.',
-        ingredients: { 'Empty Potion Bottle 	Puffball' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Puffball': 1 }
+      },
       {
         craft: 'Physical Armor Potion',
         img: 'photos/items/make/n.webp',
         description: '+30 Physical Armor, 5 Turn Duration.',
-        ingredients: { 'Amadouvier 	Empty Potion Bottle' ]},
+        ingredients: { 'Amadouvier': 1, 'Empty Potion Bottle': 1 }
+      },
       {
         craft: 'Small Air Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+15% Air Resistance for 3 Turns.gj+15% Air Resistance for 3 Turns',
-        ingredients: { 'Empty Potion Bottle 	Jellyroom' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Jellyroom': 1 }
+      },
       {
         craft: 'Small Earth Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+15% Earth Resistance for 3 Turns.',
-        ingredients: { 'Earth Tongue Mushroom 	Empty Potion Bottle' ]},
+        ingredients: { 'Earth Tongue Mushroom': 1, 'Empty Potion Bottle': 1 }
+      },
       {
         craft: 'Small Fire Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+15% Fire Resistance for 3 Turns.',
-        ingredients: { 'Empty Potion Bottle 	Guepinia Mushroom' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Guepinia Mushroom': 1 }
+      },
       {
         craft: 'Small Magic Armor Potion',
         img: 'photos/items/make/n.webp',
         description: '+32 Magical Armor, 5 Turn Duration.',
-        ingredients: { 'Empty Potion Bottle 	Whisperwood' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Whisperwood': 1 }
+      },
       {
         craft: 'Small Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '+57-63 Poison, Sets Poisoned for 2 turns.',
-        ingredients: { 'Empty Potion Bottle 	Ooze Barrel' ]},
+        ingredients: { 'Empty Potion Bottle': 1, 'Ooze Barrel': 1 }
+      },
       {
         craft: 'Small Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '+57-63 Poison, Sets Poisoned for 2 turns.',
-        ingredients: { 'Minor Healing Potion 	Zaikk\'s Talon' ]},
+        ingredients: { 'Minor Healing Potion': 1, 'Zaikk\'s Talon': 1 }
+      },
       {
         craft: 'Small Poison Bottle',
         img: 'photos/items/make/n.webp',
         description: '+57-63 Poison, Sets Poisoned for 2 turns.',
-        ingredients: { 'Empty Potion Bottle 	Fly Agaric Mushroom' ]},
+        ingredients: { 'Empty Potion Bottle': 1,	'Fly Agaric Mushroom': 1: 1 }
+      },
       {
         craft: 'Small Water Resistance Potion',
         img: 'photos/items/make/n.webp',
         description: '+15% Water Resistance for 3 Turns.',
-        ingredients: { 'Bluegill Mushroom 	Empty Potion Bottle' ]},
+        ingredients: { 'Bluegill Mushroom': 1,	'Empty Potion Bottle': 1: 1 }
+      },
       {
         craft: 'Stoneskin Potion',
         img: 'photos/items/make/n.webp',
         description: '+211 Physical Armour, -50% Movement Speed, Immunity to (Burning, Stunned, Poisoned, Bleeding, Petrified, Shocked), Duration 2 Turns.',
-        ingredients: { 'Earth Essence 	Empty Potion Bottle' ]},
+        ingredients: { 'Earth Essence': 1,	'Empty Potion Bottle': 1: 1 }
+      },
     ],
     runes: [
       {
         craft: 'Any Giant Rune',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Large Rune', 'Superior Pixie Dust' ]},
+        ingredients: { 'Any Large Rune': 1, 'Superior Pixie Dust': 1 }
+      },
       {
         craft: 'Any Large Rune',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Medium Rune', 'Pixie Dust' ]},
+        ingredients: { 'Any Medium Rune': 1, 'Pixie Dust': 1 }
+      },
       {
         craft: 'Any Medium Rune',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Small Rune', 'Pixie Dust' ]},
+        ingredients: { 'Any Small Rune': 1, 'Pixie Dust': 1 }
+      },
       {
         craft: 'Any Mystical Rune',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Giant Rune', 'Mystical Rune Frame' ]},
+        ingredients: { 'Any Giant Rune': 1, 'Mystical Rune Frame': 1 }
+      },
       {
         craft: 'Any Rune of Power',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Giant Rune', 'Rune Frame of Power' ]},
+        ingredients: { 'Any Giant Rune': 1, 'Rune Frame of Power': 1 }
+      },
       {
         craft: 'Small Flame Rune',
         img: 'photos/items/make/n.webp',
         description: 'Weapon: X% Fire Damage. Armor: X% Fire Resistance. Jewelry: X% Critical Chance.',
-        ingredients: { 'Any Oil Source', 'Pixie Dust 	Wood Chips' ]},
+        ingredients: { 'Any Oil Source': 1, 'Pixie Dust': 1, 'Wood Chips': 1 }
+      },
       {
         craft: 'Small Frost Rune',
         img: 'photos/items/make/n.webp',
         description: 'Weapon: X% Water Damage. Armor: X% Water resistance. Jewelry: Extra movementspeed.',
-        ingredients: { 'Any Water Source', 'Metal Scraps 	Pixie Dust' ]},
+        ingredients: { 'Any Water Source': 1, 'Metal Scraps': 1, 'Pixie Dust': 1 }
+      },
       {
         craft: 'Small Masterwork Rune',
         img: 'photos/items/make/n.webp',
         description: 'Weapon: X% Physical Damage. Armor: X% Maxim Physical Armour. Jewelry: X% Maxium Magic Armour.',
-        ingredients: { 'Any Wine Source', 'Livewood Log 	Pixie Dust' ]},
+        ingredients: { 'Any Wine Source': 1, 'Livewood Log': 1,	'Pixie Dust': 1 }
+      },
       {
         craft: 'Small Rock Rune',
         img: 'photos/items/make/n.webp',
         description: 'Weapon: X% Earth Damage. Armor: X% Earth Resistance. Jewelry: +X Maximum Vitality.',
-        ingredients: { 'Any Beer Source', 'Any Rock', 'Pixie Dust' ]},
+        ingredients: { 'Any Beer Source': 1, 'Any Rock': 1, 'Pixie Dust': 1 }
+      },
       {
         craft: 'Small Thunder Rune',
         img: 'photos/items/make/n.webp',
         description: 'Weapon: X% Air Damage. Armor: X% Air Resistance. Jewelry: +X% Dodging.',
-        ingredients: { 'Any Gold', 'Any Water Source', 'Pixie Dust' ]},
+        ingredients: { 'Any Gold': 1, 'Any Water Source': 1, 'Pixie Dust': 1 }
+      },
       {
         craft: 'Small Venom Rune',
         img: 'photos/items/make/n.webp',
         description: 'Weapon: X% Poison Damage. Armor: X% Poison Resistance. Jewelry: +X Accuracy.',
-        ingredients: { 'Any Bone', 'Any Poison Source', 'Pixie Dust' ]},
+        ingredients: { 'Any Bone': 1, 'Any Poison Source': 1, 'Pixie Dust': 1 }
+      },
     ],
     scrolls: [
       {
         craft: 'Acid Spores Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Livewood Log', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: {	'Livewood Log': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Apotheosis Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Bead', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: {	'Bead': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Apportation Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Air Essence', 'Rope', 'Sheet of Paper' ]},
+        ingredients: {	'High Quality Air Essence': 1, 'Rope': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Armour of Frost Scroll',
         img: 'photos/items/make/n.webp',
         description: 'Cures Burning, Poisoned, Stunned, Frozen, Suffocating and Petrified.',
-        ingredients: {''luegill Mushroom', 'Sheet of Paper', 'Water Essence' ]},
+        ingredients: { 'Bluegill Mushroom': 1, 'Sheet of Paper': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Artillery Plant Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Earth Tongue Mushroom', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: { 'Earth Tongue Mushroom': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Black Shroud Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Creepy Eye', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: { 'Creepy Eye': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Blinding Radiance Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Any Gold', 'Sheet of Paper' ]},
+        ingredients: { : 1'Air Essence': 1, 'Any Gold': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Blood Sucker Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Penny Bun Mushroom', 'Shadow Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Penny Bun Mushroom': 1, 'Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Bone Cage Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Fish Bone', 'High Quality Shadow Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Fish Bone': 1, 'High Quality Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Bonedust',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Bone', 'Mortar And Pestle ' ]},
+        ingredients: { 'Bone': 1, 'Mortar And Pestle': 1 }
+      },
       {
         craft: 'Bull Horns Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Antler', 'Life Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Antler': 1, 'Life Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Chain Lightning Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Sheet of Paper', 'Source Orb', 'Wool' ]},
+        ingredients: {	'Sheet of Paper': 1, 'Source Orb': 1, 'Wool': 1 }
+      },
       {
         craft: 'Chain Lightning Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Sheet of Paper', 'Source Orb', 'Yarn' ]},
+        ingredients: {	'Sheet of Paper': 1, 'Source Orb': 1, 'Yarn': 1 }
+      },
       {
         craft: 'Chameleon Skin Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Life Essence', 'Long Rat Tail', 'Sheet of Paper' ]},
+        ingredients: {	'Life Essence': 1, 'Long Rat Tail': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Charm Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Tormented Soul', 'Jar of Honey 	Sheet of Paper' ]},
+        ingredients: {	'Alien Tormented Soul': 1, 'Jar of Honey': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Chicken Claw Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Chicken Foot', 'Life Essence 	Sheet of Paper' ]},
+        ingredients: { 'Chicken Foot': 1, 'Life Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Contamination Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Earth Essence', 'Intestines 	Sheet of Paper' ]},
+        ingredients: { 'Earth Essence': 1, 'Intestines': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Curse Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Voidwoken Fish/Food', 'High Quality Shadow Essence 	Sheet of Paper' ]},
+        ingredients: { 'Any Voidwoken Fish/Food': 1, 'High Quality Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Decaying Touch Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Eye', 'Shadow Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Eye': 1, 'Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Dimensional Bolt Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Pepper', 'Sheet of Paper', 'Tormented Soul' ]},
+        ingredients: { 'Pepper': 1, 'Sheet of Paper': 1, 'Tormented Soul': 1 }
+      },
       {
         craft: 'Earthquake Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Clay', 'High Quality Earth Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Clay': 1, 'High Quality Earth Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Electric Discharge Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Rabbit\'s Paw', 'Sheet of Paper' ]},
+        ingredients: {	'Air Essence': 1, 'Rabbit\'s Paw': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Elemental Totem Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Sheet of Paper', 'Tormented Soul', 'Wooden Figurine' ]},
+        ingredients: {	'Sheet of Paper': 1, 'Tormented Soul': 1, 'Wooden Figurine': 1 }
+      },
       {
         craft: 'Epidemic of Fire Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Large Tusk', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: {	'Large Tusk': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Equalize Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Life Essence', 'Pilgrim\'s Shell', 'Sheet of Paper' ]},
+        ingredients: {	'Alien Life Essence': 1, 'Pilgrim\'s Shell': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Ethereal Storm Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Carrot', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: {	'Carrot': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Farsight Infusion Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Jar of Honey', 'Sheet of Paper', 'Tormented Soul' ]},
+        ingredients: {	'Jar of Honey': 1, 'Sheet of Paper': 1, 'Tormented Soul': 1 }
+      },
       {
         craft: 'Favourable Wind Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Panties', 'Sheet of Paper' ]},
+        ingredients: { 'Air Essence': 1, 'Panties': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Feather',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Cutting Tool', 'Pillow ' ]},
+        ingredients: { 'Any Cutting Tool': 1, 'Pillow ': 1 }
+      },
       {
         craft: 'Fire Brand Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Fire Essence', 'Fang', 'Sheet of Paper' ]},
+        ingredients: { 'Alien Fire Essence': 1, 'Fang': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Fire Whip Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Fire Essence', 'Sheet of Paper 	Voidwoken Spike' ]},
+        ingredients: { 'High Quality Fire Essence': 1, 'Sheet of Paper': 1, ': 1Voidwoken Spike': 1 }
+      },
       {
         craft: 'Fireball Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Fire Essence', 'Sharp Claw', 'Sheet of Paper' ]},
+        ingredients: { 'Fire Essence': 1, 'Sharp Claw': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Flaming Crescendo Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Fire Essence', 'Needle', 'Sheet of Paper' ]},
+        ingredients: { 'Alien Fire Essence': 1, 'Needle': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Flaming Tongues Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Adult Antler', 'High Quality Air Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Adult Antler': 1, 'High Quality Air Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Fortify Scroll',
         img: 'photos/items/make/n.webp',
         description: 'Removes Poisoned, Bleeding, Burning, Acid, Decaying.',
-        ingredients: {''heet of Paper', 'Whisperwood' ]},
+        ingredients: { 'Sheet of Paper': 1, 'Whisperwood': 1 }
+      },
       {
         craft: 'Fossil Strike Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Rock', 'Earth Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Any Rock': 1, 'Earth Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Grasp of the Starved Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Disembodied Hand', 'High Quality Shadow Essence 	Sheet of Paper' ]},
+        ingredients: {	'Disembodied Hand': 1, 'High Quality Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Grasp of the Starved Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Disembodied Hand', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: {	'Disembodied Hand': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Hail Strike Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Chub Fish', 'High Quality Water Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Chub Fish': 1, 'High Quality Water Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Haste Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Claw', 'Fire Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Claw': 1, 'Fire Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Haste Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Antler', 'Fire Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Antler': 1, 'Fire Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Healing Ritual Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Sheet of Paper', 'Starfish', 'Water Essence' ]},
+        ingredients: {	'Sheet of Paper': 1, 'Starfish': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Heart of Steel Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Metal', 'Life Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Any Metal': 1, 'Life Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Ignition Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Fire Essence', 'Sheet of Paper', 'Tusk' ]},
+        ingredients: {	'Fire Essence': 1, 'Sheet of Paper': 1, 'Tusk': 1 }
+      },
       {
         craft: 'Impalement Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Earth Essence', 'Sharp Piece of Metal', 'Sheet of Paper' ]},
+        ingredients: {	'Earth Essence': 1, 'Sharp Piece of Metal': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Infect Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Intestines', 'Shadow Essence', 'Sheet of Paper' ]},
+        ingredients: {	'Intestines': 1, 'Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Laser Ray Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Fire Essence 	Nine Inch Nails 	Sheet of Paper' ]},
+        ingredients: {	'High Quality Fire Essence': 1, 'Nine Inch Nails': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Lightning Bolt Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Rabbit\'s Paw', 'Sheet of Paper' ]},
+        ingredients: {	'Air Essence': 1, 'Rabbit\'s Paw': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Living on the Edge',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Shadow Essence', 'Raw Lumpy Giblets', 'Sheet of Paper' ]},
+        ingredients: {	'High Quality Shadow Essence': 1, 'Raw Lumpy Giblets': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Living Wall Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Earth Essence', 'Augmentor', 'Sheet of Paper' ]},
+        ingredients: {	'Alien Earth Essence': 1, 'Augmentor': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Medusa Head Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Animal Scales', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: {	'Animal Scales': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Mend Metal Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Earth Essence', 'Sheet of Paper', 'Stardust' ]},
+        ingredients: { 'Earth Essence': 1, 'Sheet of Paper': 1, 'Stardust': 1 }
+      },
       {
         craft: 'Moondust',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Moonstone', 'Mortar And Pestle ' ]},
+        ingredients: { 'Moonstone': 1, 'Mortar And Pestle ': 1 }
+      },
       {
         craft: 'Mush of Wood',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Water Source', 'Wood Chips ' ]},
+        ingredients: { 'Any Water Source': 1, 'Wood Chips ': 1 }
+      },
       {
         craft: 'Mush of Wood',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Beehive', 'Wood Chips ' ]},
+        ingredients: { 'Beehive': 1, 'Wood Chips ': 1 }
+      },
       {
         craft: 'Nether Swap Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Chanterelle', 'Sheet of Paper' ]},
+        ingredients: { 'Air Essence': 1, 'Chanterelle': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Peace of Mind Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Crab\'s Claw', 'Fire Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Crab\'s Claw': 1, 'Fire Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Pixie Dust',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Bonedust', 'Stardust ' ]},
+        ingredients: { 'Bonedust': 1, 'Stardust': 1 }
+      },
       {
         craft: 'Pixie Dust',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Moondust', 'Stardust ' ]},
+        ingredients: { 'Moondust': 1, 'Stardust': 1 }
+      },
       {
         craft: 'Planar Gateway Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Grapes', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: { 'Grapes': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Poison Dart Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Earth Essence', 'Fly Agaric Mushroom', 'Sheet of Paper' ]},
+        ingredients: { 'Earth Essence': 1, 'Fly Agaric Mushroom': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Poison Wave Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Earth Essence', 'Sheet of Paper', 'Slime' ]},
+        ingredients: { 'High Quality Earth Essence': 1, 'Sheet of Paper': 1, 'Slime': 1 }
+      },
       {
         craft: 'Pressure Spike Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Handkerchief', 'High Quality Air Essence ', 'Sheet of Paper' ]},
+        ingredients: { 'Handkerchief': 1, 'High Quality Air Essence ': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Pyroclastic Eruption Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Eternal Tablet', 'Sheet of Paper', 'Source Orb' ]},
+        ingredients: { 'Eternal Tablet': 1, 'Sheet of Paper': 1, 'Source Orb': 1 }
+      },
       {
         craft: 'Rain Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Herring 	Sheet of Paper', 'Water Essence' ]},
+        ingredients: { 'Herring: 1 	Sheet of Paper': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Raise Bloated Corpse Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Raw Red Meat', 'Shadow Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Raw Red Meat': 1, 'Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Raise Bonepile Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Ancient Human Skull', 'High Quality Shadow Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Ancient Human Skull': 1, 'High Quality Shadow Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Rallying Cry Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Garlic', 'Sheet of Paper', 'Tormented Soul' ]},
+        ingredients: { 'Garlic': 1, 'Sheet of Paper': 1, 'Tormented Soul': 1 }
+      },
       {
         craft: 'Reactive Armor Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Earth Essence', 'Sheet of Paper', 'Trumpet of Death' ]},
+        ingredients: { 'High Quality Earth Essence': 1, 'Sheet of Paper': 1, 'Trumpet of Death': 1 }
+      },
       {
         craft: 'Restoration Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Penny Bun Mushroom', 'Sheet of Paper', 'Water Essence' ]},
+        ingredients: { 'Penny Bun Mushroom': 1, 'Sheet of Paper': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Resurrection Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Life Essence', 'Sheet of Paper', 'Water Essence' ]},
+        ingredients: { 'Life Essence': 1, 'Sheet of Paper': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Searing Daggers Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Tooth', 'Fire Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Any Tooth': 1, 'Fire Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Shackles of Pain Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Shadow Essence', 'Sheet of Paper', 'Skull' ]},
+        ingredients: { 'High Quality Shadow Essence': 1, 'Sheet of Paper': 1, 'Skull': 1 }
+      },
       {
         craft: 'Shatter Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Water Essence', 'Mackerel', 'Sheet of Paper' ]},
+        ingredients: { 'Alien Water Essence': 1, 'Mackerel': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Sheet of Paper',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Mush of Wood', 'Oven ' ]},
+        ingredients: { 'Mush of Wood': 1, 'Oven': 1 }
+      },
       {
         craft: 'Shocking Touch Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Flour', 'Sheet of Paper' ]},
+        ingredients: { 'Air Essence': 1, 'Flour': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Shocking Touch Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Nine Inch Nails', 'Sheet of Paper' ]},
+        ingredients: { 'Air Essence': 1, 'Nine Inch Nails': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Silencing Stare Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Shadow Essence', 'Goo', 'Sheet of Paper' ]},
+        ingredients: { 'Alien Shadow Essence': 1, 'Goo': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Skin Graft Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Animal Scales', 'Life Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Animal Scales': 1, 'Life Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Soothing Cold Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Red Snapper', 'Sheet of Paper', 'Water Essence' ]},
+        ingredients: { 'Red Snapper': 1, 'Sheet of Paper': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Soul Mate Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Tormented Soul', 'Sheet of Paper', 'Wheat' ]},
+        ingredients: { 'High Quality Tormented Soul': 1, 'Sheet of Paper': 1, 'Wheat': 1 }
+      },
       {
         craft: 'Spider Legs Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Anthropod Leg 	Life Essence 	Sheet of Paper' ]},
+        ingredients: { 'Anthropod Leg': 1,	'Life Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Spread Your Wings Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Life Essence', 'Sheet of Paper', 'Sinew' ]},
+        ingredients: { 'Life Essence': 1, 'Sheet of Paper': 1, 'Sinew': 1 }
+      },
       {
         craft: 'Stardust',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Mortar And Pestle', 'Stardust Herb ' ]},
+        ingredients: { 'Mortar And Pestle': 1, 'Stardust Herb': 1 }
+      },
       {
         craft: 'Steam Lance Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Sheet of Paper', 'Source Orb', 'Water Essence' ]},
+        ingredients: { 'Sheet of Paper': 1, 'Source Orb': 1, 'Water Essence': 1 }
+      },
       {
         craft: 'Summon Oily Blob Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Any Oil Source', 'Life Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Any Oil Source': 1, 'Life Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Superconductor Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Alien Air Essence', 'Jellyroom', 'Sheet of Paper' ]},
+        ingredients: { 'Alien Air Essence': 1, 'Jellyroom': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Superior Stardust',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Mortar And Pestle', 'Superior Stardust Herb ' ]},
+        ingredients: { 'Mortar And Pestle': 1, 'Superior Stardust Herb': 1 }
+      },
       {
         craft: 'Supernova Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'High Quality Fire Essence', 'Sharp Tooth', 'Sheet of Paper' ]},
+        ingredients: { 'High Quality Fire Essence': 1, 'Sharp Tooth': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Teleportation Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Air Essence', 'Feather', 'Sheet of Paper' ]},
+        ingredients: { 'Air Essence': 1, 'Feather': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Tentacle Lash Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Life Essence', 'Rat\'s Tail', 'Sheet of Paper' ]},
+        ingredients: { 'Life Essence': 1, 'Rat\'s Tail': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Thread',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Hair' ]},
+        ingredients: { 'Hair': 2 }
+      },
       {
         craft: 'Tornado Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: {	'Hair', 'High Quality Air Essence', 'Sheet of Paper' ]},
+        ingredients: { 'Hair': 1, 'High Quality Air Essence': 1, 'Sheet of Paper': 1 }
+      },
       {
         craft: 'Winter Blast Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Plaice', 'Sheet of Paper', 'Water Essence' ]},
+        ingredients: { 'Plaice': 1, 'Sheet of Paper': 1, 'Water Essence': 1 }
+      },
     ],
     skillBooks: [
       {
         craft: 'Apportation Skillbook',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Apportation Scroll', 'Blank Skillbook Air' ]},
+        ingredients: { 'Apportation Scroll': 1, 'Blank Skillbook Air': 1 }
+      },
       {
         craft: 'Breathing Bubble Skillbook',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Air Skillbook', 'Any Warrior Skillbook' ]},
+        ingredients: { 'Any Air Skillbook': 1, 'Any Warrior Skillbook': 1 }
+      },
     ],
     tools: [
       {
         craft: 'Big Tongs Roped Together',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Leather Scraps', 'Tongs' ]},
+        ingredients: { 'Leather Scraps': 1, 'Tongs': 1 }
+      },
       {
         craft: 'Big Tongs Roped Together',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Cloth Scraps', 'Tongs' ]},
+        ingredients: { 'Cloth Scraps': 1, 'Tongs': 1 }
+      },
       {
         craft: 'Bowstring',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Sinew' ]},
+        ingredients: { 'Sinew': 1 }
+      },
       {
         craft: 'Improvised Shovel',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Bowl', 'Long Branch' ]},
+        ingredients: { 'Bowl': 1, 'Long Branch': 1 }
+      },
       {
         craft: 'Lockpicks',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Any Hammer', 'Nine Inch Nails' ]},
+        ingredients: { 'Any Hammer': 1, 'Nine Inch Nails': 1 }
+      },
       {
         craft: 'Lockpicks',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Needle' ]},
+        ingredients: { 'Needle': 1 }
+      },
       {
         craft: 'Lockpicks',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Key', 'Soap' ]
+        ingredients: { 'Key': 1, 'Soap': 1 }: 1
       },
       {
         craft: 'Rope',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Yarn' ]
+        ingredients: { 'Yarn': 1 }: 1
       },
       {
         craft: 'Backpack',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Rope', 'Leather Scraps' ]
+        ingredients: { 'Rope': 1, 'Leather Scraps': 1 }: 1
       }
     ],
     weapons: [
@@ -1482,138 +1637,158 @@ let recipes = [
         craft: 'Crossbow',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Bowstring', 'Crossbow without bowstring' ]},
+        ingredients:	{ 'Bowstring': 1, 'Crossbow without bowstring': 1 }
+      },
       {
         craft: 'Improv Wand',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Short Stick', 'Skull' ]},
+        ingredients:	{ 'Short Stick': 1, 'Skull': 1 }
+      },
       {
         craft: 'Improv Wand',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Ancient Human Skull', 'Short Stick' ]},
+        ingredients:	{ 'Ancient Human Skull': 1, 'Short Stick': 1 }
+      },
       {
         craft: 'Improvised Staff',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Long Branch', 'Shell' ]},
+        ingredients:	{ 'Long Branch': 1, 'Shell': 1 }
+      },
       {
         craft: 'Knife On A Stick',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Any Knife', 'Rope', 'Short Stick' ]},
+        ingredients:	{ 'Any Knife': 1, 'Rope': 1, 'Short Stick': 1 }
+      },
       {
         craft: 'Knife On A Stick',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Any Dagger', 'Rope', 'Short Stick' ]},
+        ingredients:	{ 'Any Dagger': 1, 'Rope': 1, 'Short Stick': 1 }
+      },
       {
         craft: 'Makeshift Club',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { '	Long Branch', 'Sharp Rock' ]},
+        ingredients: { 'Long Branch': 1, 'Sharp Rock': 1 }
+      },: 1
       {
         craft: 'Makeshift Club',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { '	Cloth Scraps', 'Long Branch' ]},
+        ingredients: { 'Cloth Scraps': 1, 'Long Branch': 1 }
+      },
       {
         craft: 'Makeshift Club',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { '	Leather Scraps', 'Long Branch' ]},
+        ingredients: { 'Leather Scraps': 1, 'Long Branch': 1 }
+      },
       {
         craft: 'Makeshift Wand',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Short Stick', 'Skull' ]},
+        ingredients:	{ 'Short Stick': 1, 'Skull': 1 }
+      },
       {
         craft: 'Primitive Harpoon',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Arrowhead', 'Long Branch' ]},
+        ingredients:	{ 'Arrowhead': 1, 'Long Branch': 1 }
+      },
       {
         craft: 'Primitive Harpoon',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Long Branch', 'Sharp Piece of Metal' ]},
+        ingredients:	{ 'Long Branch': 1, 'Sharp Piece of Metal': 1 }
+      },
       {
         craft: 'Sharp Stone On A Big Branch',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Long Branch', 'Sharp Rock' ]},
+        ingredients: { 'Long Branch': 1, 'Sharp Rock': 1 }
+      },
       {
         craft: 'Sharp Stone On A Stick',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { 'Sharp Rock', 'Short Stick' ]},
+        ingredients: { 'Sharp Rock': 1, 'Short Stick': 1 }
+      },
       {
         craft: 'Shiv',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Handkerchief', 'Sharp Piece of Metal' ]},
+        ingredients:	{ 'Handkerchief': 1, 'Sharp Piece of Metal': 1 }
+      },
       {
         craft: 'Shiv',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Leather Scraps', 'Sharp Piece of Metal' ]},
+        ingredients:	{ 'Leather Scraps': 1, 'Sharp Piece of Metal': 1 }
+      },
       {
         craft: 'Shiv',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Cloth Scraps', 'Sharp Piece of Metal' ]},
+        ingredients:	{ 'Cloth Scraps': 1, 'Sharp Piece of Metal': 1 }
+      : 1},
       {
         craft: 'Shiv',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Anvil', 'Any Hammer', 'Sharp Piece of Metal' ]},
+        ingredients:	{ 'Anvil': 1, 'Any Hammer': 1, 'Sharp Piece of Metal': 1 }
+      : 1},
       {
         craft: 'Toy Crossbow',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Long Branch', 'Short Stick' ]},
+        ingredients:	{ 'Long Branch': 1, 'Short Stick': 1 }
+      : 1},
       {
         craft: 'Twig With A String',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients:	{ 'Bowstring', 'Short Stick' ]}
+        ingredients:	{ 'Bowstring': 1, 'Short Stick': 1 }
+      : 1}
     ],
     herbmixes: [
       { craft: 'Alertness Herbmix',
         img: 'photos/items/make/Alertness_Herbmix.webp',
         description: 'Wits + 8',
-        ingredients: { 'Drudanae', 'Puffball' ]
+        ingredients: { 'Drudanae': 1, 'Puffball': 1 }
       },
       { craft: 'Courage_Herbmix',
         img: 'photos/items/make/Courage Herbmix.webp',
         description: 'Constitution + 8',
-        ingredients: { 'Drudanae', 'Farhangite' ]
+        ingredients: { 'Drudanae': 1, 'Farhangite': 1 }
       },
       { craft: 'Enlightenment Herbmix',
         img: 'photos/items/make/Enlightenment_Herbmix.webp',
         description: 'Intelligence + 8',
-        ingredients: { 'Drudanae', 'Calocera' ]
+        ingredients: { 'Drudanae': 1, 'Calocera': 1 }
       },
       { craft: 'Ferocity Herbmix',
         img: 'photos/items/make/Enlightenment_Herbmix.webp',
         description: 'Start AP: + 2, AP Recovery: + 2',
-        ingredients: { 'Drudanae', 'Augmentor' ]
+        ingredients: { 'Drudanae': 1, 'Augmentor': 1 }
       },
       { craft: 'Potent Alertness Herbmix',
         img: 'photos/items/make/Potent_Alertness_Herbmix.webp',
         description: 'Wits + 8',
-        ingredients: { 'Alertness Herbmix', 'Void-Tainted Yellow Ridgeback' ]
+        ingredients: { 'Alertness Herbmix': 1, 'Void-Tainted Yellow Ridgeback': 1 }
       },
       { craft: 'Potent Enlightenment Herbmix',
         img: 'photos/items/make/Potent_Enlightenment_Herbmix.webp',
         description: 'Intelligence + 8',
-        ingredients: { 'Enlightenment Herbmix', 'Void-Tainted Umber Monkfish' ]
+        ingredients: { 'Enlightenment Herbmix': 1, 'Void-Tainted Umber Monkfish': 1 }
       },
       { craft: 'Potent Ferocity Herbmix',
         img: 'photos/items/make/Potent_Ferocity_Herbmix.webp',
         description: 'Start AP: + 2, AP Recovery: + 2 ',
-        ingredients: { 'Ferocity Herbmix', 'Void-Tainted Crimson Beam' ]
+        ingredients: { 'Ferocity Herbmix': 1, 'Void-Tainted Crimson Beam': 1 }
       }
     ],
     blankSkillbooks: [
@@ -1621,97 +1796,97 @@ let recipes = [
         craft: 'Quill',
         img: '',
         description: '',
-        ingredients: { 'Any Feather 	Any Cutting Tool' ]
+        ingredients: { 'Any Feather: 1 	Any Cutting Tool': 1 }
       },
       {
         craft: 'Leather Cover',
         img: '',
         description: '',
-        ingredients: { 'Any Cutting Tool', 'Leather Scraps', 'Leather Scraps' ]
+        ingredients: { 'Any Cutting Tool': 1, 'Leather Scraps': 1, 'Leather Scraps': 1 }
       },
       {
         craft: 'Blank Air Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Tea' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Tea': 1 }
       },
       {
         craft: 'Blank Earth Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Amadouvier' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Amadouvier': 1 }
       },
       {
         craft: 'Blank Fire Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Boletus' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Boletus': 1 }
       },
       {
         craft: 'Blank Necromancy Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Trumpet of Death' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Trumpet of Death': 1 }
       },
       {
         craft: 'Blank Polymorph Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Whisperwood' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Whisperwood': 1 }
       },
       {
         craft: 'Blank Summoning Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Drudanae' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Drudanae': 1 }
       },
       {
         craft: 'Blank Water Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Leather Cover', 'Quill', 'Distinctive Farhangite' ]
+        ingredients: { 'Leather Cover': 1, 'Quill': 1, 'Distinctive Farhangite': 1 }
       },
       {
         craft: 'High Tier Blank Air Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Air Skillbook', 'Quill', 'Distinctive Tea' ]
+        ingredients: { 'Blank Air Skillbook': 1, 'Quill': 1, 'Distinctive Tea': 1 }
       },
       {
         craft: 'High Tier Blank Earth Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Earth Skillbook', 'Quill', 'Distinctive Amadouvier' ]
+        ingredients: { 'Blank Earth Skillbook': 1, 'Quill': 1, 'Distinctive Amadouvier': 1 }
       },
       {
         craft: 'High Tier Blank Fire Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Fire Skillbook', 'Quill', 'Distinctive Boletus' ]
+        ingredients: { 'Blank Fire Skillbook': 1, 'Quill': 1, 'Distinctive Boletus': 1 }
       },
       {
         craft: 'High Tier Blank Necromancy Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Necromancy Skillbook', 'Quill', 'Distinctive Trumpet of Death' ]
+        ingredients: { 'Blank Necromancy Skillbook': 1, 'Quill': 1, 'Distinctive Trumpet of Death': 1 }
       },
       {
         craft: 'High Tier Blank Polymorph Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Polymorph Skillbook', 'Quill', 'Distinctive Whisperwood' ]
+        ingredients: { 'Blank Polymorph Skillbook': 1, 'Quill': 1, 'Distinctive Whisperwood': 1 }
       },
       {
         craft: 'High Tier Blank Summoning Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Summoning Skillbook', 'Quill', 'Distinctive Drudanae' ]
+        ingredients: { 'Blank Summoning Skillbook': 1, 'Quill': 1, 'Distinctive Drudanae': 1 }
       },
       {
         craft: 'High Tier Blank Water Skillbook',
         img: '',
         description: '',
-        ingredients: { 'Blank Water Skillbook', 'Quill', 'Distinctive Farhangite' ]
+        ingredients: { 'Blank Water Skillbook': 1, 'Quill': 1, 'Distinctive Farhangite': 1 }
       },
     ]
   }
@@ -1739,301 +1914,301 @@ let skillBooks = [
     craft: 'Blinding Radiance Skillbook',
     img: '',
     description: '',
-    ingredients:	{ 'Aerotheurge Blank Skill Book', 'Blinding Radiance Scroll' ]
+    ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Blinding Radiance Scroll': 1 }
   },
   {
   craft: 'Chain Lightning Skillbook',
   img: '',
   description: '',
-  ingredients: { '	Aerotheurge Blank Skill Book', 'Chain Lightning Scroll' ]
+  ingredients: { '	Aerotheurge Blank Skill Book': 1, 'Chain Lightning Scroll': 1 }
   },
   {
   craft: 'Electric Fence Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Aerotheurge Blank Skill Book', 'Electric Fence Scroll' ]
+  ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Electric Fence Scroll': 1 }
   },
   {
   craft: 'Favourable Wind Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Aerotheurge Blank Skill Book', 'Favourable Wind Scroll' ]
+  ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Favourable Wind Scroll': 1 }
   },
   {
   craft: 'Lightning Bolt Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Aerotheurge Blank Skill Book', 'Lightning Bolt Scroll' ]
+  ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Lightning Bolt Scroll': 1 }
   },
   {
   craft: 'Teleportation Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Aerotheurge Blank Skill Book', 'Teleportation Scroll' ]
+  ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Teleportation Scroll': 1 }
   },
   {
   craft: 'Shocking Touch Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Aerotheurge Blank Skill Book', 'Shocking Touch Scroll' ]
+  ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Shocking Touch Scroll': 1 }
   },
   {
   craft: 'Tornado Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Aerotheurge Blank Skill Book', 'Tornado Scroll' ]
+  ingredients:	{ 'Aerotheurge Blank Skill Book': 1, 'Tornado Scroll': 1 }
   },
   {
   craft: 'Acid Spores Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', 'Acid Spores Scroll' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, 'Acid Spores Scroll': 1 }
   },
   {
   craft: 'Contamination Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', '	Contamination Scroll' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, '	Contamination Scroll': 1 }
   },
   {
   craft: 'Corrosive Spray Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', 'Any Source Necromancy Skillbook' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, 'Any Source Necromancy Skillbook': 1 }
   },
   {
   craft: 'Fortify Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', 'Fortify Scroll' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, 'Fortify Scroll': 1 }
   },
   {
   craft: 'Poison Dart Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', 'Poison Dart Scroll' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, 'Poison Dart Scroll': 1 }
   },
   {
   craft: 'Fossil Strike Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', 'Fossil Strike Scroll' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, 'Fossil Strike Scroll': 1 }
   },
   {
   craft: 'Impalement Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Geomancer Blank Skill Book', 'Impalement Scroll' ]
+  ingredients:	{ 'Geomancer Blank Skill Book': 1, 'Impalement Scroll': 1 }
   },
   {
   craft: 'Burn My Eyes Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Burn My Eyes Scroll' ]
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Burn My Eyes Scroll': 1 }
   },
   {
   craft: 'Fireball Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Fireball Scroll' ]
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Fireball Scroll': 1 }
   },
   {
   craft: 'Fireblood Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Any Polymorph Skillbook' ]
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Any Polymorph Skillbook': 1 }
   },
   {
   craft: 'Fireblood Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Fireblood Scroll' ]
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Fireblood Scroll': 1 }
   },
   {
   craft: 'Searing Daggers Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Searing Daggers Scroll' ],
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Searing Daggers Scroll': 1 }
   },
   {
   craft: 'Haste Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Haste Scroll' ],
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Haste Scroll': 1 }
   },
   {
   craft: 'Ignition Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Ignition Scroll' ],
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Ignition Scroll': 1 }
   },
   {
   craft: 'Infectious Flame Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Infectious Flame Scroll' ],
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Infectious Flame Scroll': 1 }
   },
   {
   craft: 'Spontaneous Combustion Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Pyrokinetic Blank Skill Book', 'Spontaneous Combustion Scroll' ],
+  ingredients:	{ 'Pyrokinetic Blank Skill Book': 1, 'Spontaneous Combustion Scroll': 1 }
   },
   {
   craft: 'Blood Sucker Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Necromancer Blank Skill Book', 'Blood Sucker Scroll' ],
+  ingredients:	{ 'Necromancer Blank Skill Book': 1, 'Blood Sucker Scroll': 1 }
   },
   {
   craft: 'Decaying Touch Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Necromancer Blank Skill Book', 'Decaying Touch Scroll' ],
+  ingredients:	{ 'Necromancer Blank Skill Book': 1, 'Decaying Touch Scroll': 1 }
   },
   {
   craft: 'Mosquito Swarm Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Necromancer Blank Skill Book', 'Mosquito Swarm Scroll' ],
+  ingredients:	{ 'Necromancer Blank Skill Book': 1, 'Mosquito Swarm Scroll': 1 }
   },
   {
   craft: 'Rain of Blood Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Necromancer Blank Skill Book', 'Rain of Blood Scroll' ],
+  ingredients:	{ 'Necromancer Blank Skill Book': 1, 'Rain of Blood Scroll': 1 }
   },
   {
   craft: 'Shackles of Pain Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Necromancer Blank Skill Book', 'Shackles of Pain Scroll' ],
+  ingredients:	{ 'Necromancer Blank Skill Book': 1, 'Shackles of Pain Scroll': 1 }
   },
   {
   craft: 'Infect Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Necromancer Blank Skill Book', 'Infect Scroll' ],
+  ingredients:	{ 'Necromancer Blank Skill Book': 1, 'Infect Scroll': 1 }
   },
   {
   craft: 'Tentacle Lash Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Polymorph Blank Skill Book', 'Tentacle Lash Scroll' ],
+  ingredients:	{ 'Polymorph Blank Skill Book': 1, 'Tentacle Lash Scroll': 1 }
   },
   {
   craft: 'Chicken Claw Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Polymorph Blank Skill Book', 'Chicken Claw Scroll' ],
+  ingredients:	{ 'Polymorph Blank Skill Book': 1, 'Chicken Claw Scroll': 1 }
   },
   {
   craft: 'Bull Horns Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Polymorph Blank Skill Book', 'Bull Horns Scroll' ],
+  ingredients:	{ 'Polymorph Blank Skill Book': 1, 'Bull Horns Scroll': 1 }
   },
   {
   craft: 'Chameleon Cloak Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Polymorph Blank Skill Book', 'Chameleon Cloak Scroll' ],
+  ingredients:	{ 'Polymorph Blank Skill Book': 1, 'Chameleon Cloak Scroll': 1 }
   },
   {
   craft: 'Heart of Steel Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Polymorph Blank Skill Book', 'Heart of Steel Scroll' ],
+  ingredients:	{ 'Polymorph Blank Skill Book': 1, 'Heart of Steel Scroll': 1 }
   },
   {
   craft: 'Spread Your Wings Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Polymorph Blank Skill Book', 'Spread Your Wings Scroll' ],
+  ingredients:	{ 'Polymorph Blank Skill Book': 1, 'Spread Your Wings Scroll': 1 }
   },
   {
   craft: 'Conjure Incarnate Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Conjure Incarnate Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Conjure Incarnate Scroll': 1 }
   },
   {
   craft: 'Dimensional Bolt Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Dimensional Bolt Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Dimensional Bolt Scroll': 1 }
   },
   {
   craft: 'Elemental Totem Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Elemental Totem Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Elemental Totem Scroll': 1 }
   },
   {
   craft: 'Farsight Infusion Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Farsight Infusion Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Farsight Infusion Scroll': 1 }
   },
   {
   craft: 'Power Infusion Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Power Infusion Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Power Infusion Scroll': 1 }
   },
   {
   craft: 'Rallying Cry Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Rallying Cry Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Rallying Cry Scroll': 1 }
   },
   {
   craft: 'Supercharger Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Summoning Blank Skill Book', 'Supercharger Scroll' ],
+  ingredients:	{ 'Summoning Blank Skill Book': 1, 'Supercharger Scroll': 1 }
   },
   {
   craft: 'Armour of Frost Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 'Armour of Frost Scroll' ],
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 'Armour of Frost Scroll': 1 }
   },
   {
   craft: 'Hail Strike Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 'Hail Strike Scroll' ],
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 'Hail Strike Scroll': 1 }
   },
   {
   craft: 'Healing Ritual Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 'Healing Ritual Scroll' ],
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 'Healing Ritual Scroll': 1 }
   },
   {
   craft: 'Rain Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 'Rain Scroll' ],
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 'Rain Scroll': 1 }
   },
   {
   craft: 'Restoration Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 'Restoration Scroll' ],
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 'Restoration Scroll': 1 }
   },
   {
   craft: 'Winter Blast Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 'Winter Blast Scroll' ],
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 'Winter Blast Scroll': 1 }
   },
   {
   craft: 'Steam Lance Skillbook',
   img: '',
   description: '',
-  ingredients:	{ 'Hydrosophist Blank Skill Book', 	'Global Cooling Scroll' ]
+  ingredients:	{ 'Hydrosophist Blank Skill Book': 1, 	'Global Cooling Scroll': 1 }
   }
 ];
 
