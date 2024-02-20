@@ -1674,7 +1674,7 @@ let recipes = [
         img: 'photos/items/make/n.webp',
         description: '',
         ingredients: { 'Long Branch': 1, 'Sharp Rock': 1 }
-      },: 1
+      },
       {
         craft: 'Makeshift Club',
         img: 'photos/items/make/n.webp',
@@ -1734,25 +1734,25 @@ let recipes = [
         img: 'photos/items/make/n.webp',
         description: '',
         ingredients:	{ 'Cloth Scraps': 1, 'Sharp Piece of Metal': 1 }
-      : 1},
+      },
       {
         craft: 'Shiv',
         img: 'photos/items/make/n.webp',
         description: '',
         ingredients:	{ 'Anvil': 1, 'Any Hammer': 1, 'Sharp Piece of Metal': 1 }
-      : 1},
+      },
       {
         craft: 'Toy Crossbow',
         img: 'photos/items/make/n.webp',
         description: '',
         ingredients:	{ 'Long Branch': 1, 'Short Stick': 1 }
-      : 1},
+      },
       {
         craft: 'Twig With A String',
         img: 'photos/items/make/n.webp',
         description: '',
         ingredients:	{ 'Bowstring': 1, 'Short Stick': 1 }
-      : 1}
+      }
     ],
     herbmixes: [
       { craft: 'Alertness Herbmix',
@@ -2314,42 +2314,42 @@ let baseSkillBooks = [
 let enchantment = [
   {
     craft: 'Weapon deals X-X bonus poison damage based on item level',
-    ingredients: { 'Weapon',	'Any Poison Source', 'Ooze Barrel' ]
+    ingredients: { 'Weapon': 1,	'Any Poison Source': 1, 'Ooze Barrel': 1 }
   },
   {
     craft: 'Weapon deals X-X bonus fire damage based on item level',
-    ingredients: { 'Weapon (except wand)',	'Oil Barrel',	'Campfire Crafter\'s kit gift bag']
+    ingredients: { 'Weapon (except wand)': 1,	'Oil Barrel': 1,	'Campfire Crafter\'s kit gift bag': 1}
   },
   {
     craft: 'Grants immunity to slipping on ice',
-    ingredients: { 'Nails',	'Boots ' ]
+    ingredients: { 'Nails': 1,	'Boots ': 1 }
   },
   {
     craft: '2 finesse, 1 huntsman, adds physical armor',
-    ingredients: { 'Helmet',	'Eternal Artefact' ]
+    ingredients: { 'Helmet': 1,	'Eternal Artefact': 1 }
   },
   {
     craft: '10% air resistance, adds physical armor',
-    ingredients: { 'Chest',	'Eternal Artefact' ]
+    ingredients: { 'Chest': 1,	'Eternal Artefact': 1 }
   },
   {
     craft: '2 strength, 1 warfare, adds physical armor',
-    ingredients: { 'Belt',	'Eternal Artefact' ]
+    ingredients: { 'Belt': 1,	'Eternal Artefact': 1 }
   },
   {
     craft: '2 constitution, 10% earth resistance, adds physical armor',
-    ingredients: { 'Gloves',	'Eternal Artefact' ]
+    ingredients: { 'Gloves': 1,	'Eternal Artefact': 1 }
   },
   {
     craft: '1 polymorph, 10% air resistance, adds physical armor',
-    ingredients: { 'Leggings',	'Eternal Artefact' ]
+    ingredients: { 'Leggings': 1,	'Eternal Artefact': 1 }
   },
   {
     craft: '1 thievery, 0.1 move points, adds physical armor',
-    ingredients: { 'Boots',	'Eternal Artefact' ]
+    ingredients: { 'Boots': 1,	'Eternal Artefact': 1 }
   },
   {
     craft: '1 scoundrel',
-    ingredients: { 'Ring',	'Eternal Artefact' ]
+    ingredients: { 'Ring': 1,	'Eternal Artefact': 1 }
   }
 ]
