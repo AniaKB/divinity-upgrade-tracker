@@ -1895,15 +1895,15 @@ let recipes = [
 let craftingStations = [
   { station: 'Anvil', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Beer Barrel', img: 'photos/items/crafting_stations/', checked: false },
-  { station: 'Bench Saw', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Bench Saw', img: 'photos/items/crafting_stations/bench_saw.jpg', checked: false },
   { station: 'Boiling Pot', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Bonfire', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Campfire', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Dreamer Pipe', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Hand Water Pump', img: 'photos/items/crafting_stations/', checked: false },
-  { station: 'Oven', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Oven', img: 'photos/items/crafting_stations/oven.jpg', checked: false },
   { station: 'Pot Still', img: 'photos/items/crafting_stations/', checked: false },
-  { station: 'Spinning Wheel', img: 'photos/items/crafting_stations/', checked: false },
+  { station: 'Spinning Wheel', img: 'photos/items/crafting_stations/spinning_wheel.jpg', checked: false },
   { station: 'Stove', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Well', img: 'photos/items/crafting_stations/', checked: false },
   { station: 'Wine Barrel', img: 'photos/items/crafting_stations/wine_barrel.png', checked: false }
@@ -2215,101 +2215,101 @@ let skillBooks = [
 let baseSkillBooks = [
   {
     craft: 'Vacuum Touch',
-    ingredients: { 'Aerothurge 	Necromancer 	Neither skillbook may consume Source points.
+    ingredients: { 'Aerothurge 	Necromancer 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Vaporize 	Aerothurge',
-    ingredients: { 'Polymorphing 	Neither skillbook may consume Source points.
+    ingredients: { 'Polymorphing 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Erratic Wisp',
-    ingredients: { 'Aerothurge 	Huntsman 	Neither skillbook may consume Source points.
+    ingredients: { 'Aerothurge 	Huntsman 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Smoke Cover',
-    ingredients: { 'Aerothurge 	Scoundrel 	Neither skillbook may consume Source points.
+    ingredients: { 'Aerothurge 	Scoundrel 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Electric Infusion',
-    ingredients: { 'Aerothurge 	Summoning 	Neither skillbook may consume Source points.
+    ingredients: { 'Aerothurge 	Summoning 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Breathing Bubble',
-    ingredients: { 'Aerothurge 	Warfare 	Neither skillbook may consume Source points.
+    ingredients: { 'Aerothurge 	Warfare 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Corrosive Spray',
-    ingredients: { 'Geomancer 	Necromancer 	Neither skillbook may consume Source points.
+    ingredients: { 'Geomancer 	Necromancer 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Turn To Oil',
-    ingredients: { 'Geomancer 	Polymorphing 	Neither skillbook may consume Source points.
+    ingredients: { 'Geomancer 	Polymorphing 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Throw Dust',
-    ingredients: { 'Geomancer 	Huntsman 	Neither skillbook may consume Source points.
+    ingredients: { 'Geomancer 	Huntsman 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Venom Coating',
-    ingredients: { 'Geomancer 	Scoundrel 	Neither skillbook may consume Source points.
+    ingredients: { 'Geomancer 	Scoundrel 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Poison Infusion',
-    ingredients: { 'Geomancer 	Summoning 	Neither skillbook may consume Source points.
+    ingredients: { 'Geomancer 	Summoning 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Oily Carapace',
-    ingredients: { 'Geomancer 	Warfare 	Neither skillbook may consume Source points.
+    ingredients: { 'Geomancer 	Warfare 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Corpse Explosion',
-    ingredients: { 'Pyrokinetic 	Necromancer 	Neither skillbook may consume Source points.
+    ingredients: { 'Pyrokinetic 	Necromancer 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Bleed Fire',
-    ingredients: { 'Pyrokinetic 	Polymorphing 	Neither skillbook may consume Source points.
+    ingredients: { 'Pyrokinetic 	Polymorphing 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Throw Explosive Trap',
-    ingredients: { 'Pyrokinetic 	Huntsman 	Neither skillbook may consume Source points.
+    ingredients: { 'Pyrokinetic 	Huntsman 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Sabotage 	Pyrokinetic',
-    ingredients: { 'Scoundrel 	Neither skillbook may consume Source points.
+    ingredients: { 'Scoundrel 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Fire Infusion',
-    ingredients: { 'Pyrokinetic 	Summoning 	Neither skillbook may consume Source points.
+    ingredients: { 'Pyrokinetic 	Summoning 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Sparking Swings',
-    ingredients: { 'Pyrokinetic 	Warfare 	Neither skillbook may consume Source points.
+    ingredients: { 'Pyrokinetic 	Warfare 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Raining Blood',
-    ingredients: { 'Hydrosophist 	Necromancer 	Neither skillbook may consume Source points.
+    ingredients: { 'Hydrosophist 	Necromancer 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Healing Tears',
-    ingredients: { 'Hydrosophist 	Polymorphing 	Neither skillbook may consume Source points.
+    ingredients: { 'Hydrosophist 	Polymorphing 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Cryotherapy',
-    ingredients: { 'Hydrosophist 	Huntsman 	Neither skillbook may consume Source points.
+    ingredients: { 'Hydrosophist 	Huntsman 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Vampiric Hunger',
-    ingredients: { 'Hydrosophist 	Scoundrel 	Neither skillbook may consume Source points.
+    ingredients: { 'Hydrosophist 	Scoundrel 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Water Infusion',
-    ingredients: { 'Hydrosophist 	Summoning 	Neither skillbook may consume Source points.
+    ingredients: { 'Hydrosophist 	Summoning 	Neither skillbook may consume Source points.': 1 }
   },
   {
     craft: 'Cleanse Wounds',
-    ingredients: { 'Hydrosophist 	Warfare 	Neither skillbook may consume Source points.
+    ingredients: { 'Hydrosophist 	Warfare 	Neither skillbook may consume Source points.': 1 }
   }
-]
+];
 
 let enchantment = [
   {
@@ -2352,4 +2352,40 @@ let enchantment = [
     craft: '1 scoundrel',
     ingredients: { 'Ring': 1,	'Eternal Artefact': 1 }
   }
-]
+];
+
+function canCraft(recipe) {
+  for (let ingredient in recipe.ingredients) {
+    if (!itemArray.hasOwnProperty(ingredient) || itemArray[ingredient] < recipe.ingredients[ingredient]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function renderCraftableRecipes() {
+  const recipeList = document.getElementById('craft');
+  recipeList.innerHTML = '';
+
+  for(let category in recipes) {
+    const categoryRecipes = recipes[category];
+
+    const categoryHeader = document.createElement('h3');
+    categoryHeader.textContent = category;
+    recipeList.appendChild(categoryHeader);
+
+    categoryRecipes.forEach(recipe => {
+      if (canCraft(recipe)) {
+        const listItem = document.createElement('li');
+
+        const recipeName = document.createElement('span');
+        recipeName.textContent = recipe.craft;
+        listItem.appendChild(recipeName);
+
+        recipeList.appendChild(listItem);
+      }
+    });
+  }
+}
+
+renderCraftableRecipes();
