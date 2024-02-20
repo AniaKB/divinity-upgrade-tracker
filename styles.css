@@ -33,6 +33,7 @@ h1 {
 
 h2 {
   font-family: 'IM Fell English', serif;
+  text-align: center;
 }
 
 nav {
@@ -105,7 +106,7 @@ aside > ul, li
   border-color: #000000;
   border-width: 2px;
   padding: 2.5px 5px 2.5px 5px;
-  width: 100px;
+  width: 80px;
   text-align: center;
   font-size: 8px;
   color: white;
@@ -113,6 +114,10 @@ aside > ul, li
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-template-areas: "text text text text text"
+}
+
+img {
+  margin-right: 2px;
 }
 
 ul.items {
@@ -125,12 +130,7 @@ ul.items {
 ul.items li {
   display: flex;
   align-items: center; /* Center items vertically */
-  margin-bottom: 5px;
-}
-
-img {
-  grid-column: 1;
-  margin-right: 5px; /* Add space between image and item text */
+  margin-bottom: 4px;
 }
 
 button {
@@ -138,7 +138,6 @@ button {
 }
 
 .items > button {
-  margin: 2px 2px 2px 2px; /* Add space between buttons and inventory count */
   text-align: center;
 }
 
@@ -224,6 +223,11 @@ button {
     gap: 2px;
   }
 
+  nav {
+    text-align: right;
+    padding-right: 50px;
+  }
+
   #skillsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -233,7 +237,7 @@ button {
   }
 }
 
-  @media screen and (max-width: 849px) {
+  @media screen and (max-width: 865px) {
     .skill-button {
       width: 25px;
       height: 40px;
