@@ -18,6 +18,7 @@ body {
 .logo {
   position: absolute;
   width: 460px;
+  z-index: 1;
 }
 
 h1 {
@@ -43,6 +44,7 @@ nav {
 }
 
 nav > a {
+  position: sticky;
   top: 5px;
   z-index: 2;
   padding: 20px;
@@ -105,7 +107,7 @@ aside > ul, li
   padding: 2.5px 5px 2.5px 5px;
   width: 100px;
   text-align: center;
-  font-size: 10px;
+  font-size: 8px;
   color: white;
   align-items: left;
   display: grid;

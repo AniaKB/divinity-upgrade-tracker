@@ -20,11 +20,11 @@
       <h1>Upgrade Tracker</h1>
     </header>
     <nav>
-      <span id="craftingNavItem">CRAFTING</span>
-      <span id="skillsNavItem">SKILLS</span>
-      <span id="questsNavItem">QUESTS</span>
+      <a id="craftingNavItem">CRAFTING</a>
+      <a id="skillsNavItem">SKILLS</a>
+      <a id="questsNavItem">QUESTS</a>
     </nav>
-    <div>
+    <div id="allSkillsContainer">
       <aside class="aside">
         <!--<label for="origin">Origin:</label>
         <select class="dropdown">
@@ -32,7 +32,7 @@
         </select>-->
         <label for="level">Level:</label>
         <select class="dropdown" id="levelDropdown">
-              <option value=level id="level"></a>
+          <option value=level id="level"></a>
         </select>
         <div class="abilities">
           <span class="dropbtn" id="totalAttPointsDisplay"><span>
@@ -49,17 +49,17 @@
       </aside>
       <div id="skillsContainer"></div>
     </div>
-    <div class="card">
-      <h3 id="class"></h3>
+    <div id="itemsContainer">
+      <div class="card">
+        <h2>Items</h2>
+        <ul id="items" class="items"></ul>
+      </div>
+      <div class="card">
+        <h2>Can Craft</h2>
+        <ul id="craft" class="craft"></ul>
+      </div>
     </div>
-    <div class="card">
-      <h2>Items</h2>
-      <ul id="items" class="items"></ul>
-    </div>
-    <div class="card">
-      <h2>Can Craft</h2>
-      <ul id="craft" class="craft"></ul>
-    </div>
+    <div id="questsContainer">
     </div>
   </body>
 </html>
