@@ -2356,7 +2356,7 @@ let enchantment = [
 
 function canCraft(recipe) {
   for (let ingredient in recipe.ingredients) {
-    if (!itemArray.hasOwnProperty(ingredient) || itemArray[ingredient] < recipe.ingredients[ingredient]) {
+    if (!itemArray.find(item => item.item === ingredient) || itemArray.find(item => item.item === ingredient).inventory < recipe.ingredients[ingredient]) {
       return false;
     }
   }
