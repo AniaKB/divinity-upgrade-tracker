@@ -91,6 +91,7 @@ aside > ul, li
 
 .item-text {
   grid-area: text;
+
 }
 
 #items {
@@ -100,7 +101,7 @@ aside > ul, li
 }
 
 #items > li {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(25, 30, 78, 0.2));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(25, 30, 78, 0.3));
   border-radius: 6px;
   border-style: solid outset outset solid;
   border-color: #000000;
@@ -108,7 +109,7 @@ aside > ul, li
   padding: 2.5px 5px 2.5px 5px;
   width: 80px;
   text-align: center;
-  font-size: 8px;
+  font-size: 9px;
   color: white;
   align-items: left;
   display: grid;

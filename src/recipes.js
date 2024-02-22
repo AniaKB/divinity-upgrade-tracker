@@ -1037,7 +1037,7 @@ let recipes = [
         craft: 'Blinding Radiance Scroll',
         img: 'photos/items/make/n.webp',
         description: '',
-        ingredients: { : 1'Air Essence': 1, 'Any Gold': 1, 'Sheet of Paper': 1 }
+        ingredients: { 'Air Essence': 1, 'Any Gold': 1, 'Sheet of Paper': 1 }
       },
       {
         craft: 'Blood Sucker Scroll',
