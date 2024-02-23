@@ -1,4 +1,4 @@
-let quests = [
+let questArray = [
   {
     location: 'The Merryweather',
     quests: [
@@ -193,3 +193,21 @@ let quests = [
       {quest: 'End Times', completed: false }
     ]
 }]
+
+const myQuests = document.getElementById('quests');
+
+function renderList () {
+  myQuests.innerHTML = '';
+
+  questArray.forEach((quest) => {
+    const listQuests = document.createElement('li');
+
+    const questText = document.createElement('input');
+    questText.textContent = quest.quests;
+    listQuests.appendChild(questText);
+
+    myQuests.appendChild(listQuests);
+  });
+}
+
+renderList();

@@ -89,7 +89,6 @@ let itemArray = [
   { item: 'Moondust', img: 'photos/items/Pouch.webp', inventory: 0 },
   { item: 'Pouch', img: 'photos/items/Pouch.webp', inventory: 0 },
   { item: 'Pilgrim shell', img: 'photos/items/Pilgrim_Shell.webp', inventory: 0 },
-  { item: 'Plate', img: 'photos/items/Plate.webp', inventory: 0 },
   { item: 'Ripped-off dwarven face', img: 'photos/items/Ripped-Off_Dwarven_Face.webp', inventory: 0 },
   { item: 'Ripped-off human face', img: 'photos/items/Ripped-Off_Human_Face.webp', inventory: 0 },
   { item: 'Ripped-off elven face', img: 'photos/items/Ripped-Off_Elven_Face.webp', inventory: 0 },

@@ -2272,6 +2272,7 @@ function createSkillButtons () {
         subSkillButton.style.backgroundImage = `url(${sublevel.img})`;
         subSkillButton.style.backgroundSize = 'cover';
         subSkillButton.style.backgroundPosition = 'center';
+        subSkillButton.id = skill.name;
 
         subSkillButton.addEventListener('click', () => {
           subSkillButton.classList.toggle('active');
@@ -2287,3 +2288,21 @@ function createSkillButtons () {
 }
 
 createSkillButtons();
+
+
+document.querySelectorAll('.subskill-button').forEach((button) => {
+  button.addEventListener('mouseenter', showTooltip);
+  button.addEventListener('mouseleave', hideTooltip);
+});
+
+function showTooltip (event) {
+  const tooltipId = event.target.getAttribute('data-tooltip');
+  const tooltip = document.getElementById(tooltipId);
+  tooltip.style.display = 'block';
+}
+
+function hideTooltip (event) {
+  const tooltipId = event.target.getAttribute('data-tooltip');
+  const tooltip = document.getElementById(tooltipId);
+  tooltip.style.display = 'none';
+}
