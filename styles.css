@@ -59,6 +59,15 @@ a:hover {
   z-index: 2;
 }
 
+.tooltip {
+  position: absolute;
+  display: none;
+}
+
+.subSkill-button:hover + .tooltip {
+  display: block;
+}
+
 .aside {
   float: left;
   background-color: #cfc6be;

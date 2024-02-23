@@ -2273,6 +2273,7 @@ function createSkillButtons () {
         subSkillButton.style.backgroundSize = 'cover';
         subSkillButton.style.backgroundPosition = 'center';
         subSkillButton.id = skill.name;
+        subSkillButton.dataset.tooltip = sublevel.tooltip;
 
         subSkillButton.addEventListener('click', () => {
           subSkillButton.classList.toggle('active');
