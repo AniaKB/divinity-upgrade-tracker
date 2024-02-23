@@ -81,6 +81,10 @@ a:hover {
   border-radius: 3px;
 }
 
+.sidebar {
+  text-align: left;
+}
+
 .abilities {
   display: flex;
   width: 100%;
@@ -155,7 +159,7 @@ button {
   display: flex;
 }
 
- .dropbtn {
+.dropbtn {
   background-color: #312221;
   color: white;
   padding: 16px;
@@ -180,6 +184,7 @@ button {
   grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
   gap: 10px;
 }
+
 .skill-group {
   display: grid;
   grid-template-rows: auto 1fr;
