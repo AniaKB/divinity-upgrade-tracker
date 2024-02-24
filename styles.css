@@ -60,11 +60,18 @@ a:hover {
 }
 
 .tooltip {
+  content: attr(data-tooltip);
   position: absolute;
   display: none;
 }
 
-.subSkill-button:hover + .tooltip {
+.subSkill-button[data-tooltip]:before {
+  content: attr(data-tooltip);
+  position: absolute;
+  display: none;
+}
+
+.subSkill-button:hover[data-tooltip]:before {
   display: block;
 }
 

@@ -2272,8 +2272,7 @@ function createSkillButtons () {
         subSkillButton.style.backgroundImage = `url(${sublevel.img})`;
         subSkillButton.style.backgroundSize = 'cover';
         subSkillButton.style.backgroundPosition = 'center';
-        subSkillButton.id = skill.name;
-        subSkillButton.dataset.tooltip = sublevel.tooltip;
+        subSkillButton.title = sublevel.description;
 
         subSkillButton.addEventListener('click', () => {
           subSkillButton.classList.toggle('active');
@@ -2297,13 +2296,26 @@ document.querySelectorAll('.subskill-button').forEach((button) => {
 });
 
 function showTooltip (event) {
-  const tooltipId = event.target.getAttribute('data-tooltip');
-  const tooltip = document.getElementById(tooltipId);
-  tooltip.style.display = 'block';
+  const tooltipText = event.target.title;
+  if (tooltipText) {
+    const tooltip = document.createElement('div');
+    tooltip.className = 'tooltip';
+    tooltip.textContent = tooltipText;
+    document.body.appendChild(tooltip);
+    positionTooltip(event, tooltip);
+  }
 }
 
-function hideTooltip (event) {
-  const tooltipId = event.target.getAttribute('data-tooltip');
-  const tooltip = document.getElementById(tooltipId);
-  tooltip.style.display = 'none';
+function hideTooltip () {
+  const tooltip = document.querySelector('.tooltip');
+  if (tooltip) {
+    tooltip.remove();
+  }
+}
+
+function positionTooltip (event, tooltip) {
+  const x = event.clientX;
+  const y = event.clientY;
+  tooltip.style.top = `${y + 10}px`;
+  tooltip.style.left = `${x + 10}px`;
 }
