@@ -65,14 +65,16 @@ a:hover {
   display: none;
 }
 
-.subSkill-button[data-tooltip]:before {
-  content: attr(data-tooltip);
-  position: absolute;
-  display: none;
-}
-
-.subSkill-button:hover[data-tooltip]:before {
-  display: block;
+.t-aside {
+  top: 500px;
+  float: left;
+  background-color: #cbdfee;
+  min-width: 210px;
+  left: 0px;
+  width: 100px;
+  border: solid 2px;
+  border-color: #232931;
+  border-radius: 2px;
 }
 
 .aside {

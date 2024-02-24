@@ -2298,11 +2298,15 @@ document.querySelectorAll('.subskill-button').forEach((button) => {
 function showTooltip (event) {
   const tooltipText = event.target.title;
   if (tooltipText) {
-    const tooltip = document.createElement('div');
-    tooltip.className = 'tooltip';
+    let tooltip = document.querySelector('.tooltip');
+    if (!tooltip) {
+      tooltip = document.createElement('aside');
+      tooltip.classList.add('tooltip');
+      tooltip.classList.add('t-aside');
+      document.body.appendChild(tooltip);
+    }
     tooltip.textContent = tooltipText;
-    document.body.appendChild(tooltip);
-    positionTooltip(event, tooltip);
+    tooltip.style.display = 'block';
   }
 }
 
@@ -2311,11 +2315,4 @@ function hideTooltip () {
   if (tooltip) {
     tooltip.remove();
   }
-}
-
-function positionTooltip (event, tooltip) {
-  const x = event.clientX;
-  const y = event.clientY;
-  tooltip.style.top = `${y + 10}px`;
-  tooltip.style.left = `${x + 10}px`;
 }
