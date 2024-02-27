@@ -75,6 +75,7 @@ a:hover {
   border: solid 2px;
   border-color: #232931;
   border-radius: 2px;
+  padding: 10px;
 }
 
 .aside {
