@@ -45,7 +45,7 @@ nav {
 }
 
 nav > a {
-  position: sticky;
+  position: relative;
   top: 5px;
   z-index: 2;
   padding: 20px;
@@ -67,7 +67,7 @@ a:hover {
 
 .t-aside {
   position: fixed;
-  top: 450px;
+  top: 200px;
   float: left;
   background-color: #000000;
   color: white;

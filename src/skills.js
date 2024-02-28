@@ -3518,6 +3518,9 @@ function createSkillButtons () {
         subSkillButton.style.backgroundSize = 'cover';
         subSkillButton.style.backgroundPosition = 'center';
         subSkillButton.title = sublevel.description;
+        subSkillButton.dataset.actionPoints = sublevel.actionPoints;
+        subSkillButton.dataset.sourcePoints = sublevel.sourcePoints;
+        subSkillButton.dataset.required = JSON.stringify(sublevel.required || {});
 
         subSkillButton.addEventListener('click', () => {
           subSkillButton.classList.toggle('active');
@@ -3541,18 +3544,35 @@ document.querySelectorAll('.subskill-button').forEach((button) => {
 });
 
 function showTooltip (event) {
-  const tooltipText = event.target.title;
-  if (tooltipText) {
-    let tooltip = document.querySelector('.tooltip');
-    if (!tooltip) {
-      tooltip = document.createElement('aside');
-      tooltip.classList.add('tooltip');
-      tooltip.classList.add('t-aside');
-      document.body.appendChild(tooltip);
-    }
-    tooltip.textContent = tooltipText;
-    tooltip.style.display = 'block';
+  const subSkillButton = event.target;
+  const subSkill = {
+    name: subSkillButton.ariaLabel,
+    img: subSkillButton.style.backgroundImage.slice(5, -2),
+    description: subSkillButton.title,
+    actionPoints: subSkillButton.dataset.actionPoints,
+    sourcePoints: subSkillButton.dataset.sourcePoints,
+    required: JSON.parse(subSkillButton.dataset.required || "{}")
+  };
+
+  const tooltipContent = `
+    <h2>${subSkill.name}</h2>
+    <img src="${subSkill.img}" alt="${subSkill.name}">
+    <p>Description: ${subSkill.description}</p>
+    <p>Action Points: ${subSkill.actionPoints}</p>
+    <p>Source Points: ${subSkill.sourcePoints}</p>
+    <p>Required: ${JSON.stringify(subSkill.required)}</p>
+  `;
+
+  let tooltip = document.querySelector('.tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('aside');
+    tooltip.classList.add('tooltip');
+    tooltip.classList.add('t-aside');
+    document.body.appendChild(tooltip);
   }
+
+  tooltip.innerHTML = tooltipContent;
+  tooltip.style.display = 'block';
 }
 
 function hideTooltip () {
@@ -3561,3 +3581,8 @@ function hideTooltip () {
     tooltip.remove();
   }
 }
+
+console.log(sublevel.img);
+console.log(subSkillButton.dataset.actionPoints);
+console.log(subSkillButton.dataset.sourcePoints);
+console.log(subSkillButton.dataset.required);
