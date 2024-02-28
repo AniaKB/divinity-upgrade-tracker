@@ -67,7 +67,8 @@ a:hover {
 
 .t-aside {
   position: fixed;
-  top: 200px;
+  z-index: 4;
+  top: 120px;
   float: left;
   background-color: #000000;
   color: white;
