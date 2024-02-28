@@ -226,6 +226,12 @@ button {
   border-color: black white white black;
 }
 
+#questsContainer {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 500px;
+  margin-left: 100px;
+}
+
 @media screen and (max-width: 1080.5px) {
   .skill-button {
     width: 50px;

@@ -1,4 +1,4 @@
-let questArray = [
+const questArray = [
   {
     location: 'The Merryweather',
     quests: [
@@ -121,7 +121,7 @@ let questArray = [
       { quest: 'The Midnight Oil', completed: false },
       { quest: 'The Missing Magisters', completed: false },
       { quest: 'The Reluctant Servants', completed: false },
-      { quest: 'The Secrets of Bloodmoon Islan', completed: false },d
+      { quest: 'The Secrets of Bloodmoon Islan', completed: false },
       { quest: 'The Silent One', completed: false },
       { quest: 'The Snoozing Adventurer', completed: false },
       { quest: 'The Stoic Spirit', completed: false },
@@ -192,22 +192,36 @@ let questArray = [
     quests: [
       {quest: 'End Times', completed: false }
     ]
-}]
+  }
+]
 
-const myQuests = document.getElementById('quests');
+const myQuests = document.getElementById('questsContainer');
 
-function renderList () {
+function renderQuests () {
   myQuests.innerHTML = '';
 
-  questArray.forEach((quest) => {
-    const listQuests = document.createElement('li');
+  questArray.forEach((location) => {
+    const locationHeading = document.createElement('h2');
+    locationHeading.textContent = location.location;
+    myQuests.appendChild(locationHeading);
 
-    const questText = document.createElement('input');
-    questText.textContent = quest.quests;
-    listQuests.appendChild(questText);
+    const questList = document.createElement('ul');
 
-    myQuests.appendChild(listQuests);
+    location.quests.forEach((quest) => {
+      const listItem = document.createElement('li');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+
+      const label = document.createElement('label');
+      label.textContent = quest.quest;
+      listItem.appendChild(checkbox);
+      listItem.appendChild(label);
+
+      questList.appendChild(listItem);
+    });
+
+    myQuests.appendChild(questList);
   });
 }
 
-renderList();
+renderQuests();
