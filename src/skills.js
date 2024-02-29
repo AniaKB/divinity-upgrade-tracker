@@ -11,11 +11,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1 }
         },
         {
           name: 'Electric Discharge',
@@ -24,11 +24,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1 }
         },
         {
           name: 'Favorable Wind',
@@ -37,11 +37,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1 }
         },
         {
           name: 'Shocking Touch',
@@ -50,11 +50,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1 }
         }
       ],
       4: [
@@ -65,11 +65,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2 }
         },
         {
           name: 'Teleportation',
@@ -78,11 +78,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2 }
         },
         {
           name: 'Uncanny Evasion',
@@ -91,11 +91,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2 }
         }
       ],
       9: [
@@ -106,11 +106,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 3 }
+          memorySlots: 1,
+          required: { Aerotheurge: 3 }
         },
         {
           name: 'Nether Swap',
@@ -119,11 +119,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2 }
         },
         {
           name: 'Pressure Spike',
@@ -132,11 +132,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2 }
         }
       ],
       13: [
@@ -147,11 +147,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 3 }
+          memorySlots: 1,
+          required: { Aerotheurge: 3 }
         }
       ],
       16: [
@@ -162,11 +162,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 3 }
+          memorySlots: 1,
+          required: { Aerotheurge: 3 }
         },
         {
           name: 'Thunderstorm',
@@ -175,11 +175,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 5 }
+          memorySlots: 1,
+          required: { Aerotheurge: 5 }
         },
         {
           name: 'Pressure Spike',
@@ -188,11 +188,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 3 }
+          memorySlots: 1,
+          required: { Aerotheurge: 3 }
         }
       ]
     },
@@ -205,11 +205,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1, Warfare: 3 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1, Warfare: 3 }
         },
         {
           name: 'Electric Infusion',
@@ -218,11 +218,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1, Summoning: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1, Summoning: 1 }
         },
         {
           name: 'Erratic Wisp',
@@ -231,11 +231,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1, Huntsman: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1, Huntsman: 1 }
         },
         {
           name: 'Smoke Cover',
@@ -244,11 +244,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1, Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1, Scoundrel: 1 }
         },
         {
           name: 'Vacuum Touch',
@@ -257,11 +257,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1, Necromancer: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1, Necromancer: 1 }
         },
         {
           name: 'Vaporise',
@@ -270,11 +270,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 1, Polymorph: 1 }
+          memorySlots: 1,
+          required: { Aerotheurge: 1, Polymorph: 1 }
         }
       ],
       source: [
@@ -285,11 +285,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Scoundrel: 2 }
         },
         {
           name: 'Cursed Electric Infusion',
@@ -298,11 +298,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Summoning: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Summoning: 2 }
         },
         {
           name: 'Evasive Aura',
@@ -311,11 +311,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Huntsman: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Huntsman: 2 }
         },
         {
           name: 'Jellyfish Skin',
@@ -324,11 +324,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Polymorph: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Polymorph: 2 }
         },
         {
           name: 'Mass Breathing Bubble',
@@ -337,11 +337,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Warfare: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Warfare: 2 }
         },
         {
           name: 'Vacuum Aura',
@@ -350,11 +350,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Necromancer: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Necromancer: 2 }
         }
       ]
     }
@@ -371,11 +371,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1 }
         },
         {
           name: 'Fortify',
@@ -384,11 +384,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1 }
         },
         {
           name: 'Fossil Strike',
@@ -397,11 +397,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1 }
         },
         {
           name: 'Poison Dart',
@@ -410,11 +410,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1 }
         }
       ],
       4: [
@@ -425,11 +425,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2 }
         },
         {
           name: 'Mend Metal',
@@ -438,11 +438,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2 }
         },
         {
           name: 'Worm Tremor',
@@ -451,11 +451,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2 }
         }
       ],
       9: [
@@ -466,11 +466,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2 }
         },
         {
           name: 'Poison Wave',
@@ -479,11 +479,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2 }
         },
         {
           name: 'Reactive Armour',
@@ -492,11 +492,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2 }
         },
         {
           name: 'Summon Hungry Flower',
@@ -505,11 +505,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 3 }
+          memorySlots: 1,
+          required: { Geomancer: 3 }
         }
       ],
       13: [
@@ -520,11 +520,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 3 }
+          memorySlots: 1,
+          required: { Geomancer: 3 }
         }
       ],
       16: [
@@ -535,11 +535,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 3 }
+          memorySlots: 1,
+          required: { Geomancer: 3 }
         },
         {
           name: 'Pyroclastic Eruption',
@@ -548,11 +548,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 5 }
+          memorySlots: 1,
+          required: { Geomancer: 5 }
         },
         {
           name: 'Siphon Poison',
@@ -561,11 +561,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 3 }
+          memorySlots: 1,
+          required: { Geomancer: 3 }
         }
       ]
     },
@@ -578,11 +578,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1, Necromancer: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1, Necromancer: 1 }
         },
         {
           name: 'Oily Carapace',
@@ -591,11 +591,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1, Warfare: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1, Warfare: 1 }
         },
         {
           name: 'Poison Infusion',
@@ -604,11 +604,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1, Summoning: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1, Summoning: 1 }
         },
         {
           name: 'Throw Dust',
@@ -617,11 +617,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1, Huntsman: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1, Huntsman: 1 }
         },
         {
           name: 'Turn to Oil',
@@ -630,11 +630,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1, Polymorph: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1, Polymorph: 1 }
         },
         {
           name: 'Venom Coating',
@@ -643,11 +643,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 1, Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Geomancer: 1, Scoundrel: 1 }
         }
       ],
       source: [
@@ -658,11 +658,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 3, Summoning: 3 }
+          memorySlots: 1,
+          required: { Geomancer: 3, Summoning: 3 }
         },
         {
           name: 'Corrosive Spray',
@@ -671,11 +671,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2, Necromancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2, Necromancer: 2 }
         },
         {
           name: 'Dust Blast',
@@ -684,11 +684,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2, Huntsman: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2, Huntsman: 2 }
         },
         {
           name: 'Mass Oily Carapace',
@@ -697,11 +697,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2, Warfare: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2, Warfare: 2 }
         },
         {
           name: 'Poisonous Skin',
@@ -710,11 +710,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2, Polymorph: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2, Polymorph: 2 }
         },
         {
           name: 'Venomous Aura',
@@ -723,11 +723,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2, Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2, Scoundrel: 2 }
         }
       ],
       petPower: [
@@ -738,11 +738,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 3, Summoning: 3 }
+          memorySlots: 1,
+          required: { Geomancer: 3, Summoning: 3 }
         },
         {
           name: 'Cursed Oil Infusion',
@@ -751,11 +751,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 2, Necromancer: 2 }
+          memorySlots: 1,
+          required: { Geomancer: 2, Necromancer: 2 }
         }
       ]
     }
@@ -772,11 +772,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1 }
         },
         {
           name: 'First Aid',
@@ -785,11 +785,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1 }
         },
         {
           name: 'Pin Down',
@@ -798,11 +798,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1 }
         },
         {
           name: 'Ricochet',
@@ -811,11 +811,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1 }
         }
       ],
       4: [
@@ -826,11 +826,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2 }
         },
         {
           name: 'Sky Shot',
@@ -839,11 +839,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2 }
         },
         {
           name: 'Tactical Retreat',
@@ -852,11 +852,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2 }
         }
       ],
       9: [
@@ -867,11 +867,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 3 }
+          memorySlots: 1,
+          required: { Huntsman: 3 }
         },
         {
           name: 'Ballistic Shot',
@@ -880,11 +880,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2 }
         },
         {
           name: 'Marksman\'s Fang',
@@ -893,11 +893,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2 }
         },
         {
           name: 'Reactive Shot',
@@ -906,11 +906,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2 }
         }
       ],
       13: [
@@ -921,11 +921,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 3 }
+          memorySlots: 1,
+          required: { Huntsman: 3 }
         }
       ],
       16: [
@@ -936,11 +936,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 5 }
+          memorySlots: 1,
+          required: { Huntsman: 5 }
         },
         {
           name: 'Assasinate',
@@ -949,11 +949,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 3 }
+          memorySlots: 1,
+          required: { Huntsman: 3 }
         },
         {
           name: 'Glitter Dust',
@@ -962,11 +962,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 3 }
+          memorySlots: 1,
+          required: { Huntsman: 3 }
         }
       ]
     },
@@ -979,11 +979,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1, Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1, Aerotheurge: 1 }
         },
         {
           name: 'Throw Dust',
@@ -992,11 +992,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1, Geomancer: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1, Geomancer: 1 }
         },
         {
           name: 'Cryotherapy',
@@ -1005,11 +1005,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1, Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1, Hydrosophist: 1 }
         },
         {
           name: 'Throw Explosive Trap',
@@ -1018,11 +1018,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 1, Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Huntsman: 1, Pyrokinetic: 1 }
         }
       ],
       source: [
@@ -1033,11 +1033,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2, Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2, Aerotheurge: 2 }
         },
         {
           name: 'Dust Blast',
@@ -1046,11 +1046,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2, Geomancer: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2, Geomancer: 2 }
         },
         {
           name: 'Mass Cryotherapy',
@@ -1059,11 +1059,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2, Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2, Hydrosophist: 2 }
         },
         {
           name: 'Deploy Mass Traps',
@@ -1072,11 +1072,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Huntsman: 2, Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Huntsman: 2, Pyrokinetic: 2 }
         }
       ]
     }
@@ -1093,11 +1093,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1 }
         },
         {
           name: 'Hail Strike',
@@ -1106,11 +1106,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1 }
         },
         {
           name: 'Rain',
@@ -1119,11 +1119,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1 }
         },
         {
           name: 'Restoration',
@@ -1132,11 +1132,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1 }
         }
       ],
       4: [
@@ -1147,11 +1147,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2 }
         },
         {
           name: 'Soothing Cold',
@@ -1160,11 +1160,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2 }
         },
         {
           name: 'Winter Blast',
@@ -1173,11 +1173,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2 }
         }
       ],
       9: [
@@ -1188,11 +1188,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 3 }
+          memorySlots: 1,
+          required: { Hydrosophist: 3 }
         },
         {
           name: 'Cryogenic Stasis',
@@ -1201,11 +1201,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2 }
         },
         {
           name: 'Global Cooling',
@@ -1214,11 +1214,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2 }
         },
         {
           name: 'Healing Ritual',
@@ -1227,11 +1227,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2 }
         }
       ],
       13: [
@@ -1242,11 +1242,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 3 }
+          memorySlots: 1,
+          required: { Hydrosophist: 3 }
         }
       ],
       16: [
@@ -1257,11 +1257,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 3 }
+          memorySlots: 1,
+          required: { Hydrosophist: 3 }
         },
         {
           name: 'Hail Storm',
@@ -1270,11 +1270,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 5 }
+          memorySlots: 1,
+          required: { Hydrosophist: 5 }
         },
         {
           name: 'Ice Breaker',
@@ -1283,11 +1283,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 3 }
+          memorySlots: 1,
+          required: { Hydrosophist: 3 }
         }
       ]
     },
@@ -1300,11 +1300,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1, Warfare: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1, Warfare: 1 }
         },
         {
           name: 'Cryotherapy',
@@ -1313,11 +1313,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2, Huntsman: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2, Huntsman: 1 }
         },
         {
           name: 'Healing Tears',
@@ -1326,11 +1326,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1, Polymorph: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1, Polymorph: 1 }
         },
         {
           name: 'Raining Blood',
@@ -1339,11 +1339,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1, Necromancer: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1, Necromancer: 1 }
         },
         {
           name: 'Vampiric Hunger',
@@ -1352,11 +1352,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1, scoundrel: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1, scoundrel: 2 }
         },
         {
           name: 'Water Infusion',
@@ -1365,11 +1365,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 1, summoning: 1 }
+          memorySlots: 1,
+          required: { Hydrosophist: 1, summoning: 1 }
         }
       ],
       source: [
@@ -1380,11 +1380,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 3, Necromancer: 3 }
+          memorySlots: 1,
+          required: { Hydrosophist: 3, Necromancer: 3 }
         },
         {
           name: 'Ice Infusion',
@@ -1393,11 +1393,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2, summoning: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2, summoning: 2 }
         },
         {
           name: 'Icy Skin',
@@ -1406,11 +1406,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2, Polymorph: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2, Polymorph: 2 }
         },
         {
           name: 'Mass Cleanse Wounds',
@@ -1419,11 +1419,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2, Warfare: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2, Warfare: 2 }
         },
         {
           name: 'Mass Cryotherapy',
@@ -1432,11 +1432,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2, Huntsman: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2, Huntsman: 2 }
         },
         {
           name: 'Vampiric Hunger Aura',
@@ -1445,11 +1445,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 2, Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Hydrosophist: 2, Scoundrel: 2 }
         }
       ]
     }
@@ -1466,11 +1466,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1 }
         },
         {
           name: 'Decaying Touch',
@@ -1479,11 +1479,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1 }
         },
         {
           name: 'Mosquito Swarm',
@@ -1492,11 +1492,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1 }
         },
         {
           name: 'Raise Bloated Corpse',
@@ -1505,11 +1505,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1 }
         }
       ],
       4: [
@@ -1520,11 +1520,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 2 }
+          memorySlots: 1,
+          required: { Necromancer: 2 }
         },
         {
           name: 'Infect',
@@ -1533,11 +1533,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 2 }
+          memorySlots: 1,
+          required: { Necromancer: 2 }
         },
         {
           name: 'Shackles of Pain',
@@ -1546,11 +1546,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 2 }
+          memorySlots: 1,
+          required: { Necromancer: 2 }
         }
       ],
       9: [
@@ -1561,11 +1561,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 3 }
+          memorySlots: 1,
+          required: { Necromancer: 3 }
         },
         {
           name: 'Bone Cage',
@@ -1574,11 +1574,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 2 }
+          memorySlots: 1,
+          required: { Necromancer: 2 }
         },
         {
           name: 'Living on the Edge',
@@ -1587,11 +1587,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 2 }
+          memorySlots: 1,
+          required: { Necromancer: 2 }
         },
         {
           name: 'Raise Bone Widow',
@@ -1600,11 +1600,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 2 }
+          memorySlots: 1,
+          required: { Necromancer: 2 }
         }
       ],
       13: [
@@ -1615,11 +1615,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 3 }
+          memorySlots: 1,
+          required: { Necromancer: 3 }
         }
       ],
       16: [
@@ -1630,11 +1630,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 3 }
+          memorySlots: 1,
+          required: { Necromancer: 3 }
         },
         {
           name: 'Silencing Stare',
@@ -1643,11 +1643,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 3 }
+          memorySlots: 1,
+          required: { Necromancer: 3 }
         },
         {
           name: 'Totems of the Necromancer',
@@ -1656,11 +1656,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 5 }
+          memorySlots: 1,
+          required: { Necromancer: 5 }
         }
       ]
     },
@@ -1673,11 +1673,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1, Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1, Pyrokinetic: 1 }
         },
         {
           name: 'Corrosive Touch',
@@ -1686,11 +1686,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1, Geomancer: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1, Geomancer: 1 }
         },
         {
           name: 'Raining Blood',
@@ -1699,11 +1699,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1, Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1, Hydrosophist: 1 }
         },
         {
           name: 'Vacuum Touch',
@@ -1712,11 +1712,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 1, Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 1, Aerotheurge: 1 }
         }
       ],
       source: [
@@ -1727,11 +1727,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Hydrosophist: 2 }
         },
         {
           name: 'Corrosive Spray',
@@ -1740,11 +1740,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Geomancer: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Geomancer: 2 }
         },
         {
           name: 'Mass Corpse Explosion',
@@ -1753,11 +1753,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Pyrokinetic: 2 }
         },
         {
           name: 'Vacuum Aura',
@@ -1766,11 +1766,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 2, Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Aerotheurge: 2, Aerotheurge: 2 }
         }
       ],
       petPower: [
@@ -1781,11 +1781,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 5, Warfare: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 5, Warfare: 1 }
         },
         {
           name: 'Cursed Blood Infusion',
@@ -1794,11 +1794,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Necromancer: 10, Warfare: 1 }
+          memorySlots: 1,
+          required: { Necromancer: 10, Warfare: 1 }
         },
       ]
     }
@@ -1815,11 +1815,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1 }
         },
         {
           name: 'Chicken Claw',
@@ -1828,11 +1828,11 @@ let skillsArray = [
           effect: 'Set Chicken Form for 2 turns',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1 }
         },
         {
           name: 'Tentacle Lash',
@@ -1841,11 +1841,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1 }
         },
         {
           name: 'Chameleon Cloak',
@@ -1854,11 +1854,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1 }
         }
       ],
       4: [
@@ -1869,11 +1869,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2 }
         },
         {
           name: 'Medusa Head',
@@ -1882,11 +1882,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2 }
         },
         {
           name: 'Spread Your Wings',
@@ -1895,11 +1895,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2 }
         }
       ],
       9: [
@@ -1910,11 +1910,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2 }
         },
         {
           name: 'Terrain Transmutation',
@@ -1923,11 +1923,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2 }
         },
         {
           name: 'Summon Oily Blob',
@@ -1936,11 +1936,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2 }
         },
         {
           name: 'Skin Graft',
@@ -1949,11 +1949,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 3 }
+          memorySlots: 1,
+          required: { Polymorph: 3 }
         }
       ],
       13: [
@@ -1964,11 +1964,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 3 }
+          memorySlots: 1,
+          required: { Polymorph: 3 }
         }
       ],
       16: [
@@ -1979,11 +1979,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 3 }
+          memorySlots: 1,
+          required: { Polymorph: 3 }
         },
         {
           name: 'Flay Skin',
@@ -1992,11 +1992,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 3 }
+          memorySlots: 1,
+          required: { Polymorph: 3 }
         },
         {
           name: 'Apotheosis',
@@ -2005,11 +2005,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 5 }
+          memorySlots: 1,
+          required: { Polymorph: 5 }
         }
       ]
     },
@@ -2022,11 +2022,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1, Polykinetic: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1, Polykinetic: 1 }
         },
         {
           name: 'Healing Tears',
@@ -2035,11 +2035,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1, Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1, Hydrosophist: 1 }
         },
         {
           name: 'Turn to Oil',
@@ -2048,11 +2048,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1, Geomancer: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1, Geomancer: 1 }
         },
         {
           name: 'Vaporise',
@@ -2061,11 +2061,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 1, Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Polymorph: 1, Aerotheurge: 1 }
         }
       ],
       source: [
@@ -2076,11 +2076,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2, Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2, Pyrokinetic: 2 }
         },
         {
           name: 'Icy Skin',
@@ -2089,11 +2089,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2, Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2, Hydrosophist: 2 }
         },
         {
           name: 'Jellyfish Skin',
@@ -2102,11 +2102,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2, Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2, Aerotheurge: 2 }
         },
         {
           name: 'Poisonous Skin',
@@ -2115,11 +2115,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Polymorph: 2, Geomancer: 2 }
+          memorySlots: 1,
+          required: { Polymorph: 2, Geomancer: 2 }
         }
       ]
     }
@@ -2136,11 +2136,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1 }
         },
         {
           name: 'Ignition',
@@ -2149,11 +2149,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1 }
         },
         {
           name: 'Peace of Mind',
@@ -2162,11 +2162,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1 }
         },
         {
           name: 'Searing Daggers',
@@ -2175,11 +2175,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1 }
         }
       ],
       4: [
@@ -2190,11 +2190,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Spontaneous Combustion',
@@ -2203,11 +2203,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Supernova',
@@ -2216,11 +2216,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 3 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 3 }
         }
       ],
       9: [
@@ -2231,11 +2231,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Flaming Tongues',
@@ -2244,11 +2244,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Laser Ray',
@@ -2257,11 +2257,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2 }
         },
         {
           name: 'Summon Fire Slug',
@@ -2270,11 +2270,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 3 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 3 }
         }
       ],
       13: [
@@ -2285,11 +2285,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 3 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 3 }
         }
       ],
       16: [
@@ -2300,11 +2300,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 3 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 3 }
         },
         {
           name: 'Flaming Crescendo',
@@ -2313,11 +2313,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 3 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 3 }
         },
         {
           name: 'Meteor Shower',
@@ -2326,11 +2326,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 5 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 5 }
         }
       ]
     },
@@ -2343,11 +2343,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1, Polymorph: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1, Polymorph: 1 }
         },
         {
           name: 'Corpse Explosion',
@@ -2356,11 +2356,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1, Necromancer: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1, Necromancer: 1 }
         },
         {
           name: 'Fire Infusion',
@@ -2369,11 +2369,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1, Summoning: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1, Summoning: 1 }
         },
         {
           name: 'Sabotage',
@@ -2382,11 +2382,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1, Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1, Scoundrel: 1 }
         },
         {
           name: 'Sparking Swings',
@@ -2395,11 +2395,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1, Warfare: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1, Warfare: 1 }
         },
         {
           name: 'Throw Explosive Trap',
@@ -2408,11 +2408,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 1, Huntsman: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 1, Huntsman: 1 }
         }
       ],
       source: [
@@ -2423,11 +2423,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2, Huntsman: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2, Huntsman: 1 }
         },
         {
           name: 'Flaming Skin',
@@ -2436,11 +2436,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2, Polymorph: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2, Polymorph: 1 }
         },
         {
           name: 'Mass Corpse Explosion',
@@ -2449,11 +2449,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2, Necromancer: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2, Necromancer: 1 }
         },
         {
           name: 'Master of Sparks',
@@ -2462,11 +2462,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2, Warfare: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2, Warfare: 1 }
         },
         {
           name: 'Mass Sabotage',
@@ -2475,11 +2475,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2, Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2, Scoundrel: 1 }
         },
         {
           name: 'Necrofire Infusion',
@@ -2488,11 +2488,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 2, Summoning: 1 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 2, Summoning: 1 }
         }
       ]
     }
@@ -2509,11 +2509,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1 }
         },
         {
           name: 'Backlash',
@@ -2522,11 +2522,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1 }
         },
         {
           name: 'Chloroform',
@@ -2535,11 +2535,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1 }
         },
         {
           name: 'Throwing Knife',
@@ -2548,11 +2548,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1 }
         }
       ],
       4: [
@@ -2563,11 +2563,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Sawtooth Knife',
@@ -2576,11 +2576,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Rupture Tendons',
@@ -2589,11 +2589,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2 }
         }
       ],
       9: [
@@ -2604,11 +2604,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Fan of Knives',
@@ -2617,11 +2617,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 3 }
+          memorySlots: 1,
+          required: { Scoundrel: 3 }
         },
         {
           name: 'Gag Order',
@@ -2630,11 +2630,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2 }
         },
         {
           name: 'Sleeping Arms',
@@ -2643,11 +2643,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2 }
         }
       ],
       13: [
@@ -2658,11 +2658,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 3 }
+          memorySlots: 1,
+          required: { Scoundrel: 3 }
         }
       ],
       16: [
@@ -2673,11 +2673,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 5 }
+          memorySlots: 1,
+          required: { Scoundrel: 5 }
         },
         {
           name: 'Terrifying Cruelty',
@@ -2686,11 +2686,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 3 }
+          memorySlots: 1,
+          required: { Scoundrel: 3 }
         },
         {
           name: 'Wind-Up Toy',
@@ -2699,11 +2699,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 3 }
+          memorySlots: 1,
+          required: { Scoundrel: 3 }
         }
       ]
     },
@@ -2716,11 +2716,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1, Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1, Pyrokinetic: 1 }
         },
         {
           name: 'Smoke Cover',
@@ -2729,11 +2729,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1, Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1, Aerotheurge: 1 }
         },
         {
           name: 'Vampiric Hunger',
@@ -2742,11 +2742,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1, Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1, Hydrosophist: 1 }
         },
         {
           name: 'Venom Coating',
@@ -2755,11 +2755,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 1, Geomancer: 1 }
+          memorySlots: 1,
+          required: { Scoundrel: 1, Geomancer: 1 }
         }
       ],
       source: [
@@ -2770,11 +2770,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2, Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2, Aerotheurge: 2 }
         },
         {
           name: 'Mass Sabotage',
@@ -2783,11 +2783,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2, Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2, Pyrokinetic: 2 }
         },
         {
           name: 'Vampiric Hunger Aura',
@@ -2796,11 +2796,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2, Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2, Hydrosophist: 2 }
         },
         {
           name: 'Venomous Aura',
@@ -2809,11 +2809,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Scoundrel: 2, Geomancer: 2 }
+          memorySlots: 1,
+          required: { Scoundrel: 2, Geomancer: 2 }
         }
       ]
     }
@@ -2830,11 +2830,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 1 }
+          memorySlots: 1,
+          required: { Summoning: 1 }
         },
         {
           name: 'Dimensional Bolt',
@@ -2843,11 +2843,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 1 }
+          memorySlots: 1,
+          required: { Summoning: 1 }
         },
         {
           name: 'Elemental Totem',
@@ -2856,11 +2856,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 1 }
+          memorySlots: 1,
+          required: { Summoning: 1 }
         },
         {
           name: 'Farsight Infusion',
@@ -2869,11 +2869,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 1 }
+          memorySlots: 1,
+          required: { Summoning: 1 }
         }
       ],
       4: [
@@ -2884,11 +2884,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 1 }
+          memorySlots: 1,
+          required: { Summoning: 1 }
         },
         {
           name: 'Rallying Cry',
@@ -2897,11 +2897,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 2 }
+          memorySlots: 1,
+          required: { Summoning: 2 }
         },
         {
           name: 'Supercharger',
@@ -2910,11 +2910,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 2 }
+          memorySlots: 1,
+          required: { Summoning: 2 }
         }
       ],
       9: [
@@ -2925,11 +2925,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 2 }
+          memorySlots: 1,
+          required: { Summoning: 2 }
         },
         {
           name: 'Door to Eternity',
@@ -2938,11 +2938,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 3,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 3 }
+          memorySlots: 1,
+          required: { Summoning: 3 }
         },
         {
           name: 'Shadow Infusion',
@@ -2951,11 +2951,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 2 }
+          memorySlots: 1,
+          required: { Summoning: 2 }
         },
         {
           name: 'Soul Mate',
@@ -2964,11 +2964,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 2 }
+          memorySlots: 1,
+          required: { Summoning: 2 }
         }
       ],
       13: [
@@ -2979,11 +2979,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 3 }
+          memorySlots: 1,
+          required: { Summoning: 3 }
         }
       ],
       16: [
@@ -2994,11 +2994,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 3 }
+          memorySlots: 1,
+          required: { Summoning: 3 }
         },
         {
           name: 'Ethereal Storm',
@@ -3007,11 +3007,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 5 }
+          memorySlots: 1,
+          required: { Summoning: 5 }
         },
         {
           name: 'Warp Infusion',
@@ -3020,11 +3020,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Summoning: 3 }
+          memorySlots: 1,
+          required: { Summoning: 3 }
         }
       ]
     },
@@ -3037,11 +3037,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 5 }
+          memorySlots: 1,
+          required: { Aerotheurge: 5 }
         },
         {
           name: 'Fire Infusion',
@@ -3050,11 +3050,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 5 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 5 }
         },
         {
           name: 'Poison Infusion',
@@ -3063,11 +3063,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 5 }
+          memorySlots: 1,
+          required: { Geomancer: 5 }
         },
         {
           name: 'Water Infusion',
@@ -3076,11 +3076,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 5 }
+          memorySlots: 1,
+          required: { Hydrosophist: 5 }
         },
       ],
       source: [
@@ -3091,11 +3091,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Aerotheurge: 10 }
+          memorySlots: 1,
+          required: { Aerotheurge: 10 }
         },
         {
           name: 'Necrofire Infusion',
@@ -3104,11 +3104,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Pyrokinetic: 10 }
+          memorySlots: 1,
+          required: { Pyrokinetic: 10 }
         },
         {
           name: 'Acid Infusion',
@@ -3117,11 +3117,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Geomancer: 10 }
+          memorySlots: 1,
+          required: { Geomancer: 10 }
         },
         {
           name: 'Ice Infusion',
@@ -3130,11 +3130,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 0,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Hydrosophist: 10 }
+          memorySlots: 1,
+          required: { Hydrosophist: 10 }
         },
       ]
     }
@@ -3151,11 +3151,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1 }
         },
         {
           name: 'Battle Stomp',
@@ -3164,11 +3164,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1 }
         },
         {
           name: 'Bouncing Shield',
@@ -3177,11 +3177,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1 }
         },
         {
           name: 'Crippling Blow',
@@ -3190,11 +3190,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1 }
         }
       ],
       4: [
@@ -3205,11 +3205,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2 }
         },
         {
           name: 'Provoke',
@@ -3218,11 +3218,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2 }
         },
         {
           name: 'Whirlwind',
@@ -3231,11 +3231,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2 }
         }
       ],
       9: [
@@ -3246,11 +3246,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2 }
         },
         {
           name: 'Deflective Barrier',
@@ -3259,11 +3259,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2 }
         },
         {
           name: 'Phoenix Dive',
@@ -3272,11 +3272,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2 }
         },
         {
           name: 'Thick of the Fight',
@@ -3285,11 +3285,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 3 }
+          memorySlots: 1,
+          required: { Warfare: 3 }
         }
       ],
       13: [
@@ -3300,11 +3300,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 4,
           sourcePoints: 2,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 3 }
+          memorySlots: 1,
+          required: { Warfare: 3 }
         }
       ],
       16: [
@@ -3315,11 +3315,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 3 }
+          memorySlots: 1,
+          required: { Warfare: 3 }
         },
         {
           name: 'Guardian Angel',
@@ -3328,11 +3328,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 3 }
+          memorySlots: 1,
+          required: { Warfare: 3 }
         },
         {
           name: 'Overpower',
@@ -3341,11 +3341,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 3,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 5 }
+          memorySlots: 1,
+          required: { Warfare: 5 }
         }
       ]
     },
@@ -3358,11 +3358,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1, Aerotheurge: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1, Aerotheurge: 1 }
         },
         {
           name: 'Cleanse Wounds',
@@ -3371,11 +3371,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1, Hydrosophist: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1, Hydrosophist: 1 }
         },
         {
           name: 'Oily Carapace',
@@ -3384,11 +3384,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1, Geomancer: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1, Geomancer: 1 }
         },
         {
           name: 'Sparking Swings',
@@ -3397,11 +3397,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 0,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 1, Pyrokinetic: 1 }
+          memorySlots: 1,
+          required: { Warfare: 1, Pyrokinetic: 1 }
         }
       ],
       source: [
@@ -3412,11 +3412,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2, Aerotheurge: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2, Aerotheurge: 2 }
         },
         {
           name: 'Mass Cleanse Wounds',
@@ -3425,11 +3425,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2, Hydrosophist: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2, Hydrosophist: 2 }
         },
         {
           name: 'Mass Oily Carapace',
@@ -3438,11 +3438,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 2,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2, Geomancer: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2, Geomancer: 2 }
         },
         {
           name: 'Master of Sparks',
@@ -3451,11 +3451,11 @@ let skillsArray = [
           effect: '',
           actionPoints: 1,
           sourcePoints: 1,
-          'Resisted By': 'Physical Armour',
+          resistedBy: 'Physical Armour',
           Cooldown: '6 turns',
           Range: '2m',
-          'Memory Slots': 1,
-          requires: { Warfare: 2, Pyrokinetic: 2 }
+          memorySlots: 1,
+          required: { Warfare: 2, Pyrokinetic: 2 }
         }
       ]
     }
@@ -3520,7 +3520,7 @@ function createSkillButtons () {
         subSkillButton.title = sublevel.description;
         subSkillButton.dataset.actionPoints = sublevel.actionPoints;
         subSkillButton.dataset.sourcePoints = sublevel.sourcePoints;
-        subSkillButton.dataset.required = JSON.stringify(sublevel.required || {});
+        subSkillButton.dataset.required = JSON.stringify(sublevel.required);
 
         subSkillButton.addEventListener('click', () => {
           subSkillButton.classList.toggle('active');
@@ -3560,7 +3560,7 @@ function showTooltip (event) {
     <p>Description: ${subSkill.description}</p>
     <p>Action Points: ${subSkill.actionPoints}</p>
     <p>Source Points: ${subSkill.sourcePoints}</p>
-    <p>Required: ${JSON.stringify(subSkill.required)}</p>
+    <p>Requires: ${JSON.stringify(subSkill.required)}</p>
   `;
 
   let tooltip = document.querySelector('.tooltip');
