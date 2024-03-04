@@ -3554,13 +3554,14 @@ function showTooltip (event) {
     required: JSON.parse(subSkillButton.dataset.required || "{}")
   };
 
+  let requiredSkills = Object.entries(subSkill.required).map(([skill, level]) => `${skill} ${level}`).join(', ');
   const tooltipContent = `
     <h2><img src="${subSkill.img}" alt="${subSkill.name}">${subSkill.name}</h2>
 
     <p>Description: ${subSkill.description}</p>
     <p>Action Points: ${subSkill.actionPoints}</p>
     <p>Source Points: ${subSkill.sourcePoints}</p>
-    <p>Requires: ${JSON.stringify(subSkill.required)}</p>
+    <p>Requires: ${requiredSkills}</p>
   `;
 
   let tooltip = document.querySelector('.tooltip');

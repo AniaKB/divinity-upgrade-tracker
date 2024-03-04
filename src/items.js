@@ -245,3 +245,4 @@ function renderList () {
 }
 
 renderList();
+console.log(itemArray[0]);

@@ -2391,7 +2391,9 @@ function renderCraftableRecipes () {
       recipeList.appendChild(categoryHeader);
 
       categoryRecipes.forEach((recipe) => {
+        console.log('Checking recipe:', recipe.craft);
         if (canCraft(recipe)) {
+          console.log('Craftable:', recipe.craft);
           const listItem = document.createElement('li');
 
           const recipeName = document.createElement('span');
@@ -2399,6 +2401,8 @@ function renderCraftableRecipes () {
           listItem.appendChild(recipeName);
 
           recipeList.appendChild(listItem);
+        } else {
+          console.log('Not craftable:', recipe.craft);
         }
       });
     } else {
