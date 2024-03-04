@@ -2412,3 +2412,55 @@ function renderCraftableRecipes () {
 }
 
 renderCraftableRecipes();
+
+function renderRecipes() {
+  const recipesList = document.getElementById('recipesList');
+  recipesList.innerHTML = '';
+
+  for (let category in recipes) {
+    if (recipes.hasOwnProperty(category)) {
+      const categoryRecipes = recipes[category];
+      const categoryHeader = document.createElement('h2');
+      categoryHeader.textContent = category;
+      recipesList.appendChild(categoryHeader);
+
+      categoryRecipes.forEach(recipe => {
+        const listItem = document.createElement('li');
+
+        const recipeTitle = document.createElement('h3');
+        recipeTitle.textContent = recipe.craft;
+        listItem.appendChild(recipeTitle);
+
+        const recipeImage = document.createElement('img');
+        recipeImage.src = recipe.img;
+        recipeImage.alt = recipe.craft;
+        recipeImage.style.width = '30px';
+        listItem.appendChild(recipeImage);
+
+        const recipeDescription = document.createElement('p');
+        recipeDescription.textContent = recipe.description;
+        listItem.appendChild(recipeDescription);
+
+        const ingredientsList = document.createElement('ul');
+        for (let ingredient in recipe.ingredients) {
+          const ingredientItem = document.createElement('li');
+          const ingredientInfo = itemArray.find((item) => item.item === ingredient);
+          if (ingredientInfo) {
+            const ingredientImage = document.createElement('img');
+            ingredientImage.src = ingredientInfo.img;
+            ingredientImage.alt = ingredientInfo.item;
+            ingredientImage.style.width = '10px';
+            ingredientItem.appendChild(ingredientImage);
+          }
+          ingredientItem.textContent += `${ingredient} x ${recipe.ingredients[ingredient]}`;
+          ingredientsList.appendChild(ingredientItem);
+        }
+        listItem.appendChild(ingredientsList);
+
+        recipesList.appendChild(listItem);
+      });
+    }
+  }
+}
+
+renderRecipes();

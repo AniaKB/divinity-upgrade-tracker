@@ -3582,8 +3582,3 @@ function hideTooltip () {
     tooltip.remove();
   }
 }
-
-console.log(sublevel.img);
-console.log(subSkillButton.dataset.actionPoints);
-console.log(subSkillButton.dataset.sourcePoints);
-console.log(subSkillButton.dataset.required);

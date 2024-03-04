@@ -234,6 +234,7 @@ function renderList () {
     increaseButton.textContent = '+';
     increaseButton.addEventListener('click', () => addItems(index));
     listItem.appendChild(increaseButton);
+    console.log(itemArray[0]);
 
     const itemText = document.createElement('span');
     itemText.textContent = item.item;
@@ -245,4 +246,3 @@ function renderList () {
 }
 
 renderList();
-console.log(itemArray[0]);
