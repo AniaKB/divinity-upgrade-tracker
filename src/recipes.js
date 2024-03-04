@@ -2437,9 +2437,10 @@ function renderRecipes() {
         recipeImage.style.width = '30px';
         listItem.appendChild(recipeImage);
 
+        /*
         const recipeDescription = document.createElement('p');
         recipeDescription.textContent = recipe.description;
-        listItem.appendChild(recipeDescription);
+        listItem.appendChild(recipeDescription);*/
 
         const ingredientsList = document.createElement('ul');
         for (let ingredient in recipe.ingredients) {

@@ -143,6 +143,20 @@ aside > ul, li
   grid-template-areas: "text text text text text"
 }
 
+#recipesList {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(25, 30, 78, 0.3));
+  border-radius: 6px;
+  border-style: solid outset outset solid;
+  border-color: #000000;
+  text-align: center;
+  font-size: 9px;
+  color: white;
+  align-items: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-areas: "text text text text text"
+}
+
 img {
   margin-right: 2px;
 }
