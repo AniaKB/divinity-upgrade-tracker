@@ -3530,35 +3530,38 @@ document.querySelectorAll('.subskill-button').forEach((button) => {
 
 function showTooltip (event) {
   const subSkillButton = event.target;
-  const subSkill = {
-    name: subSkillButton.ariaLabel,
-    img: subSkillButton.style.backgroundImage.slice(5, -2),
-    description: subSkillButton.title,
-    actionPoints: subSkillButton.dataset.actionPoints,
-    sourcePoints: subSkillButton.dataset.sourcePoints,
-    required: JSON.parse(subSkillButton.dataset.required || "{}")
-  };
 
-  let requiredSkills = Object.entries(subSkill.required).map(([skill, level]) => `${skill} ${level}`).join(', ');
-  const tooltipContent = `
-    <h2><img src="${subSkill.img}" alt="${subSkill.name}">${subSkill.name}</h2>
+  if (!subSkillButton.classList.contains('active')) {
+    const subSkill = {
+      name: subSkillButton.ariaLabel,
+      img: subSkillButton.style.backgroundImage.slice(5, -2),
+      description: subSkillButton.title,
+      actionPoints: subSkillButton.dataset.actionPoints,
+      sourcePoints: subSkillButton.dataset.sourcePoints,
+      required: JSON.parse(subSkillButton.dataset.required || "{}")
+    };
 
-    <p>Description: ${subSkill.description}</p>
-    <p>Action Points: ${subSkill.actionPoints}</p>
-    <p>Source Points: ${subSkill.sourcePoints}</p>
-    <p>Requires: ${requiredSkills}</p>
-  `;
+    let requiredSkills = Object.entries(subSkill.required).map(([skill, level]) => `${skill} ${level}`).join(', ');
+    const tooltipContent = `
+      <h2><img src="${subSkill.img}" alt="${subSkill.name}">${subSkill.name}</h2>
 
-  let tooltip = document.querySelector('.tooltip');
-  if (!tooltip) {
-    tooltip = document.createElement('aside');
-    tooltip.classList.add('tooltip');
-    tooltip.classList.add('t-aside');
-    document.body.appendChild(tooltip);
+      <p>Description: ${subSkill.description}</p>
+      <p>Action Points: ${subSkill.actionPoints}</p>
+      <p>Source Points: ${subSkill.sourcePoints}</p>
+      <p>Requires: ${requiredSkills}</p>
+    `;
+
+    let tooltip = document.querySelector('.tooltip');
+    if (!tooltip) {
+      tooltip = document.createElement('aside');
+      tooltip.classList.add('tooltip');
+      tooltip.classList.add('t-aside');
+      document.body.appendChild(tooltip);
+    }
+
+    tooltip.innerHTML = tooltipContent;
+    tooltip.style.display = 'block';
   }
-
-  tooltip.innerHTML = tooltipContent;
-  tooltip.style.display = 'block';
 }
 
 function hideTooltip () {

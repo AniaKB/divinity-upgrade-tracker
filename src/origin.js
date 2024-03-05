@@ -75,20 +75,20 @@ let originArray = [
 ];
 
 let originClass = [
-  { type: 'Cleric', build: ['Restoration', 'Blood Sucker', 'Decaying Touch' ]},
-  { type: 'Conjurer', build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem' ]},
-  { type: 'Enchanter', build: ['Rain', 'Hail Strike', 'Electric Discharge' ]},
-  { type: 'Witch', build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm' ]},
-  { type: 'Wizard', build: ['Ignition', 'Searing Daggers', 'Fossil Strike' ]},
-  { type: 'Metamorph', build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash' ]},
-  { type: 'Ranger', build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind' ]},
-  { type: 'Rogue', build: ['Adrenaline', 'Backlash', 'Throwing Knife' ]},
-  { type: 'Shadowblade', build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw' ]},
-  { type: 'Wayfarer', build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike' ]},
-  { type: 'Battlemage', build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch' ]},
-  { type: 'Fighter', build: ['Battle Stomp', 'Bouncing Shield', 'Fortify' ]},
-  { type: 'Inquisitor', build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm' ]},
-  { type: 'Knight', build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow' ]}
+  { type: 'Cleric', build: ['Restoration', 'Blood Sucker', 'Decaying Touch' ] },
+  { type: 'Conjurer', build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem' ] },
+  { type: 'Enchanter', build: ['Rain', 'Hail Strike', 'Electric Discharge' ] },
+  { type: 'Witch', build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm' ] },
+  { type: 'Wizard', build: ['Ignition', 'Searing Daggers', 'Fossil Strike' ] },
+  { type: 'Metamorph', build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash' ] },
+  { type: 'Ranger', build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind' ] },
+  { type: 'Rogue', build: ['Adrenaline', 'Backlash', 'Throwing Knife' ] },
+  { type: 'Shadowblade', build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw' ] },
+  { type: 'Wayfarer', build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike' ] },
+  { type: 'Battlemage', build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch' ] },
+  { type: 'Fighter', build: ['Battle Stomp', 'Bouncing Shield', 'Fortify' ] },
+  { type: 'Inquisitor', build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm' ] },
+  { type: 'Knight', build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow'  ]}
 ];
 
 const profileArray = [
@@ -122,6 +122,7 @@ const profileArray = [
 const originDropdown = document.getElementById('origin');
 const originClassDropdown = document.getElementById('originClass');
 const profileDropdown = document.getElementById('profile');
+const originLabel = document.getElementById('originLabel');
 
 function renderOriginDropdown () {
   originDropdown.innerHTML = '';
@@ -177,6 +178,7 @@ function handleDropdownSelection () {
       originDropdown.disabled = true;
       originClassDropdown.disabled = true;
     }
+    originLabel.textContent = `Origin: ${selectedProfileName}`;
   }
   console.log('Selected Profile:', selectedProfileName);
 }
@@ -186,3 +188,17 @@ profileDropdown.addEventListener('change', handleDropdownSelection);
 renderOriginDropdown();
 renderOriginClassDropdown();
 renderDropdownOptions();
+
+originClassDropdown.addEventListener('change', (event) => {
+  const selectedOriginClass = event.target.value;
+  const selectedBuild = originClass.find((origin) => origin.type === selectedOriginClass)?.build;
+
+  if (selectedBuild) {
+    selectedBuild.forEach((subSkillName) => {
+      const subSkillButton = document.querySelector(`.subskill-button[aria-label="${subSkillName}"]`);
+      if (subSkillButton) {
+        subSkillButton.classList.add('active');
+      }
+    });
+  }
+});
