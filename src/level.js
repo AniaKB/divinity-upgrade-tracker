@@ -236,6 +236,16 @@ let attributesArray = [
   { attribute: 'Poison', points: 0 }
 ];
 
+let civilPoints = [
+  { attribute: 'Bartering', points: 0 },
+  { attribute: 'Lucky Charm', points: 0 },
+  { attribute: 'Persuasion', points: 0 },
+  { attribute: 'Loremaster', points: 0 },
+  { attribute: 'Telekinesis', points: 0 },
+  { attribute: 'Sneaking', points: 0 },
+  { attribute: 'Thievery', points: 0 }
+];
+
 function updateLevelsDropdown () {
   levelDropdown.innerHTML = '';
 

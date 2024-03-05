@@ -91,19 +91,37 @@ let originClass = [
   { type: 'Knight', build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow' ]}
 ];
 
-let civil = [
+const profileArray = [
   {
-    Bartering: 0,
-    'Lucky Charm': 0,
-    Persuasion: 0,
-    Loremaster: 0,
-    Telekinesis: 0,
-    Sneaking: 0,
-    Thievery: 0
+    name: 'Ania',
+    originClass: 'Metamorph',
+    origin: 'Human'
+  },
+  {
+    name: 'Kent',
+    originClass: 'Rogue',
+    origin: 'Elf'
+  },
+  {
+    name: 'Nai\'mah',
+    originClass: 'Cleric',
+    origin: 'Human'
+  },
+  {
+    name: 'Deon',
+    originClass: 'Ranger',
+    origin: 'Sebille'
+  },
+  {
+    name: 'Blank',
+    originClass: '',
+    origin: ''
   }
 ];
 
 const originDropdown = document.getElementById('origin');
+const originClassDropdown = document.getElementById('originClass');
+const profileDropdown = document.getElementById('profile');
 
 function renderOriginDropdown () {
   originDropdown.innerHTML = '';
@@ -116,10 +134,6 @@ function renderOriginDropdown () {
   });
 }
 
-renderOriginDropdown();
-
-const originClassDropdown = document.getElementById('originClass');
-
 function renderOriginClassDropdown () {
   originClassDropdown.innerHTML = '';
 
@@ -131,4 +145,44 @@ function renderOriginClassDropdown () {
   });
 }
 
+function renderDropdownOptions () {
+  profileDropdown.innerHTML = '';
+
+  const blankOption = document.createElement('option');
+  blankOption.value = "";
+  blankOption.textContent = "Select Profile";
+  blankOption.selected = true;
+  profileDropdown.appendChild(blankOption);
+
+  profileArray.forEach((profile) => {
+    const option = document.createElement('option');
+    option.value = profile.name; // Use the 'name' property as the value
+    option.textContent = profile.name;
+    profileDropdown.appendChild(option);
+  });
+}
+
+function handleDropdownSelection () {
+  const selectedProfileName = profileDropdown.value;
+  const selectedProfile = profileArray.find((profile) => profile.name === selectedProfileName);
+
+  if (selectedProfile) {
+    originDropdown.value = selectedProfile.origin;
+    originClassDropdown.value = selectedProfile.originClass;
+
+    if (!selectedProfile.origin || !selectedProfile.originClass) {
+      originDropdown.disabled = false;
+      originClassDropdown.disabled = false;
+    } else {
+      originDropdown.disabled = true;
+      originClassDropdown.disabled = true;
+    }
+  }
+  console.log('Selected Profile:', selectedProfileName);
+}
+
+profileDropdown.addEventListener('change', handleDropdownSelection);
+
+renderOriginDropdown();
 renderOriginClassDropdown();
+renderDropdownOptions();
