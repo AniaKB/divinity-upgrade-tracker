@@ -25,3 +25,46 @@ function toggleNavItem (selectedNavItem, selectedContainer) {
 }
 
 toggleNavItem(skillsNavItem, allSkillsContainer);
+
+const profileArray = [
+  {
+    name: 'Ania',
+    class: 'Metamorph',
+    skillset: 'Polymorph'
+  },
+  {
+    name: 'Kent',
+    class: 'Rogue',
+    skillset: 'Scoundrel'
+  },
+  {
+    name: 'Nai\'mah',
+    class: 'Rogue',
+    skillset: 'Scoundrel'
+  },
+  {
+    name: 'Deon',
+    class: 'Rogue',
+    skillset: 'Scoundrel'
+  },
+  {
+    name: 'Blank',
+    class: '',
+    skillset: ''
+  }
+];
+
+const profileDropdown = document.getElementById('profile');
+
+function renderProfileDropdown () {
+  profileDropdown.innerHTML = '';
+
+  profileArray.forEach((profile) => {
+    const option = document.createElement('option');
+    option.value = profile.name;
+    option.textContent = `${profile.name}`;
+    profileDropdown.appendChild(option);
+  });
+}
+
+renderProfileDropdown();

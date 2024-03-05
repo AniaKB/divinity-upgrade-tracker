@@ -2413,7 +2413,7 @@ function renderCraftableRecipes () {
 
 renderCraftableRecipes();
 
-function renderRecipes() {
+function renderRecipes () {
   const recipesList = document.getElementById('recipesList');
   recipesList.innerHTML = '';
 
@@ -2424,7 +2424,7 @@ function renderRecipes() {
       categoryHeader.textContent = category;
       recipesList.appendChild(categoryHeader);
 
-      categoryRecipes.forEach(recipe => {
+      categoryRecipes.forEach((recipe) => {
         const listItem = document.createElement('li');
 
         const recipeTitle = document.createElement('h3');

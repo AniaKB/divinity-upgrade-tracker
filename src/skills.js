@@ -3541,6 +3541,9 @@ createSkillButtons();
 document.querySelectorAll('.subskill-button').forEach((button) => {
   button.addEventListener('mouseenter', showTooltip);
   button.addEventListener('mouseleave', hideTooltip);
+  button.addEventListener('click', (event) => {
+    event.stopPropagation();
+  });
 });
 
 function showTooltip (event) {
