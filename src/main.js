@@ -29,28 +29,28 @@ toggleNavItem(skillsNavItem, allSkillsContainer);
 const profileArray = [
   {
     name: 'Ania',
-    class: 'Metamorph',
-    skillset: 'Polymorph'
+    originClass: 'Metamorph',
+    origin: 'Human'
   },
   {
     name: 'Kent',
-    class: 'Rogue',
-    skillset: 'Scoundrel'
+    originClass: 'Rogue',
+    origin: 'Elf'
   },
   {
     name: 'Nai\'mah',
-    class: 'Rogue',
-    skillset: 'Scoundrel'
+    originClass: 'Cleric',
+    origin: 'Human'
   },
   {
     name: 'Deon',
-    class: 'Rogue',
-    skillset: 'Scoundrel'
+    originClass: 'Ranger',
+    origin: 'Sebille'
   },
   {
     name: 'Blank',
-    class: '',
-    skillset: ''
+    originClass: '',
+    origin: ''
   }
 ];
 

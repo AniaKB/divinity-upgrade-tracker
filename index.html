@@ -11,6 +11,7 @@
     <script defer src="src/quests.js"></script>
     <script defer src="src/recipes.js"></script>
     <script defer src="src/main.js"></script>
+    <script defer src="src/origin.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Rosarivo:ital@0;1&display=swap&family=EB+Garamond:ital,wght@0,400..800;1,400..800" rel="stylesheet"> 
@@ -32,10 +33,13 @@
     <div id="allSkillsContainer">
       <aside class="t-aside tooltip"></aside>
       <aside class="aside">
-        <!--<label for="origin">Origin:</label>
-        <select class="dropdown">
-          <option value=origin id="origin"></a>
-        </select>-->
+        <label for="origin">Origin:</label>
+        <select id="origin" class="dropdown">
+          <option value=origin></a>
+        </select>
+        <select id="originClass" class="dropdown">
+          <option value=originClass></a>
+        </select><br>
         <label for="level">Level:</label>
         <select class="dropdown" id="levelDropdown">
           <option value=level id="level"></a>

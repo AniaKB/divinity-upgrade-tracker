@@ -3462,24 +3462,6 @@ let skillsArray = [
   }
 ];
 
-/*
-let classes = [
-    { type: 'Cleric', build: ['Restoration', 'Blood Sucker', 'Decaying Touch' ]},
-    { type: 'Conjurer', build: ['Conjure Incarnate', 'Dimesional Bolt', 'Elemental Totem' ]},
-    { type: 'Enchanter', build: ['Rain', 'Hail Strike', 'Electric Discharge' ]},
-    { type: 'Witch', build: ['Chloroform', 'Raise Bloated Corpse', 'Mosquito Swarm' ]},
-    { type: 'Wizard', build: ['Ignition', 'Searing Daggers', 'Fossil Strike' ]},
-    { type: 'Metamorph', build: ['Bull Horns', 'Chicken Claw', 'Tentacle Lash' ]},
-    { type: 'Ranger', build: ['Elemental Arrowheads', 'Ricochet', 'Peace of Mind' ]},
-    { type: 'Rogue', build: ['Adrenaline', 'Backlash', 'Throwing Knife' ]},
-    { type: 'Shadowblade', build: ['Backlash', 'Chameleon Cloak', 'Chicken Claw' ]},
-    { type: 'Wayfarer', build: ['Elemental Arrowheads', 'Pin Down', 'Fossil Strike' ]},
-    { type: 'Battlemage', build: ['Battering Ram', 'Blinding Radiance', 'Shocking Touch' ]},
-    { type: 'Fighter', build: ['Battle Stomp', 'Bouncing Shield', 'Fortify' ]},
-    { type: 'Inquisitor', build: ['Battering Ram', 'Blood Sucker', 'Mosquito Swarm' ]},
-    { type: 'Knight', build: ['Battering Ram', 'Battle Stomp', 'Crippling Blow' ]}
-]*/
-
 const skillsContainer = document.getElementById('skillsContainer');
 
 function createSkillButtons () {
